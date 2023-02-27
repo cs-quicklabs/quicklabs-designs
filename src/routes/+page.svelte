@@ -1,7 +1,7 @@
 <script>
 	let login = [];
 
-	let signup = [{ title: 'Team', link: '/signup/team' }];
+	let signup = [{ title: 'Create Team', link: '/signup/team' }];
 
 	let workflows = [
 		{ title: 'Login', screens: login },
