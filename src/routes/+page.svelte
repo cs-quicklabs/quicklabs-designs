@@ -3,9 +3,12 @@
 
 	let signup = [{ title: 'Create Team', link: '/signup/team' }];
 
+	let dashboard = [{ title: 'Changelog', link: '/changelog' }];
+
 	let workflows = [
 		{ title: 'Login', screens: login },
-		{ title: 'Signup', screens: signup }
+		{ title: 'Signup', screens: signup },
+		{ title: 'Dashboard', screens: dashboard }
 	];
 </script>
 

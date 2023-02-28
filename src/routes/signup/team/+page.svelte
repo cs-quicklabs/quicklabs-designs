@@ -4,11 +4,11 @@
 
 <div class="w-full bg-gray-50 h-screen">
 	<Navbar />
-	<main class="mx-auto max-w-4xl pb-10 lg:py-12 lg:px-8 bg-gray-50 ">
+	<main class="mx-auto max-w-4xl pb-10 lg:py-12 lg:px-8 md:py-8 md:px-4 bg-gray-50 ">
 		<div class="bg-white shadow sm:rounded-lg">
 			<div class="px-4 py-5 sm:p-6">
 				<h3 class="text-base font-semibold leading-6 text-gray-900">Create Your Team</h3>
-				<div class="mt-2 max-w-xl text-sm text-gray-500">
+				<div class="mt-2 w-full text-sm text-gray-500">
 					<p>
 						Please select a name for your team. This will be used as slug to create a URL for your
 						product as well.
