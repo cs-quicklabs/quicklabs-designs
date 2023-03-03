@@ -36,7 +36,7 @@
        
   
           <div class="min-h-0 flex-1 overflow-y-auto">
-            <div class="bg-white pt-5 pb-6 shadow">
+            <div class="bg-white pt-5 pb-6 shadow border-b border-gray-200">
               <div class="px-4 sm:flex sm:items-baseline sm:justify-between sm:px-6 lg:px-8">
                 <div class="sm:w-0 sm:flex-1">
                   <h1 id="message-heading" class="text-lg font-medium text-gray-900">Added Feature number one
@@ -67,15 +67,14 @@
                         To: "transform opacity-0 scale-95"
                     -->
                     {#if menu.opened}
-                    <div class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-3-button" tabindex="-1">
+                    <div class="absolute right-0 z-10 mt-2 w-32 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-3-button" tabindex="-1">
+                      
                       <div class="py-1" role="none">
                         <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
                         <a href="#" class="text-gray-700 flex justify-between px-4 py-2 text-sm hover:bg-gray-50" role="menuitem" tabindex="-1" id="menu-3-item-1">
                           <span>Edit</span>
                         </a>
-                        <a href="#" class="text-gray-700 flex justify-between px-4 py-2 text-sm hover:bg-gray-50" role="menuitem" tabindex="-1" id="menu-3-item-1">
-                          <span>Archive</span>
-                        </a>
+                       
                         <a href="#" class="text-gray-700 flex justify-between px-4 py-2 text-sm hover:bg-gray-50" role="menuitem" tabindex="-1" id="menu-3-item-2">
                           <span>Delete</span>
                         </a>
@@ -93,6 +92,7 @@
                 <span class="inline-flex items-center rounded bg-red-100 px-2 py-0.5 text-xs font-medium text-red-800">Bug Fixes</span>
                 <span class="inline-flex items-center rounded bg-green-100 px-2 py-0.5 text-xs font-medium text-green-800">New</span>
                 <span class="inline-flex items-center rounded bg-yellow-100 px-2 py-0.5 text-xs font-medium text-yellow-800">Refactor</span>
+                <span class="inline-flex items-center rounded bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-800">Maintainence</span>
 
                 <div class=" space-y-6 text-sm text-gray-800 mt-4">
                   <p>This is rich text description of release notes</p>
@@ -117,7 +117,85 @@
                 </div>
               </li>
   
-             
+              <div class="rounded-md bg-green-50 p-4 shadow-sm shadow-green">
+                <div class="flex">
+                  <div class="flex-shrink-0">
+                    <svg class="h-5 w-5 text-green-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a.75.75 0 000 1.5h.253a.25.25 0 01.244.304l-.459 2.066A1.75 1.75 0 0010.747 15H11a.75.75 0 000-1.5h-.253a.25.25 0 01-.244-.304l.459-2.066A1.75 1.75 0 009.253 9H9z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div class="ml-3 flex-1 md:flex md:justify-between">
+                    <p class="text-sm text-green-700">Aashish Dhawan published this changelog on October 12, 2022</p>
+                    <p class="mt-3 text-sm md:mt-0 md:ml-6">
+                      <a href="#" class="whitespace-nowrap font-medium text-green-700 hover:text-green-600">
+                        See Details
+                        <span aria-hidden="true"> &rarr;</span>
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="rounded-md bg-yellow-50 p-4 shadow-sm shadow-yellow">
+                <div class="flex">
+                  <div class="flex-shrink-0">
+                    <svg class="h-5 w-5 text-yellow-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a.75.75 0 000 1.5h.253a.25.25 0 01.244.304l-.459 2.066A1.75 1.75 0 0010.747 15H11a.75.75 0 000-1.5h-.253a.25.25 0 01-.244-.304l.459-2.066A1.75 1.75 0 009.253 9H9z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div class="ml-3 flex-1 md:flex md:justify-between">
+                    <p class="text-sm text-yellow-700">Aashish Dhawan created this draft on October 12, 2022</p>
+                    <p class="mt-3 text-sm md:mt-0 md:ml-6">
+                      <a href="#" class="whitespace-nowrap font-medium text-yellow-700 hover:text-yellow-600">
+                        Continue Editing
+                        <span aria-hidden="true"> &rarr;</span>
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="rounded-md bg-gray-100 p-4 shadow-sm shadow-gray">
+                <div class="flex">
+                  <div class="flex-shrink-0">
+                    <svg class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a.75.75 0 000 1.5h.253a.25.25 0 01.244.304l-.459 2.066A1.75 1.75 0 0010.747 15H11a.75.75 0 000-1.5h-.253a.25.25 0 01-.244-.304l.459-2.066A1.75 1.75 0 009.253 9H9z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div class="ml-3 flex-1 md:flex md:justify-between">
+                    <p class="text-sm text-gray-700">Aashish Dhawan scheduled this changelog to be published on October 12, 2022</p>
+                    <p class="mt-3 text-sm md:mt-0 md:ml-6">
+                      <a href="#" class="whitespace-nowrap font-medium text-gray-700 hover:text-gray-600">
+                        Publish Now
+                        <span aria-hidden="true"> &rarr;</span>
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="rounded-md bg-red-100 p-4 shadow-sm shadow-red">
+                <div class="flex">
+                  <div class="flex-shrink-0">
+                    <svg class="h-5 w-5 text-red-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a.75.75 0 000 1.5h.253a.25.25 0 01.244.304l-.459 2.066A1.75 1.75 0 0010.747 15H11a.75.75 0 000-1.5h-.253a.25.25 0 01-.244-.304l.459-2.066A1.75 1.75 0 009.253 9H9z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div class="ml-3 flex-1 md:flex md:justify-between">
+                    <p class="text-sm text-red-700">Aashish Dhawan archived this changelog on October 12, 2022</p>
+                    <p class="mt-3 text-sm md:mt-0 md:ml-6">
+                      <a href="#" class="whitespace-nowrap font-medium text-red-700 hover:text-red-600">
+                        Delete
+                        <span aria-hidden="true"> &rarr;</span>
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
             </ul>
           </div>
         </section>
@@ -137,7 +215,10 @@
                   
                 </button>
                 {#if menu.filter}
-                <div class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+                <div class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+                  <div class="px-4 py-2" role="none">
+                    <p class="text-sm" role="none">Filter by Status</p>
+                  </div>
                   <div class="py-1" role="none">
                     <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
                     <a href="#" class="text-gray-700 flex justify-left px-4 py-2 text-sm hover:bg-gray-50" role="menuitem" tabindex="-1" id="menu-3-item-1">
@@ -155,6 +236,11 @@
 
                       <span>Archived</span>
                     </a>
+                    <a href="#" class="text-gray-700 flex justify-left px-4 py-2 text-sm  hover:bg-gray-50" role="menuitem" tabindex="-1" id="menu-3-item-2">
+                      <span class="inline-block h-2 w-2 mt-1.5 mr-2 flex-shrink-0 rounded-full bg-gray-400" aria-hidden="true"></span>
+
+                      <span>Scheduled</span>
+                    </a>
                   </div>
                 </div>
                 {/if}
@@ -166,7 +252,7 @@
             </div>
             <nav aria-label="Message list" class="min-h-0 flex-1 overflow-y-auto">
               <ul role="list" class="divide-y divide-gray-200 border-b border-gray-200">
-                <li class="relative bg-white py-5 px-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-600 hover:bg-gray-50">
+                <li class="relative bg-gray-50 py-5 px-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-600 hover:bg-gray-50">
                   <div class="flex justify-between space-x-3">
                     <div class="min-w-0 flex-1">
                       <a href="#" class="block focus:outline-none">
@@ -230,6 +316,8 @@
                   <div class="mt-1">
                     <p class="text-sm text-gray-600 line-clamp-2">Doloremque dolorem maiores assumenda dolorem facilis. Velit vel in a rerum cere. Enim rerum ....</p>
                   </div>
+                  <span class="inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800">Scheduled</span>
+
                 </li>
   
                 <li class="relative bg-white py-5 px-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-blue-600 hover:bg-gray-50">
