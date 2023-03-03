@@ -200,7 +200,7 @@
                     <p class="text-sm text-red-700">Aashish Dhawan archived this changelog on October 12, 2022</p>
                     <p class="mt-3 text-sm md:mt-0 md:ml-6">
                       <a href="#" class="whitespace-nowrap font-medium text-red-700 hover:text-red-600">
-                        Delete
+                        Unarchive
                         <span aria-hidden="true"> &rarr;</span>
                       </a>
                     </p>
