@@ -45,6 +45,8 @@
                 </div>
   
                 <div class="mt-4 flex items-center justify-between sm:mt-0 sm:ml-6 sm:flex-shrink-0 sm:justify-start">
+                  <p class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500 mr-2"> Version 3.0.5</p>
+
                   <span class="inline-flex items-center rounded-full bg-green-100 px-3 py-0.5 text-sm font-medium text-green-800">Published</span>
                   <div class="relative ml-3 inline-block text-left">
                     <div>
@@ -261,6 +263,8 @@
                         <p class="truncate text-sm text-gray-500">Aashish Dhawan on October 12, 2022</p>
                       </a>
                     </div>
+                    <p class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500">3.0.5</p>
+
                   </div>
                   <div class="mt-1">
                     <p class="text-sm text-gray-600 line-clamp-2">Doloremque dolorem maiores assumenda dolorem facilis. Velit vel in a rerum cere. Enim rerum ....</p>
@@ -279,6 +283,8 @@
 
                       </a>
                     </div>
+                    <p class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500">3.0.4</p>
+
                   </div>
                   <div class="mt-1">
                     <p class="text-sm text-gray-600 line-clamp-2">Doloremque dolorem maiores assumenda dolorem facilis. Velit vel in a rerum cere. Enim rerum ....</p>
@@ -295,6 +301,8 @@
                         <p class="truncate text-sm text-gray-500">Doloremque reprehenderit et harum quas explicabo nulla architecto dicta voluptatibus</p>
                       </a>
                     </div>
+                    <p class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500">3.0.3</p>
+
                   </div>
                   <div class="mt-1">
                     <p class="text-sm text-gray-600 line-clamp-2">Doloremque dolorem maiores assumenda dolorem facilis. Velit vel in a rerum cere. Enim rerum ....</p>
@@ -312,6 +320,8 @@
                         <p class="truncate text-sm text-gray-500">Eos sequi et aut ex impedit</p>
                       </a>
                     </div>
+                    <p class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500">3.0.2</p>
+
                   </div>
                   <div class="mt-1">
                     <p class="text-sm text-gray-600 line-clamp-2">Doloremque dolorem maiores assumenda dolorem facilis. Velit vel in a rerum cere. Enim rerum ....</p>
