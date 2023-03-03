@@ -218,7 +218,7 @@
                 </button>
                 {#if menu.filter}
                 <div class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
-                  <div class="px-4 py-2" role="none">
+                  <div class="px-4 py-2 border-b border-gray-100" role="none">
                     <p class="text-sm" role="none">Filter by Status</p>
                   </div>
                   <div class="py-1" role="none">
@@ -243,6 +243,11 @@
 
                       <span>Scheduled</span>
                     </a>
+                    <div class="px-4 py-2 border-t border-gray-100  hover:bg-gray-50" role="none">
+                      <button type="submit" class="text-gray-700 block w-full py-1 text-left text-sm" role="menuitem" tabindex="-1" id="menu-item-3">Clear Filter</button>
+
+                    </div>
+  
                   </div>
                 </div>
                 {/if}
