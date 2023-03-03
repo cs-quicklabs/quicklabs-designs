@@ -1,4 +1,5 @@
 <script>
+	import { goto } from '$app/navigation';
 	import Fullnavbar from '../../shared/fullnavbar.svelte';
   let menu = { opened: false, filter: false};
 
@@ -21,8 +22,9 @@
           
         </div>
         <div class="mt-4 flex md:mt-0 md:ml-4">
-          <button type="button" class="ml-3 inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Add New</button>
-
+          <a href="/changelog/new">
+          <button  type="button" class="ml-3 inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Add New</button>
+        </a>
         </div>
         
       </div>
@@ -109,7 +111,7 @@
               <li class="bg-white px-4 py-6 shadow sm:rounded-lg sm:px-6">
                 <div class="sm:flex sm:items-baseline sm:justify-between">
                   <h3 class="text-base font-medium">
-                    <span class="text-gray-900">Release Labels</span>
+                    <span class="text-gray-900">Release Tags</span>
                   </h3>
                 </div>
                 <div class="space-y-2 text-sm text-gray-800">
