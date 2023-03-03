@@ -41,12 +41,21 @@
             <div class="bg-white pt-5 pb-6 shadow border-b border-gray-200">
               <div class="px-4 sm:flex sm:items-baseline sm:justify-between sm:px-6 lg:px-8">
                 <div class="sm:w-0 sm:flex-1">
-                  <h1 id="message-heading" class="text-lg font-medium text-gray-900">Added Feature number one
-                </h1>
+                  <div class="flex items-center">
+                    <h1 id="message-heading" class="text-lg font-medium text-gray-900">Added Feature number one
+                    </h1>
+    <a href="/changelog/1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 ml-2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg> 
+                  </a> 
+
+                  </div>
                   <p class="mt-1 truncate text-sm text-gray-500">Created by Aashish Dhawan on October 12, 2022 </p>
                 </div>
   
                 <div class="mt-4 flex items-center justify-between sm:mt-0 sm:ml-6 sm:flex-shrink-0 sm:justify-start">
+                  
                   <p class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500 mr-2"> Version 3.0.5</p>
 
                   <span class="inline-flex items-center rounded-full bg-green-100 px-3 py-0.5 text-sm font-medium text-green-800">Published</span>
@@ -270,6 +279,7 @@
                         <p class="truncate text-sm text-gray-500">Aashish Dhawan on October 12, 2022</p>
                       </a>
                     </div>
+                    
                     <p class="flex-shrink-0 whitespace-nowrap text-sm text-gray-500">3.0.5</p>
 
                   </div>

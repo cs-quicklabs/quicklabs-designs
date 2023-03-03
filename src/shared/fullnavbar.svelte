@@ -25,16 +25,20 @@
 		<div class="relative flex h-12 items-center justify-between">
 			<div class="flex items-center px-2 lg:px-0">
 				<div class="flex-shrink-0">
+					<a href="/">
 					<img
 						class="block h-8 w-auto lg:hidden"
 						src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
 						alt="Your Company"
 					/>
+				</a>
+				<a href="/">
 					<img
 						class="hidden h-8 w-auto lg:block"
 						src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
 						alt="Your Company"
 					/>
+				</a>
 				</div>
 				<div class="hidden lg:ml-6 lg:block">
 					<div class="flex space-x-4">

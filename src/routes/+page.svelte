@@ -3,7 +3,7 @@
 
 	let signup = [{ title: 'Create Team', link: '/signup/team' }];
 
-	let dashboard = [{ title: 'Changelog', link: '/changelog' }, {title: 'Add Change Log', link: '/changelog/new'}];
+	let dashboard = [{ title: 'Admin Changelogs', link: '/changelog' }, {title: 'Add Change Log', link: '/changelog/new'}, {title: "Public Changelog Detail", link: "/changelog/1"}, {title: "Public Changelog list", link: "/changelog/public"}];
 
 	let workflows = [
 		{ title: 'Login', screens: login },
