@@ -1,5 +1,5 @@
 <script>
-	import UserNavBar from '../../../shared/usernavbar.svelte';
+	import UserNavBar from '$lib/tosupportme/usernavbar.svelte';
   let menu = { opened: false, filter: false};
 
 	function toggle() {

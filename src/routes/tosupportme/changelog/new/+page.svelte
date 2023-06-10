@@ -1,5 +1,5 @@
 <script>
-	import Fullnavbar from '../../../shared/fullnavbar.svelte';
+	import Fullnavbar from '$lib/tosupportme/fullnavbar.svelte';
   let menu = { opened: false, filter: false};
 
 	function toggle() {

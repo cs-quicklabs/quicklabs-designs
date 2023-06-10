@@ -1,9 +1,9 @@
 <script>
-	import Navbar from '../../../shared/navbar.svelte';
+	import NavBar from '$lib/tosupportme/navbar.svelte';
 </script>
 
 <div class="w-full bg-gray-50 h-screen">
-	<Navbar />
+	<NavBar />
 	<main class="mx-auto max-w-4xl pb-10 lg:py-12 lg:px-8 md:py-8 md:px-4 bg-gray-50 ">
 		<div class="bg-white shadow sm:rounded-lg">
 			<div class="px-4 py-5 sm:p-6">
