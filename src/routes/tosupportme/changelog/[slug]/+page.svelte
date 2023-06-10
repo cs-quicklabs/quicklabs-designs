@@ -14,7 +14,7 @@
 <UserNavBar />
 
 <main class="max-w-2xl mx-auto ">
-	<a href="/changelog/public">
+	<a href="/tosupportme/changelog/public">
 		<button
 			type="button"
 			class="mb-2  inline-flex items-center gap-x-1.5 shadow-sm px-2.5 rounded-md bg-white-600 py-1.5 text-sm font-semibold ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
