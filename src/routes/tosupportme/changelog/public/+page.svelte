@@ -30,7 +30,7 @@
   ```
 -->
       <div>
-        <label class="text-base font-semibold text-gray-900 ">Select Categories</label>
+        <label class="text-base font-semibold text-gray-900">Select Categories</label>
         <p class="text-sm text-gray-500">Chose Release Categories</p>
         <fieldset class="mt-4">
           <legend class="sr-only">Notification method</legend>
@@ -62,7 +62,7 @@
       </div>
 
       <div class="mt-12">
-        <label class="text-base font-semibold text-gray-900 ">Select Release tags</label>
+        <label class="text-base font-semibold text-gray-900">Select Release tags</label>
         <p class="text-sm text-gray-500">Chose Release tags</p>
         <fieldset class="mt-4">
           <legend class="sr-only">Notification method</legend>
@@ -86,7 +86,7 @@
       </div>
     </aside>
     <div class="space-y-6 sm:px-6 lg:col-span-9 lg:px-0">
-      <main class="max-w-2xl  border-b border-gray-100 ">
+      <main class="max-w-2xl border-b border-gray-100">
         <div class="md:flex md:items-center md:justify-between">
           <div class="min-w-0 flex-1">
             <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">
@@ -132,7 +132,7 @@
         </div>
       </main>
 
-      <main class="max-w-2xl  ">
+      <main class="max-w-2xl">
         <div class="md:flex md:items-center md:justify-between">
           <div class="min-w-0 flex-1">
             <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight mt-4">
