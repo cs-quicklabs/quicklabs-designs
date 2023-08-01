@@ -21,8 +21,7 @@
 						<img
 							class="block h-8 w-auto"
 							src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-							alt="Your Company"
-						/>
+							alt="Your Company" />
 					</a>
 				</div>
 			</div>
@@ -33,8 +32,7 @@
 					type="button"
 					class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
 					aria-controls="mobile-menu"
-					aria-expanded="false"
-				>
+					aria-expanded="false">
 					<span class="sr-only">Open menu</span>
 					<!--
               Icon when menu is closed.
@@ -47,13 +45,11 @@
 						viewBox="0 0 24 24"
 						stroke-width="1.5"
 						stroke="currentColor"
-						aria-hidden="true"
-					>
+						aria-hidden="true">
 						<path
 							stroke-linecap="round"
 							stroke-linejoin="round"
-							d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-						/>
+							d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
 					</svg>
 					<!--
               Icon when menu is open.
@@ -66,8 +62,7 @@
 						viewBox="0 0 24 24"
 						stroke-width="1.5"
 						stroke="currentColor"
-						aria-hidden="true"
-					>
+						aria-hidden="true">
 						<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
 					</svg>
 				</button>
@@ -81,14 +76,12 @@
 							class="flex rounded-full bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
 							id="user-menu-button"
 							aria-expanded="false"
-							aria-haspopup="true"
-						>
+							aria-haspopup="true">
 							<span class="sr-only">Open user menu</span>
 							<img
 								class="h-8 w-8 rounded-full"
 								src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-								alt=""
-							/>
+								alt="" />
 						</button>
 					</div>
 
