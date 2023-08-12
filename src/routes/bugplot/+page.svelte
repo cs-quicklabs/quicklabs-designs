@@ -1,5 +1,6 @@
 <script>
-	let settings = [];
+	let settings = [{ title: 'My Profile', link: '/bugplot/settings/profile' },
+	{ title: 'Change password', link: '/bugplot/settings/password' }];
 
 	let projects = [{ title: 'Projects Home', link: '/bugplot/projects' }];
 
