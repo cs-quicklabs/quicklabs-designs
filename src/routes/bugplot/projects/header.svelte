@@ -17,7 +17,7 @@ let tabs = [
     { name: 'Test Cases', href: '#', current: selection === 'Test Cases' },
     { name: 'Test Groups', href: '#', current: selection === 'Test Groups' },
     { name: 'Todos', href: '#', current: selection === 'Todos' },
-    { name: 'Milestones', href: '#', current: selection === 'Milestones' },
+    { name: 'Milestones', href: '/bugplot/projects/1/milestones', current: selection === 'Milestones' },
     { name: 'Members', href: '#', current: selection === 'Members' }
     ];
 
@@ -117,7 +117,7 @@ let tabs = [
                 <nav class="-mb-px flex space-x-8 px-8" aria-label="Tabs">
                     {#each tabs as tab}
                     <a
-                        href="#"
+                        href={tab.href}
                         class={tab.current ? 'border-indigo-500 text-indigo-600 whitespace-nowrap border-b-2 py-2 px-1 text-sm font-medium' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 whitespace-nowrap border-b-2 py-2 px-1 text-sm font-medium'}
                     >
                         {tab.name}
