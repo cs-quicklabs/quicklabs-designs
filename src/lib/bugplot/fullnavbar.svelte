@@ -9,6 +9,7 @@
 	<div class="mx-auto px-2 sm:px-4 lg:px-8">
 		<div class="relative flex h-12 items-center justify-between">
 			<div class="flex items-center px-2 lg:px-0">
+				<a href="/bugplot">
 				<div class="flex-shrink-0 flex items-center"><img class="block lg:hidden h-6 w-auto" src="/bugplot/logo.svg" alt="BugPlot" height="24" width="24" title="Bugplot Logo"
 																																																																																																																																																											loading="eager"><img
 																																																																																																																																																											class="hidden lg:block h-6 w-auto"
@@ -22,7 +23,7 @@
 																																																																																																																																																											class="text-white font-medium text-base px-3 hidden lg:block tracking-wider">BUGPLOT</span><span
 																																																																																																																																																											class="text-white font-medium px-3 block lg:hidden"></span>
 				</div>
-
+			</a>
 				<div class="hidden lg:ml-6 lg:block">
 					<div class="flex space-x-4">
 						<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->

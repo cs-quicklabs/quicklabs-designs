@@ -3,7 +3,11 @@
 	{ title: 'Change password', link: '/bugplot/settings/password' }];
 
 	let projects = [{ title: 'Projects Home', link: '/bugplot/projects' },
-	{ title: 'Milestones', link: '/bugplot/projects/1/milestones' }];
+	{ title: 'Milestones', link: '/bugplot/projects/1/milestones' },
+	{ title: 'Milestone Detail', link: '/bugplot/projects/1/milestones/1' },
+	{ title: 'Test Runs', link: '/bugplot/projects/1/testruns' },
+	{ title: 'Test Runs Detail', link: '/bugplot/projects/1/testruns/1' }
+];
 
 
 	let dashboard = [		
