@@ -2,13 +2,11 @@
 	let settings = [{ title: 'My Profile', link: '/bugplot/settings/profile' },
 	{ title: 'Change password', link: '/bugplot/settings/password' }];
 
-	let projects = [{ title: 'Projects Home', link: '/bugplot/projects' }];
+	let projects = [{ title: 'Projects Home', link: '/bugplot/projects' },
+	{ title: 'Milestones', link: '/bugplot/projects/1/milestones' }];
 
-	let dashboard = [
-		{ title: 'Admin Changelogs', link: '/tosupportme/changelog' },
-		{ title: 'Add Change Log', link: '/tosupportme/changelog/new' },
-		{ title: 'Public Changelog Detail', link: '/tosupportme/changelog/1' },
-		{ title: 'Public Changelog list', link: '/tosupportme/changelog/public' }
+
+	let dashboard = [		
 	];
 
 	let workflows = [
