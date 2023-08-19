@@ -19,7 +19,7 @@
             <tbody class="divide-y divide-gray-200 bg-white ml-4">
                 <tr>
                     <td class="whitespace-nowrap py-3 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0 w-full hover:underline cursor-pointer">
-                      <a href="/bugplot/projects/1/milestones/1"><span>Smoke Testing</span>
+                      <a href="/bugplot/projects/1/testruns/1"><span>Smoke Testing</span>
                         <div class="mt-1 flex items-center gap-x-2 text-xs leading-5 text-gray-500 font-normal">
                             <p class="whitespace-nowrap">Started on Jan 12, 2023</p>
                             <svg viewBox="0 0 2 2" class="h-0.5 w-0.5 fill-current">
@@ -44,7 +44,7 @@
                 {#each Array(5) as _, index (index)}
                 <tr>
                     <td class="whitespace-nowrap py-3 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0 w-full hover:underline cursor-pointer">
-                      <a href="/bugplot/projects/1/milestones/1">Regression Testing {index + 2}
+                      <a href="/bugplot/projects/1/testruns/1">Regression Testing {index + 2}
                       <div class="mt-1 flex items-center gap-x-2 text-xs leading-5 text-gray-500 font-normal">
                         <p class="whitespace-nowrap">Completed on Jan 12, 2023 by Aashish Dhawan</p>
                         <svg viewBox="0 0 2 2" class="h-0.5 w-0.5 fill-current">
