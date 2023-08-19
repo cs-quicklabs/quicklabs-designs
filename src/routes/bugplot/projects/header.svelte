@@ -13,7 +13,7 @@ export let selection;
 
 let tabs = [
     { name: 'Overview', href: '#', current: selection === 'Overview' },    
-    { name: 'Test Runs', href: '#', current: selection === 'Test Runs' },
+    { name: 'Test Runs', href: '/bugplot/projects/1/testruns', current: selection === 'Test Runs' },
     { name: 'Test Cases', href: '#', current: selection === 'Test Cases' },
     { name: 'Test Groups', href: '#', current: selection === 'Test Groups' },
     { name: 'Todos', href: '#', current: selection === 'Todos' },
