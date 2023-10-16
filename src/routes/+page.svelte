@@ -7,7 +7,7 @@
 			</div>
 			<div class="flex flex-1 items-center justify-between truncate rounded-r-md border-b border-r border-t border-gray-200 bg-white">
 				<div class="flex-1 truncate px-4 py-2 text-sm">
-					<a href="/tosupportme" class="hover:underline font-medium text-gray-900 hover:text-gray-600">To Support Me</a>
+					<a href="/quick-release" class="hover:underline font-medium text-gray-900 hover:text-gray-600">Quick Release</a>
 					<p class="text-gray-500" />
 				</div>
 			</div>
@@ -19,7 +19,7 @@
 			</div>
 			<div class="flex flex-1 items-center justify-between truncate rounded-r-md border-b border-r border-t border-gray-200 bg-white">
 				<div class="flex-1 truncate px-4 py-2 text-sm">
-					<a href="/bugplot" class="hover:underline font-medium text-gray-900 hover:text-gray-600">Bugplot</a>
+					<a href="/quick-test" class="hover:underline font-medium text-gray-900 hover:text-gray-600">Quick Test</a>
 					<p class="text-gray-500" />
 				</div>
 			</div>
