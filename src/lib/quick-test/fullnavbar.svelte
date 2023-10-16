@@ -10,16 +10,16 @@
 		<div class="relative flex h-12 items-center justify-between">
 			<div class="flex items-center px-2 lg:px-0">
 				<a href="/quick-test">
-				<div class="flex-shrink-0 flex items-center"><img class="block lg:hidden h-6 w-auto" src="/quick-test/logo.svg" alt="BugPlot" height="24" width="24" title="Bugplot Logo"
+				<div class="flex-shrink-0 flex items-center"><img class="block lg:hidden h-6 w-auto" src="/quick-test/logo.svg" alt="Quick Test" height="24" width="24" title="Quick Test Logo"
 																																																																																																																																																											loading="eager"><img
 																																																																																																																																																											class="hidden lg:block h-6 w-auto"
 																																																																																																																																																											src="/quick-test/logo.svg"
-																																																																																																																																																											alt="BugPlot"
+																																																																																																																																																											alt="Quick Test"
 																																																																																																																																																											height="24"
 																																																																																																																																																											width="24"
-																																																																																																																																																											title="Bugplot Logo"
+																																																																																																																																																											title="Quick Test Logo"
 																																																																																																																																																											loading="eager"><span
-																																																																																																																																																											data-cy="bugplot-label"
+																																																																																																																																																											data-cy="Quick Test-label"
 																																																																																																																																																											class="text-white font-medium text-base px-3 hidden lg:block tracking-wider">Quick Test</span><span
 																																																																																																																																																											class="text-white font-medium px-3 block lg:hidden"></span>
 				</div>
