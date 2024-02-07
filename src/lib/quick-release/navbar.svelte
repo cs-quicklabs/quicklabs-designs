@@ -117,7 +117,7 @@
 							aria-labelledby="user-menu-button"
 							tabindex="-1">
 							<a
-								href="#"
+								href="/quick-release/login"
 								class="block px-4 py-2 text-sm text-gray-700"
 								role="menuitem"
 								tabindex="-1"
