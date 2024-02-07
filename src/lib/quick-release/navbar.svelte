@@ -111,17 +111,67 @@
             -->
 					{#if menu.opened}
 						<div
-							class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+							class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none divide-y divide-gray-100"
 							role="menu"
 							aria-orientation="vertical"
 							aria-labelledby="user-menu-button"
 							tabindex="-1">
-							<a
-								href="/quick-release/login"
-								class="block px-4 py-2 text-sm text-gray-700"
-								role="menuitem"
-								tabindex="-1"
-								id="user-menu-item-2">Sign out</a>
+							<div class="px-4 py-3 text-sm text-gray-900 dark:text-white">
+								<div>Bonnie Green</div>
+								<div class="font-medium truncate">name@flowbite.com</div>
+							</div>
+
+							<ul
+								class="py-2 text-sm text-gray-700 dark:text-gray-200"
+								aria-labelledby="dropdownInformationButton">
+								<li>
+									<a
+										href="#"
+										class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+										>Quick Teams</a>
+								</li>
+								<li>
+									<a
+										href="#"
+										class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+										>Quick Survey</a>
+								</li>
+								<li>
+									<a
+										href="#"
+										class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+										>Quick Connect</a>
+								</li>
+							</ul>
+
+							<ul
+								class="py-2 text-sm text-gray-700 dark:text-gray-200"
+								aria-labelledby="dropdownInformationButton">
+								<li>
+									<a
+										href="#"
+										class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+										>Account Settings</a>
+								</li>
+								<li>
+									<a
+										href="#"
+										class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+										>Profile Settings</a>
+								</li>
+								<li>
+									<a
+										href="#"
+										class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+										>Earnings</a>
+								</li>
+							</ul>
+							<div class="py-2">
+								<a
+									href="/quick-release/login"
+									class="block px-4 py-2 text-sm text-gray-700 border-top hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+									>Sign out</a>
+							</div>
 						</div>
 					{/if}
 				</div>

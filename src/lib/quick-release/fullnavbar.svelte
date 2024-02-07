@@ -167,30 +167,85 @@
 
 						{#if menu.opened}
 							<div
-								class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+								class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none divide-y divide-gray-100"
 								role="menu"
 								aria-orientation="vertical"
 								aria-labelledby="user-menu-button"
 								tabindex="-1">
-								<!-- Active: "bg-gray-100", Not Active: "" -->
+								<div class="px-4 py-3 text-sm text-gray-900 dark:text-white">
+									<div>Bonnie Green</div>
+									<div class="font-medium truncate">name@flowbite.com</div>
+								</div>
+
 								<a
-									href="#"
-									class="block px-4 py-2 text-sm text-gray-700"
-									role="menuitem"
-									tabindex="-1"
-									id="user-menu-item-0">Your Profile</a>
-								<a
-									href="#"
-									class="block px-4 py-2 text-sm text-gray-700"
-									role="menuitem"
-									tabindex="-1"
-									id="user-menu-item-1">Settings</a>
-								<a
-									href="/quick-release/login"
-									class="block px-4 py-2 text-sm text-gray-700"
-									role="menuitem"
-									tabindex="-1"
-									id="user-menu-item-2">Sign out</a>
+									href="/quick-release/signup/team"
+									class="flex items-center px-4 py-2 text-sm font-medium text-blue-600 border-t border-gray-200 bg-gray-50 dark:border-gray-600 hover:bg-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-blue-500 hover:underline">
+									<svg
+										class="w-4 h-4 me-1"
+										aria-hidden="true"
+										xmlns="http://www.w3.org/2000/svg"
+										fill="none"
+										viewBox="0 0 24 24">
+										<path
+											stroke="currentColor"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M12 7.8v8.4M7.8 12h8.4m4.8 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+									</svg>
+									Add new team
+								</a>
+								<ul
+									class="py-2 text-sm text-gray-700 dark:text-gray-200"
+									aria-labelledby="dropdownInformationButton">
+									<li>
+										<a
+											href="#"
+											class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+											>Quick Teams</a>
+									</li>
+									<li>
+										<a
+											href="#"
+											class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+											>Quick Survey</a>
+									</li>
+									<li>
+										<a
+											href="#"
+											class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+											>Quick Connect</a>
+									</li>
+								</ul>
+
+								<ul
+									class="py-2 text-sm text-gray-700 dark:text-gray-200"
+									aria-labelledby="dropdownInformationButton">
+									<li>
+										<a
+											href="#"
+											class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+											>Account Settings</a>
+									</li>
+									<li>
+										<a
+											href="#"
+											class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+											>Profile Settings</a>
+									</li>
+									<li>
+										<a
+											href="#"
+											class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+											>Earnings</a>
+									</li>
+								</ul>
+								<div class="py-2">
+									<a
+										href="/quick-release/login"
+										class="block px-4 py-2 text-sm text-gray-700 border-top hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+										>Sign out</a>
+								</div>
 							</div>
 						{/if}
 					</div>
@@ -252,7 +307,7 @@
 						class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
 						>Settings</a>
 					<a
-						href="#"
+						href="/quick-release/login"
 						class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
 						>Sign out</a>
 				</div>
