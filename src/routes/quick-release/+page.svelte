@@ -1,7 +1,8 @@
 <script>
 	let login = [
 		{ title: 'Login', link: '/quick-release/login' },
-		{ title: 'Forgot Password', link: '/quick-release/forgot-password' }
+		{ title: 'Forgot Password', link: '/quick-release/forgot-password' },
+		{ title: 'Reset Password', link: '/quick-release/reset-password' }
 	];
 
 	let signup = [
