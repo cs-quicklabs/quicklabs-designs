@@ -17,10 +17,23 @@
 		{ title: 'Public Changelog list', link: '/quick-release/changelog/public' }
 	];
 
+	let profile = [
+		{ title: 'General', link: '/quick-release/settings/profile/general' },
+		{ title: 'Change Password', link: '/quick-release/settings/profile/password' },
+		{ title: 'Preferences', link: '/quick-release/settings/profile/preferences' }
+	];
+
+	let account = [];
+
+	let team = [];
+
 	let workflows = [
 		{ title: 'Login', screens: login },
 		{ title: 'Signup', screens: signup },
-		{ title: 'Dashboard', screens: dashboard }
+		{ title: 'Dashboard', screens: dashboard },
+		{ title: 'Profile Settings', screens: profile },
+		{ title: 'Account Settings', screens: account },
+		{ title: 'Team Settings', screens: team }
 	];
 </script>
 
