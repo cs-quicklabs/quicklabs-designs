@@ -1,5 +1,5 @@
 <script>
-	import NavBar from '$lib/quick-release/navbar.svelte';
+	import NavBar from '$quick-release/shared/navbar.svelte';
 </script>
 
 <div class="w-full bg-gray-50 h-screen">
