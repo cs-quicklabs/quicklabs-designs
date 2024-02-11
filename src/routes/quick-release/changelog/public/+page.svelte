@@ -12,7 +12,7 @@
 </script>
 
 <UserNavBar />
-<main class="mx-auto max-w-7xl pb-10 lg:py-12 lg:px-8">
+<main class="mx-auto max-w-7xl pb-10 lg:py-4 lg:px-8">
 	<div class="lg:grid lg:grid-cols-12 lg:gap-x-5">
 		<aside class="py-6 px-2 sm:px-6 lg:col-span-3 lg:py-0 lg:px-0">
 			<!--
@@ -29,7 +29,7 @@
   }
   ```
 -->
-			<div>
+			<div class="p-4">
 				<label class="text-base font-semibold text-gray-900">Select Categories</label>
 				<p class="text-sm text-gray-500">Chose Release Categories</p>
 				<fieldset class="mt-4">
@@ -91,7 +91,7 @@
 				</fieldset>
 			</div>
 
-			<div class="mt-12">
+			<div class="mt-4 p-4">
 				<label class="text-base font-semibold text-gray-900">Select Release tags</label>
 				<p class="text-sm text-gray-500">Chose Release tags</p>
 				<fieldset class="mt-4">
@@ -133,14 +133,16 @@
 				</fieldset>
 			</div>
 		</aside>
-		<div class="space-y-6 sm:px-6 lg:col-span-9 lg:px-0">
+		<div class="space-y-6 sm:px-6 lg:col-span-9 lg:px-0 p-4">
 			<main class="max-w-2xl border-b border-gray-100">
 				<div class="md:flex md:items-center md:justify-between">
 					<div class="min-w-0 flex-1">
-						<h2
-							class="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">
-							Added Feature One
-						</h2>
+						<a href="/quick-release/changelog/1">
+							<h2
+								class="hover:underline text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">
+								Added Feature One
+							</h2>
+						</a>
 						<p class="mt-1 truncate text-sm text-gray-500">
 							Published on October 12, 2022 as Version 3.0.2
 						</p>
@@ -200,10 +202,12 @@
 			<main class="max-w-2xl">
 				<div class="md:flex md:items-center md:justify-between">
 					<div class="min-w-0 flex-1">
-						<h2
-							class="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight mt-4">
-							Added Feature One
-						</h2>
+						<a href="/quick-release/changelog/1">
+							<h2
+								class="hover:underline text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight mt-4">
+								Added Feature One
+							</h2>
+						</a>
 						<p class="mt-1 truncate text-sm text-gray-500">
 							Published on October 12, 2022 as Version 3.0.2
 						</p>

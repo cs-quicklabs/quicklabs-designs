@@ -13,7 +13,7 @@
 
 <UserNavBar />
 
-<main class="max-w-2xl mx-auto">
+<main class="max-w-2xl mx-auto p-4">
 	<a href="/quick-release/changelog/public">
 		<button
 			type="button"

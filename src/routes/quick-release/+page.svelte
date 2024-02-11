@@ -10,7 +10,7 @@
 		{ title: 'Create Team', link: '/quick-release/signup/team' }
 	];
 
-	let dashboard = [
+	let changelog = [
 		{ title: 'Admin Changelogs', link: '/quick-release/changelog' },
 		{ title: 'Empty State', link: '/quick-release/changelog/empty' },
 		{ title: 'Add Change Log', link: '/quick-release/changelog/new' },
@@ -31,7 +31,7 @@
 	let workflows = [
 		{ title: 'Login', screens: login },
 		{ title: 'Signup', screens: signup },
-		{ title: 'Dashboard', screens: dashboard },
+		{ title: 'Changelog', screens: changelog },
 		{ title: 'Profile Settings', screens: profile },
 		{ title: 'Account Settings', screens: account },
 		{ title: 'Team Settings', screens: team }
