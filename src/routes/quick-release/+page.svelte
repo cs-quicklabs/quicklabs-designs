@@ -12,6 +12,7 @@
 
 	let dashboard = [
 		{ title: 'Admin Changelogs', link: '/quick-release/changelog' },
+		{ title: 'Empty State', link: '/quick-release/changelog/empty' },
 		{ title: 'Add Change Log', link: '/quick-release/changelog/new' },
 		{ title: 'Public Changelog Detail', link: '/quick-release/changelog/1' },
 		{ title: 'Public Changelog list', link: '/quick-release/changelog/public' }
