@@ -41,8 +41,7 @@
 				<div class="hidden lg:ml-6 lg:block">
 					<div class="flex space-x-4">
 						<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-						<a href="#" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
-							>Dashboard</a>
+						<h1 class="text-white font-extrabold font-mono py-2">Quick Connect</h1>
 						<a
 							href="/quick-release/changelog"
 							class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
@@ -201,8 +200,20 @@
 									<li>
 										<a
 											href="#"
-											class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-											>Quick Teams</a>
+											class="flex block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+											>Quick Connect
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												viewBox="0 0 20 20"
+												fill="green"
+												class="w-5 h-5 ml-1 text-center"
+												aria-hidden="true">
+												<path
+													fill-rule="evenodd"
+													d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+													clip-rule="evenodd" />
+											</svg>
+										</a>
 									</li>
 									<li>
 										<a
@@ -214,7 +225,7 @@
 										<a
 											href="#"
 											class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-											>Quick Connect</a>
+											>Quick Team</a>
 									</li>
 								</ul>
 
@@ -237,7 +248,7 @@
 										<a
 											href="#"
 											class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-											>Earnings</a>
+											>Team Settings</a>
 									</li>
 								</ul>
 								<div class="py-2">

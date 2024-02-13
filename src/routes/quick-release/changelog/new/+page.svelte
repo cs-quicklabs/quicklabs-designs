@@ -391,7 +391,7 @@
 
 			<div>
 				<label for="project-name" class="mb-2 block text-sm font-medium leading-6 text-gray-900"
-					>Release Version (Optional)</label>
+					>Schedule release on</label>
 
 				<div class="relative">
 					<div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">

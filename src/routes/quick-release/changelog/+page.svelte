@@ -131,6 +131,15 @@
 													role="menuitem"
 													tabindex="-1"
 													id="menu-3-item-1">
+													<span>Unpublish</span>
+												</a>
+
+												<a
+													href="#"
+													class="text-gray-700 flex justify-between px-4 py-2 text-sm hover:bg-gray-50"
+													role="menuitem"
+													tabindex="-1"
+													id="menu-3-item-1">
 													<span>Archive</span>
 												</a>
 
