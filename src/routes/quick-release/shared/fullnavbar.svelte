@@ -240,13 +240,13 @@
 									</li>
 									<li>
 										<a
-											href="#"
+											href="/quick-release/settings/profile/general/"
 											class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
 											>Profile Settings</a>
 									</li>
 									<li>
 										<a
-											href="#"
+											href="/quick-release/settings/team/general/"
 											class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
 											>Team Settings</a>
 									</li>
