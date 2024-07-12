@@ -136,9 +136,24 @@
 							</div>
 						</div>
 					</div>
+					<div>
+						<label
+							for="user-role"
+							class="inline-flex items-center mb-2 text-sm font-medium text-gray-900 dark:text-white">
+							Primary Skill
+						</label>
+						<select
+							name="user[role]"
+							id="bucket"
+							class="appearance-none block bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+							><option value="data">iOS Developer</option>
+							<option value="recruiter">Android Developer</option>
+							<option value="interviewer">React Developer</option>
+						</select>
+					</div>
 				</div>
 
-				<button type="submit" class="btn-primary mt-4"> Add Member </button>
+				<button type="submit" class="btn-primary mt-6"> Add Member </button>
 				<a class="btn-secondary" href="/quick-learn">Cancel</a>
 			</form>
 		</div>
