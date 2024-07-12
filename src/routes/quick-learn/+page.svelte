@@ -11,16 +11,22 @@
 		{ title: 'Edit Member', link: '/quick-learn/team/edit' }
 	];
 
-	let profile = [
+	let profileSettings = [
 		{ title: 'General', link: '/quick-learn/settings/profile/general' },
 		{ title: 'Change Password', link: '/quick-learn/settings/profile/password' },
 		{ title: 'Preferences', link: '/quick-learn/settings/profile/preferences' }
 	];
 
+	let teamSettings = [
+		{ title: 'General', link: '/quick-learn/settings/team/general' },
+		{ title: 'Skills', link: '/quick-learn/settings/team/skills' }
+	];
+
 	let workflows = [
 		{ title: 'Login', screens: login },
 		{ title: 'Team', screens: team },
-		{ title: 'Profile Settings', screens: profile }
+		{ title: 'Profile Settings', screens: profileSettings },
+		{ title: 'Account Settings', screens: teamSettings }
 	];
 	let workflows2 = [];
 </script>

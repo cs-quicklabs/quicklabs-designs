@@ -28,7 +28,7 @@
 					<span class="truncate ml-2"> General </span>
 				</a>
 				<a
-					href="/quick-learn/settings/team/tags"
+					href="/quick-learn/settings/team/skills"
 					class="text-gray-900 hover:text-gray-900 hover:bg-gray-50 rounded px-3 py-2 flex items-center text-sm font-medium"
 					><svg
 						class="w-6 h-6 text-gray-800 dark:text-white"
@@ -43,26 +43,26 @@
 							stroke-width="2"
 							d="M12 14v3m-3-6V7a3 3 0 1 1 6 0v4m-8 0h10c.6 0 1 .4 1 1v7c0 .6-.4 1-1 1H7a1 1 0 0 1-1-1v-7c0-.6.4-1 1-1Z"
 						></path
-						></svg> <span class="truncate ml-2">Tags</span></a>
+						></svg> <span class="truncate ml-2">Skills</span></a>
 			</nav>
 		</aside>
 
 		<main class="max-w-xl pb-12 px-4 lg:col-span-6">
 			<div>
-				<h1 class="text-lg font-semibold dark:text-white">Tags</h1>
+				<h1 class="text-lg font-semibold dark:text-white">Primary Skills</h1>
 				<p class="text-gray-500 dark:text-gray-400 text-sm">
-					Tags can be assigned to changelogs or posts to define the categories they belong to.
+					Primary skill can be assigned to a person which tells the main trade of a candidate.
 				</p>
 
 				<form class="w-full mt-6">
 					<div class="mb-5 mt-6">
 						<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Add new Tag</label>
+							>Add new Skill</label>
 						<input
 							type="email"
 							id="email"
 							class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-							placeholder="iOS"
+							placeholder="iOS Developer"
 							required />
 					</div>
 					<button
@@ -76,7 +76,7 @@
 						<thead
 							class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
 							<tr>
-								<th scope="col" class="px-6 py-3 w-full"> Tag name </th>
+								<th scope="col" class="px-6 py-3 w-full"> Skill name </th>
 								<th scope="col" class="px-6 py-3"> Action </th>
 							</tr>
 						</thead>
@@ -86,7 +86,7 @@
 								<th
 									scope="row"
 									class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-									Mobile
+									Mobile Developer
 								</th>
 								<td class="px-6 py-4 inline-flex">
 									<a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
@@ -102,7 +102,7 @@
 								<th
 									scope="row"
 									class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-									Web
+									Web Developer
 								</th>
 								<td class="px-6 py-4 inline-flex">
 									<a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
@@ -118,7 +118,7 @@
 								<th
 									scope="row"
 									class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-									Backend
+									Backend Developer
 								</th>
 								<td class="px-6 py-4 inline-flex">
 									<a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
@@ -134,7 +134,7 @@
 								<th
 									scope="row"
 									class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-									Refactoring
+									Product Manager
 								</th>
 								<td class="px-6 py-4 inline-flex">
 									<a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
@@ -149,7 +149,7 @@
 								<th
 									scope="row"
 									class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-									Enhancements
+									UI/UX Designer
 								</th>
 								<td class="px-6 py-4 inline-flex">
 									<a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
