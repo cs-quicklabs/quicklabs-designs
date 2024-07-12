@@ -163,7 +163,7 @@
 										id="menu-item-2">Account Settings</a>
 
 									<a
-										href="/quick-test/settings/profile"
+										href="/quick-learn/settings/profile/general"
 										class="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-50"
 										role="menuitem"
 										tabindex="-1"
@@ -184,14 +184,14 @@
 										id="menu-item-1">Admin Land</a>
 								</div>
 								<div class="py-1" role="none">
-									<form method="POST" action="#" role="none">
+									<a href="/quick-learn/login">
 										<button
 											type="submit"
 											class=" hover:bg-gray-50 text-gray-700 block w-full px-4 py-2 text-left text-sm"
 											role="menuitem"
 											tabindex="-1"
 											id="menu-item-3">Sign out</button>
-									</form>
+									</a>
 								</div>
 							</div>
 						{/if}
