@@ -12,7 +12,7 @@
 					<div>
 						<h1 class="mr-3 text-lg font-semibold dark:text-white">Team</h1>
 						<p class="text-gray-500 dark:text-gray-400 text-sm">
-							Manage all your existing team members or add a new one.
+							Manage all your existing <span class="font-bold">4</span> team members or add a new one.
 						</p>
 					</div>
 					<a
