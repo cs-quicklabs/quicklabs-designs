@@ -19,7 +19,8 @@
 
 	let teamSettings = [
 		{ title: 'General', link: '/quick-learn/settings/team/general' },
-		{ title: 'Skills', link: '/quick-learn/settings/team/skills' }
+		{ title: 'Skills', link: '/quick-learn/settings/team/skills' },
+		{ title: 'Skill Delete Error', link: '/quick-learn/settings/team/error' }
 	];
 
 	let workflows = [
