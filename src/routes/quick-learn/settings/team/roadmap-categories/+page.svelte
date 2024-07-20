@@ -13,20 +13,22 @@
 
 		<main class="max-w-xl pb-12 px-4 lg:col-span-6">
 			<div>
-				<h1 class="text-lg font-semibold dark:text-white">Primary Skills</h1>
+				<h1 class="text-lg font-semibold dark:text-white">Roadmap Categories</h1>
 				<p class="text-gray-500 dark:text-gray-400 text-sm">
-					Primary skill can be assigned to a person which tells the main trade of a candidate.
+					Roadmaps can belong to a category. A category could be a way to group learning roadmaps.
+					For example, a department can have a category called "Engineering" and all the roadmaps
+					related to engineering can be added to this category.
 				</p>
 
 				<form class="w-full mt-6">
 					<div class="mb-5 mt-6">
 						<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Add new Skill</label>
+							>Add New Roadmap Category</label>
 						<input
 							type="email"
 							id="email"
 							class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-							placeholder="iOS Developer"
+							placeholder="Engineering"
 							required />
 					</div>
 					<button
@@ -40,7 +42,7 @@
 						<thead
 							class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
 							<tr>
-								<th scope="col" class="px-6 py-3 w-full"> Skill name </th>
+								<th scope="col" class="px-6 py-3 w-full"> Category name </th>
 								<th scope="col" class="px-6 py-3"> Action </th>
 							</tr>
 						</thead>
@@ -50,7 +52,7 @@
 								<th
 									scope="row"
 									class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-									Mobile Developer
+									HR
 								</th>
 								<td class="px-6 py-4 inline-flex">
 									<a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
@@ -66,7 +68,7 @@
 								<th
 									scope="row"
 									class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-									Web Developer
+									Sales
 								</th>
 								<td class="px-6 py-4 inline-flex">
 									<a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
@@ -86,7 +88,8 @@
 										type="text"
 										id="last_name"
 										class="p-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-										value="Doe"
+										placeholder="Engineering"
+										value="Engineering"
 										required />
 								</th>
 								<td>
@@ -101,7 +104,7 @@
 								<th
 									scope="row"
 									class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-									Product Manager
+									Recruitment
 								</th>
 								<td class="px-6 py-4 inline-flex">
 									<a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"

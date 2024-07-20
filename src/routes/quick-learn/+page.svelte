@@ -17,19 +17,26 @@
 		{ title: 'Preferences', link: '/quick-learn/settings/profile/preferences' }
 	];
 
-	let teamSettings = [
+	let accountSettings = [
 		{ title: 'General', link: '/quick-learn/settings/team/general' },
-		{ title: 'Skills', link: '/quick-learn/settings/team/skills' },
-		{ title: 'Skill Delete Error', link: '/quick-learn/settings/team/error' }
+		{ title: 'Primary Skills', link: '/quick-learn/settings/team/skills' },
+		{ title: 'Skill Delete Error', link: '/quick-learn/settings/team/error' },
+		{ title: 'Roadmap Categories', link: '/quick-learn/settings/team/roadmap-categories' },
+		{ title: 'Courses Categories', link: '/quick-learn/settings/team/courses-categories' }
 	];
 
 	let workflows = [
 		{ title: 'Login', screens: login },
 		{ title: 'Team', screens: team },
 		{ title: 'Profile Settings', screens: profileSettings },
-		{ title: 'Account Settings', screens: teamSettings }
+		{ title: 'Account Settings', screens: accountSettings }
 	];
-	let workflows2 = [];
+
+	let memberScreens = [
+		{ title: 'My Learning Paths', link: '/quick-learn/member/my-learning-paths' }
+	];
+
+	let workflows2 = [{ title: 'Member', screens: memberScreens }];
 </script>
 
 <!-- 3 column wrapper -->
