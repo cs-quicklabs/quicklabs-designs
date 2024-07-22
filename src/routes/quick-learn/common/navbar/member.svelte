@@ -22,7 +22,9 @@
 				<div class="hidden lg:ml-6 lg:block">
 					<div class="flex space-x-4">
 						<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-						<a href="#" class="rounded-md bg-gray-500 px-3 py-2 text-sm font-medium text-white"
+						<a
+							href="my-learning-paths"
+							class="rounded-md bg-gray-500 px-3 py-2 text-sm font-medium text-white"
 							>My Learning Paths</a>
 					</div>
 				</div>

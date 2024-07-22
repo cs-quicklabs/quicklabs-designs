@@ -33,7 +33,8 @@
 	];
 
 	let memberScreens = [
-		{ title: 'My Learning Paths', link: '/quick-learn/member/my-learning-paths' }
+		{ title: 'My Learning Paths', link: '/quick-learn/member/my-learning-paths' },
+		{ title: 'Roadmap Detail', link: '/quick-learn/member/roadmap' }
 	];
 
 	let workflows2 = [{ title: 'Member', screens: memberScreens }];
