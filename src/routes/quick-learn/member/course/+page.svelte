@@ -40,7 +40,7 @@
 									d="m1 9 4-4-4-4" />
 							</svg>
 							<a
-								href="roadmap"
+								href="course"
 								class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white hover:underline"
 								>Web Development Roadmap</a>
 						</div>
@@ -86,7 +86,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="roadmap">
+						<a href="course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
 								<h1
 									id="message-heading"
@@ -106,7 +106,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="roadmap">
+						<a href="course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
 								<h1
 									id="message-heading"
@@ -126,7 +126,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="roadmap">
+						<a href="course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
 								<h1
 									id="message-heading"
@@ -146,7 +146,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="roadmap">
+						<a href="course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
 								<h1
 									id="message-heading"
@@ -166,7 +166,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="roadmap">
+						<a href="course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
 								<h1
 									id="message-heading"
@@ -186,7 +186,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="roadmap">
+						<a href="course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
 								<h1
 									id="message-heading"
