@@ -82,23 +82,33 @@
 			<div id="created-spaces">
 				<ul
 					role="list"
-					class="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 2xl:grid-cols-5 xl:gap-x-8">
+					class="grid grid-cols-2 gap-x-2 gap-y-4 sm:grid-cols-3 sm:gap-x-4 lg:grid-cols-6 2xl:grid-cols-8 xl:gap-x-6">
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
 						<a href="course">
-							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
-								<h1
-									id="message-heading"
-									class="font-medium text-gray-900 line-clamp-2 group-hover:underline">
-									Git Baisc Course
+							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
+								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
+									First HTML Code
 								</h1>
-								<p class="font-normal text-sm text-gray-500 line-clamp-2 mt-2">
-									Learn Git basics in this course.
+								<p class="font-normal text-sm text-gray-500 line-clamp-3 mt-2">
+									Learn Git basics in this course. This shows first three lines of the content and
+									whatever lesson contains
 								</p>
-								<p class="font-bold text-xs text-gray-500 line-clamp-2 mt-4 pb-2">90% Complete</p>
-								<div class="overflow-hidden rounded-full bg-gray-200">
-									<div class="h-2 rounded-full bg-green-600" style="width: 90%"></div>
+								<div
+									class="items-center space-x-1 py-3 flex font-medium text-green-500 whitespace-nowrap">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+										class="w-4 h-4"
+										aria-hidden="true">
+										<path
+											fill-rule="evenodd"
+											d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+											clip-rule="evenodd" />
+									</svg>
+									<p class="text-xs text-gray-400 line-clamp-2">Completed</p>
 								</div>
 							</div>
 						</a>
@@ -107,18 +117,28 @@
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
 						<a href="course">
-							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
-								<h1
-									id="message-heading"
-									class="font-medium text-gray-900 line-clamp-2 group-hover:underline">
-									HTML Course
+							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
+								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
+									First HTML Code
 								</h1>
-								<p class="font-normal text-sm text-gray-500 line-clamp-2 mt-2">
-									Learn HTML basics in this course.
+								<p class="font-normal text-sm text-gray-500 line-clamp-3 mt-2">
+									Learn Git basics in this course. This shows first three lines of the content and
+									whatever lesson contains
 								</p>
-								<p class="font-bold text-xs text-gray-500 line-clamp-2 mt-4 pb-2">10% Complete</p>
-								<div class="overflow-hidden rounded-full bg-gray-200">
-									<div class="h-2 rounded-full bg-green-600" style="width: 10%"></div>
+								<div
+									class="items-center space-x-1 py-3 flex font-medium text-green-500 whitespace-nowrap">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+										class="w-4 h-4"
+										aria-hidden="true">
+										<path
+											fill-rule="evenodd"
+											d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+											clip-rule="evenodd" />
+									</svg>
+									<p class="text-xs text-gray-400 line-clamp-2">Completed</p>
 								</div>
 							</div>
 						</a>
@@ -127,18 +147,28 @@
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
 						<a href="course">
-							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
-								<h1
-									id="message-heading"
-									class="font-medium text-gray-900 line-clamp-2 group-hover:underline">
-									TailwindCSS Course
+							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
+								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
+									Exploring the document
 								</h1>
-								<p class="font-normal text-sm text-gray-500 line-clamp-2 mt-2">
-									Learn TailwindCSS basics in this course.
+								<p class="font-normal text-sm text-gray-500 line-clamp-3 mt-2">
+									Learn Git basics in this course. This shows first three lines of the content and
+									whatever lesson contains
 								</p>
-								<p class="font-bold text-xs text-gray-500 line-clamp-2 mt-4 pb-2">0% Complete</p>
-								<div class="overflow-hidden rounded-full bg-gray-200">
-									<div class="h-2 rounded-full bg-green-600" style="width: 00%"></div>
+								<div
+									class="items-center space-x-1 py-3 flex font-medium text-green-500 whitespace-nowrap">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+										class="w-4 h-4"
+										aria-hidden="true">
+										<path
+											fill-rule="evenodd"
+											d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+											clip-rule="evenodd" />
+									</svg>
+									<p class="text-xs text-gray-400 line-clamp-2">Completed</p>
 								</div>
 							</div>
 						</a>
@@ -147,18 +177,28 @@
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
 						<a href="course">
-							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
-								<h1
-									id="message-heading"
-									class="font-medium text-gray-900 line-clamp-2 group-hover:underline">
-									Email Etiquette Course
+							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
+								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
+									Comments, White Space and line breaks
 								</h1>
-								<p class="font-normal text-sm text-gray-500 line-clamp-2 mt-2">
-									Learn etiquette basics in this course.
+								<p class="font-normal text-sm text-gray-500 line-clamp-3 mt-2">
+									Learn Git basics in this course. This shows first three lines of the content and
+									whatever lesson contains
 								</p>
-								<p class="font-bold text-xs text-gray-500 line-clamp-2 mt-4 pb-2">100% Complete</p>
-								<div class="overflow-hidden rounded-full bg-gray-200">
-									<div class="h-2 rounded-full bg-green-600" style="width: 100%"></div>
+								<div
+									class="items-center space-x-1 py-3 flex font-medium text-green-500 whitespace-nowrap">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+										class="w-4 h-4"
+										aria-hidden="true">
+										<path
+											fill-rule="evenodd"
+											d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+											clip-rule="evenodd" />
+									</svg>
+									<p class="text-xs text-gray-400 line-clamp-2">Completed</p>
 								</div>
 							</div>
 						</a>
@@ -167,18 +207,28 @@
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
 						<a href="course">
-							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
-								<h1
-									id="message-heading"
-									class="font-medium text-gray-900 line-clamp-2 group-hover:underline">
-									Accelerate Book Course
+							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
+								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
+									The Rest of the HTML tags
 								</h1>
-								<p class="font-normal text-sm text-gray-500 line-clamp-2 mt-2">
-									Learn Accelerate book topics in this course.
+								<p class="font-normal text-sm text-gray-500 line-clamp-3 mt-2">
+									Learn Git basics in this course. This shows first three lines of the content and
+									whatever lesson contains
 								</p>
-								<p class="font-bold text-xs text-gray-500 line-clamp-2 mt-4 pb-2">75% Complete</p>
-								<div class="overflow-hidden rounded-full bg-gray-200">
-									<div class="h-2 rounded-full bg-green-600" style="width: 75%"></div>
+								<div
+									class="items-center space-x-1 py-3 flex font-medium text-green-500 whitespace-nowrap">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+										class="w-4 h-4"
+										aria-hidden="true">
+										<path
+											fill-rule="evenodd"
+											d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+											clip-rule="evenodd" />
+									</svg>
+									<p class="text-xs text-gray-400 line-clamp-2">Completed</p>
 								</div>
 							</div>
 						</a>
@@ -187,19 +237,59 @@
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
 						<a href="course">
-							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
-								<h1
-									id="message-heading"
-									class="font-medium text-gray-900 line-clamp-2 group-hover:underline">
-									Hire Smart Book Course
+							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
+								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
+									Inserting Pictures and Styling
 								</h1>
-								<p class="font-normal text-sm text-gray-500 line-clamp-2 mt-2">
-									Learn Hiring Smart book topics in this course.
+								<p class="font-normal text-sm text-gray-500 line-clamp-3 mt-2">
+									Learn Git basics in this course. This shows first three lines of the content and
+									whatever lesson contains
 								</p>
-								<p class="font-bold text-xs text-gray-500 line-clamp-2 mt-4 pb-2">20% Complete</p>
-								<div class="overflow-hidden rounded-full bg-gray-200">
-									<div class="h-2 rounded-full bg-green-600" style="width: 20%"></div>
+								<div
+									class="items-center space-x-1 py-3 flex font-medium text-green-500 whitespace-nowrap">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+										class="w-4 h-4"
+										aria-hidden="true">
+										<path
+											fill-rule="evenodd"
+											d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+											clip-rule="evenodd" />
+									</svg>
+									<p class="text-xs text-gray-400 line-clamp-2">Completed</p>
 								</div>
+							</div>
+						</a>
+					</li>
+					<li
+						class="col-span-1 rounded-lg shadow-sm border-gray-100 group bg-gray-100 cursor-default"
+						id="space_8">
+						<a href="course">
+							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
+								<h1 id="message-heading" class="font-medium text-gray-900">
+									Inserting Pictures and Styling
+								</h1>
+								<p class="font-normal text-sm text-gray-500 line-clamp-3 mt-2">
+									Learn Git basics in this course. This shows first three lines of the content and
+									whatever lesson contains
+								</p>
+							</div>
+						</a>
+					</li>
+					<li
+						class="col-span-1 rounded-lg shadow-sm border-gray-100 group bg-gray-100"
+						id="space_8">
+						<a href="course">
+							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
+								<h1 id="message-heading" class="font-medium text-gray-900">
+									Inserting Pictures Via CSS
+								</h1>
+								<p class="font-normal text-sm text-gray-500 line-clamp-3 mt-2">
+									Learn Git basics in this course. This shows first three lines of the content and
+									whatever lesson contains
+								</p>
 							</div>
 						</a>
 					</li>
