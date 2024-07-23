@@ -103,7 +103,7 @@
 								scope="row"
 								class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
 								<div class="flex items-center">
-									<a href="" class="ml-2 hover:underline"> Aashish Dhawan </a>
+									<a href="team/1" class="ml-2 hover:underline"> Aashish Dhawan </a>
 								</div>
 							</th>
 							<td class="px-4 py-2">
@@ -140,7 +140,7 @@
 								scope="row"
 								class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
 								<div class="flex items-center">
-									<a href="" class="ml-2 hover:underline"> Peter Parker </a>
+									<a href="team/1" class="ml-2 hover:underline"> Peter Parker </a>
 								</div>
 							</th>
 							<td class="px-4 py-2">
@@ -177,7 +177,7 @@
 								scope="row"
 								class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
 								<div class="flex items-center">
-									<a href="" class="ml-2 hover:underline"> Nick Furry </a>
+									<a href="team/1" class="ml-2 hover:underline"> Nick Furry </a>
 								</div>
 							</th>
 							<td class="px-4 py-2">
@@ -214,7 +214,7 @@
 								scope="row"
 								class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
 								<div class="flex items-center">
-									<a href="" class="ml-2 hover:underline"> Mystique </a>
+									<a href="team/1" class="ml-2 hover:underline"> Mystique </a>
 								</div>
 							</th>
 							<td class="px-4 py-2">

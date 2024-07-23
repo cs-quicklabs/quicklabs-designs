@@ -8,7 +8,10 @@
 	let team = [
 		{ title: 'Team', link: '/quick-learn/team' },
 		{ title: 'Add Member', link: '/quick-learn/team/add' },
-		{ title: 'Edit Member', link: '/quick-learn/team/edit' }
+		{ title: 'Edit Member', link: '/quick-learn/team/edit' },
+		{ title: 'Member Details', link: '/quick-learn/team/1' },
+		{ title: 'Member Roadmap Details', link: '/quick-learn/team/1/roadmaps' },
+		{ title: 'Member Courses Details', link: '/quick-learn/team/1/courses' }
 	];
 
 	let profileSettings = [
