@@ -28,6 +28,10 @@
 							href="/quick-learn/team"
 							class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
 							>Team</a>
+						<a
+							href="/quick-learn/member/my-learning-paths"
+							class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+							>My Learning Paths</a>
 					</div>
 				</div>
 			</div>
