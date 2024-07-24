@@ -10,7 +10,7 @@
 				<ol class="inline-flex justify-self-center space-x-1 md:space-x-2 rtl:space-x-reverse">
 					<li class="inline-flex items-center">
 						<a
-							href="my-learning-paths"
+							href="/quick-learn/member/my-learning-paths"
 							class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white hover:underline">
 							<svg
 								class="w-3 h-3 me-2.5"
@@ -40,7 +40,7 @@
 									d="m1 9 4-4-4-4" />
 							</svg>
 							<a
-								href="roadmap"
+								href="/quick-learn/member/roadmap"
 								class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white hover:underline"
 								>Web Development Roadmap</a>
 						</div>
@@ -61,7 +61,7 @@
 									d="m1 9 4-4-4-4" />
 							</svg>
 							<a
-								href="course"
+								href="quick-learn/member/course"
 								class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white hover:underline"
 								>HTML Course</a>
 						</div>
@@ -86,7 +86,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="course">
+						<a href="/quick-learn/member/course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
 								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
 									First HTML Code
@@ -116,7 +116,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="course">
+						<a href="/quick-learn/member/course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
 								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
 									First HTML Code
@@ -146,7 +146,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="course">
+						<a href="/quick-learn/member/course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
 								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
 									Exploring the document
@@ -176,7 +176,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="course">
+						<a href="/quick-learn/member/course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
 								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
 									Comments, White Space and line breaks
@@ -206,7 +206,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="course">
+						<a href="/quick-learn/member/course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
 								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
 									The Rest of the HTML tags
@@ -236,7 +236,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="course">
+						<a href="/quick-learn/member/course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
 								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
 									Inserting Pictures and Styling
@@ -266,7 +266,7 @@
 					<li
 						class="col-span-1 rounded-lg shadow-sm border-gray-100 group bg-gray-100 cursor-default"
 						id="space_8">
-						<a href="course">
+						<a href="/quick-learn/member/course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
 								<h1 id="message-heading" class="font-medium text-gray-900">
 									Inserting Pictures and Styling
@@ -281,7 +281,7 @@
 					<li
 						class="col-span-1 rounded-lg shadow-sm border-gray-100 group bg-gray-100"
 						id="space_8">
-						<a href="course">
+						<a href="/quick-learn/member/course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
 								<h1 id="message-heading" class="font-medium text-gray-900">
 									Inserting Pictures Via CSS

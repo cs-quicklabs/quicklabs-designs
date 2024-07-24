@@ -93,7 +93,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="course">
+						<a href="/quick-learn/team/1/course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
 								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
 									First HTML Code
@@ -123,7 +123,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="course">
+						<a href="/quick-learn/team/1/course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
 								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
 									First HTML Code
@@ -153,7 +153,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="course">
+						<a href="/quick-learn/team/1/course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
 								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
 									Exploring the document
@@ -183,7 +183,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="course">
+						<a href="/quick-learn/team/1/course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
 								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
 									Comments, White Space and line breaks
@@ -213,7 +213,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="course">
+						<a href="/quick-learn/team/1/course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
 								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
 									The Rest of the HTML tags
@@ -243,7 +243,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="course">
+						<a href="/quick-learn/team/1/course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
 								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
 									Inserting Pictures and Styling
@@ -273,7 +273,7 @@
 					<li
 						class="col-span-1 rounded-lg shadow-sm border-gray-100 group bg-gray-100 cursor-default"
 						id="space_8">
-						<a href="course">
+						<a href="/quick-learn/team/1/course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
 								<h1 id="message-heading" class="font-medium text-gray-900">
 									Inserting Pictures and Styling
@@ -288,7 +288,7 @@
 					<li
 						class="col-span-1 rounded-lg shadow-sm border-gray-100 group bg-gray-100"
 						id="space_8">
-						<a href="course">
+						<a href="/quick-learn/team/1/course">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
 								<h1 id="message-heading" class="font-medium text-gray-900">
 									Inserting Pictures Via CSS

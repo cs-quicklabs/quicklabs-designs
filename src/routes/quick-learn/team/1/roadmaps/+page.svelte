@@ -93,7 +93,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="roadmap">
+						<a href="/quick-learn/team/1/courses">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
 								<h1
 									id="message-heading"
@@ -113,7 +113,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="roadmap">
+						<a href="/quick-learn/team/1/courses">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
 								<h1
 									id="message-heading"
@@ -133,7 +133,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="roadmap">
+						<a href="/quick-learn/team/1/courses">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
 								<h1
 									id="message-heading"
@@ -153,7 +153,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="roadmap">
+						<a href="/quick-learn/team/1/courses">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
 								<h1
 									id="message-heading"
@@ -173,7 +173,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="roadmap">
+						<a href="/quick-learn/team/1/courses">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
 								<h1
 									id="message-heading"
@@ -193,7 +193,7 @@
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="roadmap">
+						<a href="/quick-learn/team/1/courses">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
 								<h1
 									id="message-heading"
