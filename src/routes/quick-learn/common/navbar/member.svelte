@@ -49,7 +49,7 @@
 							id="search"
 							name="search"
 							class="block w-full rounded-md border border-transparent bg-gray-700 py-1.5 pl-10 pr-3 leading-5 text-gray-300 placeholder-gray-400 focus:border-white focus:bg-white focus:text-gray-900 focus:outline-none focus:ring-white sm:text-sm"
-							placeholder="Search Course or Lesson"
+							placeholder="Search Roadmaps, Courses or Lessons"
 							type="search" />
 					</div>
 				</div>
