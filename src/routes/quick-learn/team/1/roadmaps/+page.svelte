@@ -76,6 +76,10 @@
 					class="mt-1 ml-1 text-sm text-gray-500 truncate sm:flex sm:items-center sm:justify-center">
 					(20 Courses)
 				</p>
+				<a
+					class="mt-1 ml-1 sm:flex text-red-600 dark:text-blue-500 underline sm:items-center sm:justify-center font-semibold cursor-pointer">
+					Remove this roadmap
+				</a>
 			</div>
 		</div>
 
