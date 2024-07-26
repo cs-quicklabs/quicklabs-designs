@@ -2,7 +2,8 @@
 	let login = [
 		{ title: 'Login', link: '/quick-learn/login' },
 		{ title: 'Forgot Password', link: '/quick-learn/forgot-password' },
-		{ title: 'Reset Password', link: '/quick-learn/reset-password' }
+		{ title: 'Reset Password', link: '/quick-learn/reset-password' },
+		{ title: 'Navbars', link: '/quick-learn/navbars' }
 	];
 
 	let team = [
@@ -40,8 +41,12 @@
 		{ title: 'Roadmap Detail', link: '/quick-learn/member/roadmap' },
 		{ title: 'Course Detail', link: '/quick-learn/member/course' }
 	];
+	let contentRepository = [{ title: 'Content', link: '/quick-learn/content' }];
 
-	let workflows2 = [{ title: 'Member', screens: memberScreens }];
+	let workflows2 = [
+		{ title: 'Member', screens: memberScreens },
+		{ title: 'Content Repository', screens: contentRepository }
+	];
 </script>
 
 <!-- 3 column wrapper -->
@@ -55,7 +60,7 @@
 				<div class="relative">
 					{#each workflows as workflow}
 						<div
-							class="sticky top-0 z-10 border-t border-b border-gray-200 bg-gray-50 px-6 py-1 text-sm font-medium text-gray-500">
+							class="sticky top-0 z-10 border-t border-b border-gray-200 bg-gray-200 px-6 py-1 text-sm font-medium text-gray-500">
 							<h3>{workflow.title}</h3>
 						</div>
 						<ul role="list" class="relative z-0 divide-y divide-gray-200">
@@ -86,7 +91,7 @@
 				<div class="relative">
 					{#each workflows2 as workflow}
 						<div
-							class="sticky top-0 z-10 border-t border-b border-gray-200 bg-gray-50 px-6 py-1 text-sm font-medium text-gray-500">
+							class="sticky top-0 z-10 border-t border-b border-gray-200 bg-gray-200 px-6 py-1 text-sm font-medium text-gray-500">
 							<h3>{workflow.title}</h3>
 						</div>
 						<ul role="list" class="relative z-0 divide-y divide-gray-200">

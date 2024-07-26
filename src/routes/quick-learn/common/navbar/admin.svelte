@@ -20,18 +20,23 @@
 					</div>
 				</a>
 				<div class="hidden lg:ml-6 lg:block">
-					<div class="flex space-x-4">
+					<div class="flex space-x-2">
 						<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-						<a href="#" class="rounded-md bg-gray-500 px-3 py-2 text-sm font-medium text-white"
-							>Dashboard</a>
 						<a
 							href="/quick-learn/team"
-							class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
-							>Team</a>
+							class="rounded-md px-3 py-2 text-sm font-medium text-white bg-gray-500">Team</a>
 						<a
 							href="/quick-learn/member/my-learning-paths"
 							class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
 							>My Learning Paths</a>
+						<a
+							href="/quick-learn/content"
+							class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+							>Content</a>
+						<a
+							href="/quick-learn/content"
+							class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+							>Approvals</a>
 					</div>
 				</div>
 			</div>
@@ -160,13 +165,6 @@
 								</div>
 								<div class="py-1" role="none">
 									<a
-										href="/quick-learn/settings/team/general"
-										class="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-50"
-										role="menuitem"
-										tabindex="-1"
-										id="menu-item-2">Account Settings</a>
-
-									<a
 										href="/quick-learn/settings/profile/general"
 										class="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-50"
 										role="menuitem"
@@ -174,18 +172,6 @@
 										id="menu-item-0"
 										>My Profile
 									</a>
-									<a
-										href="#"
-										class="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-50"
-										role="menuitem"
-										tabindex="-1"
-										id="menu-item-1">Archive</a>
-									<a
-										href="#"
-										class="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-50"
-										role="menuitem"
-										tabindex="-1"
-										id="menu-item-1">Admin Land</a>
 								</div>
 								<div class="py-1" role="none">
 									<a href="/quick-learn/login">
