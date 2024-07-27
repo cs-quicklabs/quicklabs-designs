@@ -41,7 +41,10 @@
 		{ title: 'Roadmap Detail', link: '/quick-learn/member/roadmap' },
 		{ title: 'Course Detail', link: '/quick-learn/member/course' }
 	];
-	let contentRepository = [{ title: 'Content', link: '/quick-learn/content' }];
+	let contentRepository = [
+		{ title: 'Content', link: '/quick-learn/content' },
+		{ title: 'Content Roadmap', link: '/quick-learn/content/roadmap' }
+	];
 
 	let workflows2 = [
 		{ title: 'Member', screens: memberScreens },
@@ -70,7 +73,7 @@
 										class="relative flex items-center space-x-3 px-6 py-2 focus-within:ring-2 focus-within:ring-inset
 								focus-within:ring-indigo-500 hover:bg-gray-50">
 										<div class="min-w-0 flex-1">
-											<a href={screen.link} class="focus:outline-none">
+											<a href={screen.link} target="_blank" class="focus:outline-none">
 												<p class="text-sm font-medium text-gray-900">{screen.title}</p>
 											</a>
 										</div>
@@ -101,7 +104,7 @@
 										class="relative flex items-center space-x-3 px-6 py-2 focus-within:ring-2 focus-within:ring-inset
 							focus-within:ring-indigo-500 hover:bg-gray-50">
 										<div class="min-w-0 flex-1">
-											<a href={screen.link} class="focus:outline-none">
+											<a href={screen.link} target="_blank" class="focus:outline-none">
 												<p class="text-sm font-medium text-gray-900">{screen.title}</p>
 											</a>
 										</div>
