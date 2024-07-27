@@ -148,7 +148,7 @@
 						id="tooltip-delete"
 						role="tooltip"
 						class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-						Delete Roadmap
+						Archive Roadmap
 						<div class="tooltip-arrow" data-popper-arrow></div>
 					</div>
 					<button
@@ -561,10 +561,10 @@
 						d="M10 11V6m0 8h.01M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
 				</svg>
 				<h3 class="text-lg font-bold text-gray-700 dark:text-gray-400">
-					Are you sure you want to delete this roadmap?
+					Are you sure you want to Archive this roadmap?
 				</h3>
 				<p class="mb-5 font-xs text-gray-500">
-					When this roadmaps is deleted, all courses and lessons under this are deleted.
+					When this roadmaps is archived, all courses and lessons under this are archived.
 					Additionally, other users can not see this roadmaps and its courses even if it was
 					assigned to them.
 				</p>
