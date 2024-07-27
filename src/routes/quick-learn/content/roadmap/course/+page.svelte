@@ -45,26 +45,47 @@
 								>Web Development Roadmap</a>
 						</div>
 					</li>
+					<li>
+						<div class="flex items-center">
+							<svg
+								class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1"
+								aria-hidden="true"
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 6 10">
+								<path
+									stroke="currentColor"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="m1 9 4-4-4-4" />
+							</svg>
+							<a
+								href="/quick-learn/content/roadmap/course"
+								class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white hover:underline"
+								>HTML Course</a>
+						</div>
+					</li>
 				</ol>
 			</nav>
 		</div>
 		<div class="px-4 mb-8 sm:flex sm:items-center sm:justify-center sm:px-6 lg:px-8">
 			<div class="items-baseline">
-				<h1 class="text-5xl font-extrabold leading-tight">Web Developement Roadmap</h1>
+				<h1 class="text-5xl font-extrabold leading-tight">HTML Course</h1>
 				<p
 					class="mt-1 ml-1 text-sm text-gray-500 truncate sm:flex sm:items-center sm:justify-center">
-					Aashish Dhawan created this roadmap on June 1, 2021
+					Aashish Dhawan created this course on June 1, 2021
 				</p>
 
 				<p
 					class="mt-1 ml-1 text-sm text-gray-500 truncate sm:flex sm:items-center sm:justify-center">
-					(20 Courses, 40 Lessons, 121 participants)
+					(40 Lessons, 121 participants)
 				</p>
 				<div class="sm:flex sm:items-center sm:justify-center mt-2">
 					<button
 						data-tooltip-target="tooltip-edit"
-						data-modal-target="editRoadmapModal"
-						data-modal-toggle="editRoadmapModal"
+						data-modal-target="editCourseModal"
+						data-modal-toggle="editCourseModal"
 						type="button"
 						class="text-black bg-gray-300 hover:bg-blue-800 hover:text-white
 						focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm
@@ -89,7 +110,7 @@
 						id="tooltip-edit"
 						role="tooltip"
 						class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-						Edit Roadmap
+						Edit Course
 						<div class="tooltip-arrow" data-popper-arrow></div>
 					</div>
 					<button
@@ -108,7 +129,7 @@
 							<path
 								stroke-linecap="round"
 								stroke-linejoin="round"
-								d="M8.25 9V5.25A2.25 2.25 0 0 1 10.5 3h6a2.25 2.25 0 0 1 2.25 2.25v13.5A2.25 2.25 0 0 1 16.5 21h-6a2.25 2.25 0 0 1-2.25-2.25V15M12 9l3 3m0 0-3 3m3-3H2.25" />
+								d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15m3 0 3-3m0 0-3-3m3 3H9" />
 						</svg>
 
 						<span class="sr-only">Icon description</span>
@@ -117,14 +138,13 @@
 						id="tooltip-move"
 						role="tooltip"
 						class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-						Add already existing courses to this roadmap
+						Move or add this course to another Roadmap
 						<div class="tooltip-arrow" data-popper-arrow></div>
 					</div>
-
 					<button
 						data-tooltip-target="tooltip-delete"
-						data-modal-target="delete-roadmap-modal"
-						data-modal-toggle="delete-roadmap-modal"
+						data-modal-target="delete-course-modal"
+						data-modal-toggle="delete-course-modal"
 						type="button"
 						class="text-black bg-gray-300 hover:bg-red-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
 						<svg
@@ -148,7 +168,7 @@
 						id="tooltip-delete"
 						role="tooltip"
 						class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-						Delete Roadmap
+						Delete Course
 						<div class="tooltip-arrow" data-popper-arrow></div>
 					</div>
 					<button
@@ -178,7 +198,7 @@
 						id="tooltip-settings"
 						role="tooltip"
 						class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
-						Roadmap Settings
+						Course Settings
 						<div class="tooltip-arrow" data-popper-arrow></div>
 					</div>
 				</div>
@@ -189,14 +209,11 @@
 			<div id="created-spaces">
 				<ul
 					role="list"
-					class="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 2xl:grid-cols-5 xl:gap-x-8">
+					class="grid grid-cols-2 gap-x-2 gap-y-4 sm:grid-cols-3 sm:gap-x-4 lg:grid-cols-6 2xl:grid-cols-8 xl:gap-x-6">
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group content-center"
 						id="space_8">
-						<div
-							class="cursor-pointer"
-							data-modal-target="defaultModal"
-							data-modal-toggle="defaultModal">
+						<a href="" class="cursor-pointer">
 							<div class="text-center content-center">
 								<svg
 									class="mx-auto h-12 w-12 text-indigo-400"
@@ -211,109 +228,152 @@
 										stroke-width="2"
 										d="M9 13h6m-3-3v6m-9 1V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
 								</svg>
-								<h3 class="mt-2 text-sm font-semibold text-gray-900">Create New Course</h3>
+								<h3 class="mt-2 text-sm font-semibold text-gray-900">Create New Lesson</h3>
 							</div>
-						</div>
+						</a>
 					</li>
+
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="/quick-learn/content/roadmap/course">
-							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
-								<h1
-									id="message-heading"
-									class="font-medium text-gray-900 line-clamp-2 group-hover:underline">
-									Git Baisc Course
+						<a href="/quick-learn/member/course">
+							<div class="flex-wrap py-4 px-6 text-gray-900 h-56">
+								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
+									First HTML Code
 								</h1>
-								<p class="font-normal text-sm text-gray-500 line-clamp-2 mt-2">
-									Learn Git basics in this course.
+								<p class="font-normal text-sm text-gray-500 line-clamp-3 mt-2">
+									Learn Git basics in this course. This shows first three lines of the content and
+									whatever lesson contains
 								</p>
-								<p class="font-normal text-xs text-gray-500 line-clamp-2 mt-4 pb-2">20 Lessons</p>
+								<p class="text-xs text-gray-500 line-clamp-2 mt-4">
+									Added by Aashish Dhawan on June 1, 2021
+								</p>
 							</div>
 						</a>
 					</li>
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="/quick-learn/content/roadmap/course">
-							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
-								<h1
-									id="message-heading"
-									class="font-medium text-gray-900 line-clamp-2 group-hover:underline">
-									HTML Course
+						<a href="/quick-learn/member/course">
+							<div class="flex-wrap py-4 px-6 text-gray-900 h-56">
+								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
+									First HTML Code
 								</h1>
-								<p class="font-normal text-sm text-gray-500 line-clamp-2 mt-2">
-									Learn HTML basics in this course.
+								<p class="font-normal text-sm text-gray-500 line-clamp-3 mt-2">
+									Learn Git basics in this course. This shows first three lines of the content and
+									whatever lesson contains
 								</p>
-								<p class="font-normal text-xs text-gray-500 line-clamp-2 mt-4 pb-2">20 Lessons</p>
+								<p class="text-xs text-gray-500 line-clamp-2 mt-4">
+									Added by Aashish Dhawan on June 1, 2021
+								</p>
 							</div>
 						</a>
 					</li>
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="/quick-learn/content/roadmap/course">
-							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
-								<h1
-									id="message-heading"
-									class="font-medium text-gray-900 line-clamp-2 group-hover:underline">
-									TailwindCSS Course
+						<a href="/quick-learn/member/course">
+							<div class="flex-wrap py-4 px-6 text-gray-900 h-56">
+								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
+									Exploring the document
 								</h1>
-								<p class="font-normal text-sm text-gray-500 line-clamp-2 mt-2">
-									Learn TailwindCSS basics in this course.
+								<p class="font-normal text-sm text-gray-500 line-clamp-3 mt-2">
+									Learn Git basics in this course. This shows first three lines of the content and
+									whatever lesson contains
 								</p>
-								<p class="font-normal text-xs text-gray-500 line-clamp-2 mt-4 pb-2">20 Lessons</p>
+								<p class="text-xs text-gray-500 line-clamp-2 mt-4">
+									Added by Aashish Dhawan on June 1, 2021
+								</p>
 							</div>
 						</a>
 					</li>
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="/quick-learn/content/roadmap/course">
-							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
-								<h1
-									id="message-heading"
-									class="font-medium text-gray-900 line-clamp-2 group-hover:underline">
-									Email Etiquette Course
+						<a href="/quick-learn/member/course">
+							<div class="flex-wrap py-4 px-6 text-gray-900 h-56">
+								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
+									Comments, White Space and line breaks
 								</h1>
-								<p class="font-normal text-sm text-gray-500 line-clamp-2 mt-2">
-									Learn etiquette basics in this course.
+								<p class="font-normal text-sm text-gray-500 line-clamp-3 mt-2">
+									Learn Git basics in this course. This shows first three lines of the content and
+									whatever lesson contains
 								</p>
-								<p class="font-normal text-xs text-gray-500 line-clamp-2 mt-4 pb-2">20 Lessons</p>
+								<p class="text-xs text-gray-500 line-clamp-2 mt-4">
+									Added by Aashish Dhawan on June 1, 2021
+								</p>
 							</div>
 						</a>
 					</li>
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="/quick-learn/content/roadmap/course">
-							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
-								<h1
-									id="message-heading"
-									class="font-medium text-gray-900 line-clamp-2 group-hover:underline">
-									Accelerate Book Course
+						<a href="/quick-learn/member/course">
+							<div class="flex-wrap py-4 px-6 text-gray-900 h-56">
+								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
+									The Rest of the HTML tags
 								</h1>
-								<p class="font-normal text-sm text-gray-500 line-clamp-2 mt-2">
-									Learn Accelerate book topics in this course.
+								<p class="font-normal text-sm text-gray-500 line-clamp-3 mt-2">
+									Learn Git basics in this course. This shows first three lines of the content and
+									whatever lesson contains
 								</p>
-								<p class="font-normal text-xs text-gray-500 line-clamp-2 mt-4 pb-2">20 Lessons</p>
+								<p class="text-xs text-gray-500 line-clamp-2 mt-4">
+									Added by Aashish Dhawan on June 1, 2021
+								</p>
 							</div>
 						</a>
 					</li>
 					<li
 						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
 						id="space_8">
-						<a href="/quick-learn/content/roadmap/course">
-							<div class="flex-wrap py-4 px-6 text-gray-900 h-40">
-								<h1
-									id="message-heading"
-									class="font-medium text-gray-900 line-clamp-2 group-hover:underline">
-									Hire Smart Book Course
+						<a href="/quick-learn/member/course">
+							<div class="flex-wrap py-4 px-6 text-gray-900 h-56">
+								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
+									Inserting Pictures and Styling
 								</h1>
-								<p class="font-normal text-sm text-gray-500 line-clamp-2 mt-2">
-									Learn Hiring Smart book topics in this course.
+								<p class="font-normal text-sm text-gray-500 line-clamp-3 mt-2">
+									Learn Git basics in this course. This shows first three lines of the content and
+									whatever lesson contains
 								</p>
-								<p class="font-normal text-xs text-gray-500 line-clamp-2 mt-4 pb-2">20 Lessons</p>
+								<p class="text-xs text-gray-500 line-clamp-2 mt-4">
+									Added by Aashish Dhawan on June 1, 2021
+								</p>
+							</div>
+						</a>
+					</li>
+					<li
+						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
+						id="space_8">
+						<a href="/quick-learn/member/course">
+							<div class="flex-wrap py-4 px-6 text-gray-900 h-56">
+								<h1 id="message-heading" class="font-medium text-gray-900">
+									Inserting Pictures and Styling
+								</h1>
+								<p class="font-normal text-sm text-gray-500 line-clamp-3 mt-2">
+									Learn Git basics in this course. This shows first three lines of the content and
+									whatever lesson contains
+								</p>
+								<p class="text-xs text-gray-500 line-clamp-2 mt-4">
+									Added by Aashish Dhawan on June 1, 2021
+								</p>
+							</div>
+						</a>
+					</li>
+					<li
+						class="col-span-1 rounded-lg bg-white shadow-sm hover:shadow-lg border-gray-100 group"
+						id="space_8">
+						<a href="/quick-learn/member/course">
+							<div class="flex-wrap py-4 px-6 text-gray-900 h-56">
+								<h1 id="message-heading" class="font-medium text-gray-900">
+									Inserting Pictures Via CSS
+								</h1>
+								<p class="font-normal text-sm text-gray-500 line-clamp-3 mt-2">
+									Learn Git basics in this course. This shows first three lines of the content and
+									whatever lesson contains
+								</p>
+								<p class="text-xs text-gray-500 line-clamp-2 mt-4">
+									Added by Aashish Dhawan on June 1, 2021
+								</p>
 							</div>
 						</a>
 					</li>
@@ -433,9 +493,9 @@
 	</div>
 </div>
 
-<!-- Edit Roadmap modal -->
+<!-- Edit Course modal -->
 <div
-	id="editRoadmapModal"
+	id="editCourseModal"
 	tabindex="-1"
 	aria-hidden="true"
 	class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-modal md:h-full">
@@ -445,11 +505,11 @@
 			<!-- Modal header -->
 			<div
 				class="flex justify-between items-center pb-4 mb-4 rounded-t border-b sm:mb-5 dark:border-gray-600">
-				<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Edit Roadmap</h3>
+				<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Edit Course</h3>
 				<button
 					type="button"
 					class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
-					data-modal-toggle="editRoadmapModal">
+					data-modal-toggle="editCourseModal">
 					<svg
 						aria-hidden="true"
 						class="w-5 h-5"
@@ -475,22 +535,22 @@
 							name="name"
 							id="name"
 							class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-							value="Web Development Roadmap"
+							value="HTML Course"
 							required="" />
 					</div>
 					<div class="sm:col-span-2">
 						<label
 							for="category"
 							class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Roadmap Category</label>
+							>Course Category</label>
 						<select
 							id="category"
 							class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
 							<option selected="TV">Select category</option>
-							<option value="TV">HR</option>
-							<option value="PC">Sales</option>
+							<option value="TV">Book</option>
+							<option value="PC">Recruitment Process</option>
 							<option value="GA">Engineering</option>
-							<option value="PH">Recruitment</option>
+							<option value="PH">Recruitment Processes</option>
 						</select>
 					</div>
 					<div class="sm:col-span-2">
@@ -502,16 +562,39 @@
 							id="description"
 							rows="4"
 							class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-							placeholder="Write roadmap description here"></textarea>
+							placeholder="Write course description here"></textarea>
+					</div>
+					<div class="mb-4 space-y-4 sm:flex sm:space-y-0">
+						<div class="flex">
+							<div class="flex items-center h-5">
+								<input
+									id="helper-checkbox"
+									aria-describedby="helper-checkbox-text"
+									type="checkbox"
+									value=""
+									class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+							</div>
+							<div class="ms-2 text-sm">
+								<label for="helper-checkbox" class="font-medium text-gray-900 dark:text-gray-300"
+									>Make this course public and available for community.</label>
+								<p
+									id="helper-checkbox-text"
+									class="text-xs font-normal text-gray-400 dark:text-gray-300">
+									If checked, this will make this course available to all organizations and their
+									users. If unchecked, only your organization users will be able to access this
+									course. Please do this carefully and never make any confidential course public.
+								</p>
+							</div>
+						</div>
 					</div>
 				</div>
 				<button
 					type="submit"
 					class="text-white inline-flex items-center bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
-					Edit Roadmap
+					Edit Course
 				</button>
 				<button
-					data-modal-toggle="editRoadmapModal"
+					data-modal-toggle="editCourseModal"
 					class="py-2.5 px-5 ml-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
 					Cancel
 				</button>
@@ -520,9 +603,9 @@
 	</div>
 </div>
 
-<!-- Delete Roadmap modal -->
+<!-- Delete Course modal -->
 <div
-	id="delete-roadmap-modal"
+	id="delete-course-modal"
 	tabindex="-1"
 	class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
 	<div class="relative p-4 w-full max-w-md max-h-full">
@@ -530,7 +613,7 @@
 			<button
 				type="button"
 				class="absolute top-3 end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
-				data-modal-hide="delete-roadmap-modal">
+				data-modal-hide="delete-course-modal">
 				<svg
 					class="w-3 h-3"
 					aria-hidden="true"
@@ -561,21 +644,21 @@
 						d="M10 11V6m0 8h.01M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
 				</svg>
 				<h3 class="text-lg font-bold text-gray-700 dark:text-gray-400">
-					Are you sure you want to delete this roadmap?
+					Are you sure you want to delete this course?
 				</h3>
 				<p class="mb-5 font-xs text-gray-500">
-					When this roadmaps is deleted, all courses and lessons under this are deleted.
-					Additionally, other users can not see this roadmaps and its courses even if it was
-					assigned to them.
+					When this course is deleted, all lessons under this are deleted. Additionally, other users
+					can not see this course and its lessons even if it was assigned to them. Their progress
+					will be lost also.
 				</p>
 				<button
-					data-modal-hide="delete-roadmap-modal"
+					data-modal-hide="delete-course-modal"
 					type="button"
 					class="text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center">
 					Yes, I'm sure
 				</button>
 				<button
-					data-modal-hide="delete-roadmap-modal"
+					data-modal-hide="delete-course-modal"
 					type="button"
 					class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
 					>No, cancel</button>
@@ -584,7 +667,7 @@
 	</div>
 </div>
 
-<!-- Move Courses modal -->
+<!-- add/move to another roadmap modal -->
 <form
 	action="#"
 	method="get"
@@ -597,7 +680,9 @@
 		<div class="relative bg-white rounded-lg shadow dark:bg-gray-800">
 			<!-- Modal header -->
 			<div class="flex items-start justify-between p-4 rounded-t">
-				<h3 class="text-xl font-semibold text-gray-900 dark:text-gray-400">Add existing Courses</h3>
+				<h3 class="text-xl font-semibold text-gray-900 dark:text-gray-400">
+					Add or Move this course to another Roadmap
+				</h3>
 				<button
 					type="button"
 					class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
@@ -633,7 +718,7 @@
 								role="tab"
 								aria-controls="profile"
 								aria-selected="false">
-								Select Courses
+								Select Roadmaps
 							</button>
 						</li>
 					</ul>
@@ -645,7 +730,7 @@
 						role="tabpanel"
 						aria-labelledby="brand-tab">
 						<div class="space-y-2">
-							<h5 class="text-lg font-medium text-black dark:text-white">Book</h5>
+							<h5 class="text-lg font-medium text-black dark:text-white">Engineering</h5>
 
 							<div class="flex items-center">
 								<input
@@ -657,7 +742,7 @@
 								<label
 									for="apple"
 									class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-									Accelerate
+									Web Development Roadmap
 								</label>
 							</div>
 
@@ -670,7 +755,7 @@
 									class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
 
 								<label for="asus" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-									Hire Smart From Start
+									Backend Development Roadmap
 								</label>
 							</div>
 
@@ -682,7 +767,7 @@
 									class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
 
 								<label for="acer" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-									Song of Ice and Fire
+									Frontend Development Roadmap
 								</label>
 							</div>
 
@@ -696,13 +781,13 @@
 								<label
 									for="allview"
 									class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-									High Output Management
+									Learning Clean Code Roadmap
 								</label>
 							</div>
 						</div>
 
 						<div class="space-y-2">
-							<h5 class="text-lg font-medium text-black dark:text-white">Engineering</h5>
+							<h5 class="text-lg font-medium text-black dark:text-white">HR</h5>
 
 							<div class="flex items-center">
 								<input
@@ -714,7 +799,7 @@
 								<label
 									for="beats"
 									class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-									Production Deployment Course
+									HR Learning Roadmap
 								</label>
 							</div>
 
@@ -727,7 +812,7 @@
 									class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
 
 								<label for="bose" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-									Clear Coding Course
+									Recruitment Learning Roadmap
 								</label>
 							</div>
 
@@ -739,7 +824,7 @@
 									class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
 
 								<label for="benq" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-									Github Etiquette Course
+									Team Leadership Roadmap
 								</label>
 							</div>
 
@@ -753,7 +838,7 @@
 								<label
 									for="bosch"
 									class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-									Onboarding Course
+									Onboarding Learning Roadmap
 								</label>
 							</div>
 						</div>
@@ -771,7 +856,7 @@
 								<label
 									for="canon"
 									class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-									Cold Calling Course
+									Cold Calling Roadmap
 								</label>
 							</div>
 
@@ -786,7 +871,7 @@
 								<label
 									for="cisco"
 									class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-									Account Nurturing Course
+									Account Nurturing Roadmap
 								</label>
 							</div>
 
@@ -800,7 +885,7 @@
 								<label
 									for="cowon"
 									class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-									Email Marketing Course
+									Email Marketing Roadmap
 								</label>
 							</div>
 
@@ -814,7 +899,181 @@
 								<label
 									for="clevo"
 									class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-									Other Sales Course
+									Other Roadmap
+								</label>
+							</div>
+						</div>
+						<div class="space-y-2 mt-4">
+							<h5 class="text-lg font-medium text-black dark:text-white">Engineering</h5>
+
+							<div class="flex items-center">
+								<input
+									id="apple"
+									type="checkbox"
+									value=""
+									class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+
+								<label
+									for="apple"
+									class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+									Web Development Roadmap
+								</label>
+							</div>
+
+							<div class="flex items-center">
+								<input
+									id="asus"
+									type="checkbox"
+									value=""
+									checked
+									class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+
+								<label for="asus" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+									Backend Development Roadmap
+								</label>
+							</div>
+
+							<div class="flex items-center">
+								<input
+									id="acer"
+									type="checkbox"
+									value=""
+									class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+
+								<label for="acer" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+									Frontend Development Roadmap
+								</label>
+							</div>
+
+							<div class="flex items-center">
+								<input
+									id="allview"
+									type="checkbox"
+									value=""
+									class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+
+								<label
+									for="allview"
+									class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+									Learning Clean Code Roadmap
+								</label>
+							</div>
+						</div>
+
+						<div class="space-y-2 mt-4">
+							<h5 class="text-lg font-medium text-black dark:text-white">HR</h5>
+
+							<div class="flex items-center">
+								<input
+									id="beats"
+									type="checkbox"
+									value=""
+									class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+
+								<label
+									for="beats"
+									class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+									HR Learning Roadmap
+								</label>
+							</div>
+
+							<div class="flex items-center">
+								<input
+									id="bose"
+									type="checkbox"
+									value=""
+									checked
+									class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+
+								<label for="bose" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+									Recruitment Learning Roadmap
+								</label>
+							</div>
+
+							<div class="flex items-center">
+								<input
+									id="benq"
+									type="checkbox"
+									value=""
+									class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+
+								<label for="benq" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+									Team Leadership Roadmap
+								</label>
+							</div>
+
+							<div class="flex items-center">
+								<input
+									id="bosch"
+									type="checkbox"
+									value=""
+									class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+
+								<label
+									for="bosch"
+									class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+									Onboarding Learning Roadmap
+								</label>
+							</div>
+						</div>
+
+						<div class="space-y-2 mt-4">
+							<h5 class="text-lg font-medium text-black dark:text-white">Sales</h5>
+
+							<div class="flex items-center">
+								<input
+									id="canon"
+									type="checkbox"
+									value=""
+									class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+
+								<label
+									for="canon"
+									class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+									Cold Calling Roadmap
+								</label>
+							</div>
+
+							<div class="flex items-center">
+								<input
+									id="cisco"
+									type="checkbox"
+									value=""
+									checked
+									class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+
+								<label
+									for="cisco"
+									class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+									Account Nurturing Roadmap
+								</label>
+							</div>
+
+							<div class="flex items-center">
+								<input
+									id="cowon"
+									type="checkbox"
+									value=""
+									class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+
+								<label
+									for="cowon"
+									class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+									Email Marketing Roadmap
+								</label>
+							</div>
+
+							<div class="flex items-center">
+								<input
+									id="clevo"
+									type="checkbox"
+									value=""
+									class="w-4 h-4 bg-gray-100 border-gray-300 rounded text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+
+								<label
+									for="clevo"
+									class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+									Other Roadmap
 								</label>
 							</div>
 						</div>

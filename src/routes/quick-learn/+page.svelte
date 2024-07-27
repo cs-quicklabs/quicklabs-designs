@@ -43,7 +43,8 @@
 	];
 	let contentRepository = [
 		{ title: 'Content', link: '/quick-learn/content' },
-		{ title: 'Content Roadmap', link: '/quick-learn/content/roadmap' }
+		{ title: 'Content Roadmap', link: '/quick-learn/content/roadmap' },
+		{ title: 'Content Course', link: '/quick-learn/content/roadmap/course' }
 	];
 
 	let workflows2 = [
