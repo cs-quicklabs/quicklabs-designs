@@ -41,15 +41,33 @@
 		{ title: 'Roadmap Detail', link: '/quick-learn/member/roadmap' },
 		{ title: 'Course Detail', link: '/quick-learn/member/course' }
 	];
+
 	let contentRepository = [
 		{ title: 'Content', link: '/quick-learn/content' },
 		{ title: 'Content Roadmap', link: '/quick-learn/content/roadmap' },
 		{ title: 'Content Course', link: '/quick-learn/content/roadmap/course' }
 	];
 
+	let archive = [
+		{ title: 'Archived Roadmaps', link: '/quick-learn/archive/roadmaps' },
+		{ title: 'Archived Courses', link: '/quick-learn/archive/courses' },
+		{ title: 'Archived Lessons', link: '/quick-learn/archive/lessons' },
+		{ title: 'Archived Users', link: '/quick-learn/archive/users' }
+	];
+
+	let lesssons = [
+		{ title: 'From Email', link: '/quick-learn/content/lesson/email' },
+		{ title: 'From My Learing Path', link: '/quick-learn/content/lesson/mine' },
+		{ title: 'Viewing Others Profile', link: '/quick-learn/content/lesson/other' },
+		{ title: 'Editor View', link: '/quick-learn/content/lesson/editor' },
+		{ title: 'Edit Lesson', link: '/quick-learn/content/lesson/edit' }
+	];
+
 	let workflows2 = [
 		{ title: 'Member', screens: memberScreens },
-		{ title: 'Content Repository', screens: contentRepository }
+		{ title: 'Content Repository', screens: contentRepository },
+		{ title: 'Lesson', screens: lesssons },
+		{ title: 'Archive', screens: archive }
 	];
 </script>
 
