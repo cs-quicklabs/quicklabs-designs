@@ -1,5 +1,5 @@
 <main>
-	<div class="bg-gray-50 relative z-0 flex-1 overflow-x-scroll focus:outline-none h-screen">
+	<div class="bg-white relative z-0 flex-1 overflow-x-scroll focus:outline-none h-screen">
 		<div class="px-4 pt-16 sm:flex sm:items-center sm:justify-center sm:px-6 lg:px-8">
 			<nav class="flex" aria-label="Breadcrumb">
 				<ol class="inline-flex justify-self-center space-x-1 md:space-x-2 rtl:space-x-reverse">
@@ -43,33 +43,13 @@
 				</ol>
 			</nav>
 		</div>
-		<div class="px-4 mb-8 sm:flex sm:items-center sm:justify-center sm:px-6 lg:px-8">
-			<div class="items-baseline">
-				<h1 class="text-5xl font-extrabold leading-tight">Cherry-Pick Command and its usage</h1>
-				<p
-					class="mt-1 ml-1 text-sm text-gray-500 truncate sm:flex sm:items-center sm:justify-center">
-					Aashish Dhawan added this lesson on June 12, 2024
-				</p>
-			</div>
-		</div>
+
 		<article
 			class="flex justify-center mx-auto w-full max-w-5xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
 			<img
-				src="/SCR-20240728-ouda-2.png"
+				src="/SCR-20240728-qbav.png"
 				alt="Cherry-Pick Command and its usage"
-				class="max-w-5xl object-cover shadow shadow-md" />
+				class="max-w-5xl object-cover" />
 		</article>
-
-		<div class="flex items-center p-16 mb-16 w-full max-w-5xl justify-center mx-auto">
-			<input
-				id="default-checkbox"
-				type="checkbox"
-				value=""
-				class="w-8 h-8 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-			<label
-				for="default-checkbox"
-				class="ms-4 text-2xl ml-4 font-semibold text-gray-900 dark:text-gray-300"
-				>Mark as Read</label>
-		</div>
 	</div>
 </main>
