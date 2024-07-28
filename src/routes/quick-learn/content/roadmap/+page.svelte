@@ -625,16 +625,9 @@
 						data-tabs-toggle="#myTabContent"
 						role="tablist">
 						<li class="mr-1" role="presentation">
-							<button
-								class="inline-block pb-2 pr-1"
-								id="brand-tab"
-								data-tabs-target="#brand"
-								type="button"
-								role="tab"
-								aria-controls="profile"
-								aria-selected="false">
+							<span class="inline-block pb-2 pr-1 text-gray-700" id="brand-tab">
 								Select Courses
-							</button>
+							</span>
 						</li>
 					</ul>
 				</div>
