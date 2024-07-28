@@ -13,8 +13,8 @@
 			<div class="overflow-hidden bg-white">
 				<div class="pb-4 ml-4">
 					<div>
-						<h1 class="text-lg leading-6 font-medium text-gray-900">Archived Users</h1>
-						<p class="mt-1 text-sm text-gray-500">Following users have been deactivated.</p>
+						<h1 class="text-lg leading-6 font-medium text-gray-900">Archived Lessons</h1>
+						<p class="mt-1 text-sm text-gray-500">Following lessons have been archived.</p>
 					</div>
 				</div>
 				<div class=" flex space-x-4 ml-4">
@@ -74,8 +74,8 @@
 														href="/quick-learn/team/1"
 														class="truncate hover:text-gray-600 hover:underline">
 														<div class="flex text-sm font-medium text-gray-600 truncate">
-															<p>Rohit Sharma</p>
-															<p class="ml-1 font-normal text-gray-500">Quality Analyst</p>
+															<p>Git Cherry Pick Command</p>
+															<p class="ml-1 font-normal text-gray-500"></p>
 														</div>
 													</a>
 													<div class="flex-1 w-full mt-2">
@@ -104,7 +104,7 @@
 												class="btn-inline-delete"
 												data-modal-target="popup-modal-activate"
 												data-modal-toggle="popup-modal-activate"
-												href="/1/employees/426">Activate</button>
+												href="/1/employees/426">Restore</button>
 											<button
 												class="btn-inline-delete ml-2"
 												data-modal-target="popup-modal"
@@ -121,8 +121,8 @@
 														href="/quick-learn/team/1"
 														class="truncate hover:text-gray-600 hover:underline">
 														<div class="flex text-sm font-medium text-gray-600 truncate">
-															<p>Rishabh Sharma</p>
-															<p class="ml-1 font-normal text-gray-500">Quality Analyst</p>
+															<p>SOLID Principles</p>
+															<p class="ml-1 font-normal text-gray-500"></p>
 														</div>
 													</a>
 													<div class="flex-1 w-full mt-2">
@@ -208,11 +208,11 @@
 						d="M10 11V6m0 8h.01M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
 				</svg>
 				<h3 class="text-lg font-bold text-gray-700 dark:text-gray-400">
-					Are you sure you want to delete this user?
+					Are you sure you want to delete this lesson?
 				</h3>
 				<p class="mb-5 font-xs text-gray-500">
-					All the information regarding this user will be lost. If this user has created some
-					content, it will be assigned to the super admin.
+					When this lesson is deleted, no one can a access it and all the information related to it
+					is also lost.
 				</p>
 				<button
 					data-modal-hide="popup-modal"
@@ -271,11 +271,10 @@
 						d="M10 11V6m0 8h.01M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
 				</svg>
 				<h3 class="text-lg font-bold text-gray-700 dark:text-gray-400">
-					Are you sure you want to activate this user?
+					Are you sure you want to restore this lesson?
 				</h3>
 				<p class="mb-5 font-xs text-gray-500">
-					Once this user is activated, they will be able to access the system and perform actions
-					based on their roles and permissions.
+					Once this lesson is restored, users will be able to access it.
 				</p>
 				<button
 					data-modal-hide="popup-modal-activate"
