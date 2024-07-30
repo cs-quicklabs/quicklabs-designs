@@ -442,15 +442,6 @@
 	</div>
 </div>
 
-<div class="m-5 flex justify-center">
-	<button
-		id="orderTrackingButton"
-		data-modal-target="orderTrackingModal"
-		data-modal-toggle="orderTrackingModal"
-		class="block rounded-lg bg-primary-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-		type="button">Show refund tracking modal</button>
-</div>
-
 <div
 	id="user-activities-modal"
 	tabindex="-1"
