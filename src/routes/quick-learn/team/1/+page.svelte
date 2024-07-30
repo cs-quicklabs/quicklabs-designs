@@ -62,6 +62,36 @@
 					(10 Roadmaps, 20 Courses)
 				</p>
 				<div class="sm:flex sm:items-center sm:justify-center mt-2">
+					<a
+						href="/quick-learn/team/edit"
+						data-tooltip-target="tooltip-edit"
+						type="button"
+						class="text-black bg-gray-300 hover:bg-blue-800 hover:text-white
+						focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm
+						p-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700
+						dark:focus:ring-blue-800">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="size-4">
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125" />
+						</svg>
+
+						<span class="sr-only">Icon description</span>
+					</a>
+					<div
+						id="tooltip-edit"
+						role="tooltip"
+						class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+						Edit User
+						<div class="tooltip-arrow" data-popper-arrow></div>
+					</div>
 					<button
 						data-tooltip-target="tooltip-archive"
 						data-modal-target="archive-user-modal"
