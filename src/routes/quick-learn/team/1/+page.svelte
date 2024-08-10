@@ -894,6 +894,7 @@
 	</div>
 </form>
 
+<!-- Activities Modal -->
 <div
 	id="user-activities-modal"
 	tabindex="-1"
@@ -903,8 +904,7 @@
 		<!-- Modal content -->
 		<div class="relative rounded-lg bg-white p-4 shadow dark:bg-gray-800 sm:p-5">
 			<!-- Modal header -->
-			<div
-				class="mb-4 flex items-center justify-between rounded-t border-b pb-4 dark:border-gray-700 sm:mb-5">
+			<div class="mb-4 flex items-center justify-between rounded-t dark:border-gray-700 sm:mb-5">
 				<h3 class="text-lg font-semibold text-gray-900 dark:text-white">
 					Aashish Dhawan's Activities
 				</h3>
@@ -927,149 +927,240 @@
 				</button>
 			</div>
 			<!-- Modal body -->
-			<div class="grid md:grid-cols-2 gap-5 md:gap-8">
-				<ol class="relative ms-3 border-s border-dashed border-gray-200 dark:border-gray-700">
-					<li class="mb-6 ms-6">
-						<span
-							class="absolute -start-4 flex h-8 w-8 items-center justify-center rounded-full bg-white ring-4 ring-white dark:bg-gray-800 dark:ring-gray-800">
-							<svg
-								class="h-5 w-5 text-green-500"
-								aria-hidden="true"
-								xmlns="http://www.w3.org/2000/svg"
-								width="24"
-								height="24"
-								fill="none"
-								viewBox="0 0 24 24">
-								<path
-									stroke="currentColor"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M10 3v4a1 1 0 0 1-1 1H5m4 6 2 2 4-4m4-8v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1Z" />
-							</svg>
-						</span>
-						<h3
-							class="mb-0.5 flex items-center pt-1 text-base font-semibold text-gray-900 dark:text-white">
-							Git Cherry Pick command and its usage
-						</h3>
-						<time class="mb-2 block text-gray-500 dark:text-gray-400 text-xs">
-							Marked completed on September 12, 2024 at 12:07 AM
-						</time>
-					</li>
+			<div>
+				<div class="mb-4 border-b border-gray-200 dark:border-gray-700">
+					<ul
+						class="flex flex-wrap -mb-px text-sm font-medium text-center"
+						id="myTab"
+						data-tabs-toggle="#myTabContent"
+						role="tablist">
+						<li class="mr-1" role="presentation">
+							<button
+								class="inline-block px-2 pb-2 hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+								id="brand-tab"
+								data-tabs-target="#brandi"
+								type="button"
+								role="tab"
+								aria-controls="brandi"
+								aria-selected="false">
+								Activities
+							</button>
+						</li>
+						<li class="mr-1" role="presentation">
+							<button
+								class="inline-block px-2 pb-2 hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+								id="advanced-filers-tab"
+								data-tabs-target="#advanced-filters"
+								type="button"
+								role="tab"
+								aria-controls="advanced-filters"
+								aria-selected="false">
+								Events
+							</button>
+						</li>
+					</ul>
+				</div>
+				<div id="myTabContent">
+					<div
+						id="brandi"
+						class="grid md:grid-cols-2 gap-5 md:gap-8"
+						role="tabpanel"
+						aria-labelledby="brand-tab">
+						<div>
+							<ol class="relative ms-3 border-s border-dashed border-gray-200 dark:border-gray-700">
+								<li class="mb-6 ms-6">
+									<span
+										class="absolute -start-4 flex h-8 w-8 items-center justify-center rounded-full bg-white ring-4 ring-white dark:bg-gray-800 dark:ring-gray-800">
+										<svg
+											class="h-5 w-5 text-green-500"
+											aria-hidden="true"
+											xmlns="http://www.w3.org/2000/svg"
+											width="24"
+											height="24"
+											fill="none"
+											viewBox="0 0 24 24">
+											<path
+												stroke="currentColor"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M10 3v4a1 1 0 0 1-1 1H5m4 6 2 2 4-4m4-8v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1Z" />
+										</svg>
+									</span>
+									<h3
+										class="mb-0.5 flex items-center pt-1 text-base font-semibold text-gray-900 dark:text-white">
+										Git Cherry Pick command and its usage
+									</h3>
+									<time class="mb-2 block text-gray-500 dark:text-gray-400 text-xs">
+										Marked completed on September 12, 2024 at 12:07 AM
+									</time>
+								</li>
 
-					<li class="mb-6 ms-6">
-						<span
-							class="absolute -start-4 flex h-8 w-8 items-center justify-center rounded-full bg-white ring-4 ring-white dark:bg-gray-800 dark:ring-gray-800">
-							<svg
-								class="h-5 w-5 text-green-500"
-								aria-hidden="true"
-								xmlns="http://www.w3.org/2000/svg"
-								width="24"
-								height="24"
-								fill="none"
-								viewBox="0 0 24 24">
-								<path
-									stroke="currentColor"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M10 3v4a1 1 0 0 1-1 1H5m4 6 2 2 4-4m4-8v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1Z" />
-							</svg>
-						</span>
+								<li class="mb-6 ms-6">
+									<span
+										class="absolute -start-4 flex h-8 w-8 items-center justify-center rounded-full bg-white ring-4 ring-white dark:bg-gray-800 dark:ring-gray-800">
+										<svg
+											class="h-5 w-5 text-green-500"
+											aria-hidden="true"
+											xmlns="http://www.w3.org/2000/svg"
+											width="24"
+											height="24"
+											fill="none"
+											viewBox="0 0 24 24">
+											<path
+												stroke="currentColor"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M10 3v4a1 1 0 0 1-1 1H5m4 6 2 2 4-4m4-8v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1Z" />
+										</svg>
+									</span>
 
-						<h3
-							class="mb-0.5 flex items-center pt-1 text-base font-semibold text-gray-900 dark:text-white">
-							Git Installation and its usage
-						</h3>
-						<time class="mb-2 block text-gray-500 dark:text-gray-400 text-xs">
-							Marked completed on September 11, 2024 at 09:07 AM
-						</time>
-					</li>
-					<li class="mb-6 ms-6">
-						<span
-							class="absolute -start-4 flex h-8 w-8 items-center justify-center rounded-full bg-white ring-4 ring-white dark:bg-gray-800 dark:ring-gray-800">
-							<svg
-								class="h-5 w-5 text-gray-500 dark:text-gray-400"
-								aria-hidden="true"
-								xmlns="http://www.w3.org/2000/svg"
-								width="24"
-								height="24"
-								fill="none"
-								viewBox="0 0 24 24">
-								<path
-									stroke="currentColor"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M13 7h6l2 4m-8-4v8m0-8V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v9h2m8 0H9m4 0h2m4 0h2v-4m0 0h-5m3.5 5.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm-10 0a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z" />
-							</svg>
-						</span>
-						<h3
-							class="mb-0.5 flex items-center pt-1 text-base font-semibold text-gray-900 dark:text-white">
-							Git Stash and Squash Commands
-						</h3>
-						<time class="mb-2 block text-gray-500 dark:text-gray-400 text-xs">
-							Missed on September 12, 2024 at 12:07 AM
-						</time>
-					</li>
+									<h3
+										class="mb-0.5 flex items-center pt-1 text-base font-semibold text-gray-900 dark:text-white">
+										Git Installation and its usage
+									</h3>
+									<time class="mb-2 block text-gray-500 dark:text-gray-400 text-xs">
+										Marked completed on September 11, 2024 at 09:07 AM
+									</time>
+								</li>
+								<li class="mb-6 ms-6">
+									<span
+										class="absolute -start-4 flex h-8 w-8 items-center justify-center rounded-full bg-white ring-4 ring-white dark:bg-gray-800 dark:ring-gray-800">
+										<svg
+											class="h-5 w-5 text-gray-500 dark:text-gray-400"
+											aria-hidden="true"
+											xmlns="http://www.w3.org/2000/svg"
+											width="24"
+											height="24"
+											fill="none"
+											viewBox="0 0 24 24">
+											<path
+												stroke="currentColor"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M13 7h6l2 4m-8-4v8m0-8V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v9h2m8 0H9m4 0h2m4 0h2v-4m0 0h-5m3.5 5.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Zm-10 0a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z" />
+										</svg>
+									</span>
+									<h3
+										class="mb-0.5 flex items-center pt-1 text-base font-semibold text-gray-900 dark:text-white">
+										Git Stash and Squash Commands
+									</h3>
+									<time class="mb-2 block text-gray-500 dark:text-gray-400 text-xs">
+										Missed on September 12, 2024 at 12:07 AM
+									</time>
+								</li>
 
-					<li class="mb-6 ms-6">
-						<span
-							class="absolute -start-4 flex h-8 w-8 items-center justify-center rounded-full bg-white ring-4 ring-white dark:bg-gray-800 dark:ring-gray-800">
-							<svg
-								class="h-5 w-5 text-green-500"
-								aria-hidden="true"
-								xmlns="http://www.w3.org/2000/svg"
-								width="24"
-								height="24"
-								fill="none"
-								viewBox="0 0 24 24">
-								<path
-									stroke="currentColor"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M10 3v4a1 1 0 0 1-1 1H5m4 6 2 2 4-4m4-8v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1Z" />
-							</svg>
-						</span>
-						<h3
-							class="mb-0.5 flex items-center pt-1 text-base font-semibold text-gray-900 dark:text-white">
-							Git Cherry Pick command and its usage
-						</h3>
-						<time class="mb-2 block text-gray-500 dark:text-gray-400 text-xs">
-							Marked completed on September 12, 2024 at 12:07 AM
-						</time>
-					</li>
+								<li class="mb-6 ms-6">
+									<span
+										class="absolute -start-4 flex h-8 w-8 items-center justify-center rounded-full bg-white ring-4 ring-white dark:bg-gray-800 dark:ring-gray-800">
+										<svg
+											class="h-5 w-5 text-green-500"
+											aria-hidden="true"
+											xmlns="http://www.w3.org/2000/svg"
+											width="24"
+											height="24"
+											fill="none"
+											viewBox="0 0 24 24">
+											<path
+												stroke="currentColor"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M10 3v4a1 1 0 0 1-1 1H5m4 6 2 2 4-4m4-8v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1Z" />
+										</svg>
+									</span>
+									<h3
+										class="mb-0.5 flex items-center pt-1 text-base font-semibold text-gray-900 dark:text-white">
+										Git Cherry Pick command and its usage
+									</h3>
+									<time class="mb-2 block text-gray-500 dark:text-gray-400 text-xs">
+										Marked completed on September 12, 2024 at 12:07 AM
+									</time>
+								</li>
 
-					<li class="ms-6">
-						<span
-							class="absolute -start-4 flex h-8 w-8 items-center justify-center rounded-full bg-white ring-4 ring-white dark:bg-gray-800 dark:ring-gray-800">
-							<svg
-								class="h-5 w-5 text-green-500"
-								aria-hidden="true"
-								xmlns="http://www.w3.org/2000/svg"
-								width="24"
-								height="24"
-								fill="none"
-								viewBox="0 0 24 24">
-								<path
-									stroke="currentColor"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M10 3v4a1 1 0 0 1-1 1H5m4 6 2 2 4-4m4-8v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1Z" />
-							</svg>
-						</span>
+								<li class="ms-6">
+									<span
+										class="absolute -start-4 flex h-8 w-8 items-center justify-center rounded-full bg-white ring-4 ring-white dark:bg-gray-800 dark:ring-gray-800">
+										<svg
+											class="h-5 w-5 text-green-500"
+											aria-hidden="true"
+											xmlns="http://www.w3.org/2000/svg"
+											width="24"
+											height="24"
+											fill="none"
+											viewBox="0 0 24 24">
+											<path
+												stroke="currentColor"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M10 3v4a1 1 0 0 1-1 1H5m4 6 2 2 4-4m4-8v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1Z" />
+										</svg>
+									</span>
 
-						<h3
-							class="mb-0.5 flex items-center pt-1 text-base font-semibold text-gray-900 dark:text-white">
-							Git Installation and its usage
-						</h3>
-						<time class="mb-2 block text-gray-500 dark:text-gray-400 text-xs">
-							Marked completed on September 11, 2024 at 09:07 AM
-						</time>
-					</li>
-				</ol>
+									<h3
+										class="mb-0.5 flex items-center pt-1 text-base font-semibold text-gray-900 dark:text-white">
+										Git Installation and its usage
+									</h3>
+									<time class="mb-2 block text-gray-500 dark:text-gray-400 text-xs">
+										Marked completed on September 11, 2024 at 09:07 AM
+									</time>
+								</li>
+							</ol>
+						</div>
+					</div>
+					<div
+						class="space-y-4 hidden"
+						id="advanced-filters"
+						role="tabpanel"
+						aria-labelledby="advanced-filters-tab">
+						<div class="">
+							<div class="gap-3">
+								<ol class="relative border-s border-gray-200 dark:border-gray-700">
+									<li class="">
+										<div
+											class="items-center justify-between p-4 sm:flex dark:bg-gray-700 dark:border-gray-600">
+											<time class="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0"
+												>1 day ago</time>
+											<div class="text-sm font-normal text-gray-500 lex dark:text-gray-300">
+												Aashish Dhawan archived team member <span
+													class="font-semibold text-gray-900 dark:text-white">Sanju Pal</span>
+											</div>
+										</div>
+									</li>
+									<li class="">
+										<div
+											class="items-center justify-between p-4 sm:flex dark:bg-gray-700 dark:border-gray-600">
+											<time class="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0"
+												>1 day ago</time>
+											<div class="text-sm font-normal text-gray-500 lex dark:text-gray-300">
+												Aashish Dhawan assigned roadmap <a
+													href="#"
+													class="font-semibold text-blue-600 dark:text-blue-500 hover:underline"
+													>Backend Development Roadmap</a>
+												to
+												<span class="font-semibold text-gray-900 dark:text-white">Sanju Pal</span>
+											</div>
+										</div>
+									</li>
+									<li class="">
+										<div
+											class="items-center justify-between p-4 sm:flex dark:bg-gray-700 dark:border-gray-600">
+											<time class="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0"
+												>1 day ago</time>
+											<div class="text-sm font-normal text-gray-500 lex dark:text-gray-300">
+												Aashish Dhawan added new team member <span
+													class="font-semibold text-gray-900 dark:text-white">Sanju Pal</span>
+											</div>
+										</div>
+									</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
