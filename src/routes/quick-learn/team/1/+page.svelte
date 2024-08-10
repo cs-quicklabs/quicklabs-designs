@@ -958,6 +958,18 @@
 								Events
 							</button>
 						</li>
+						<li class="mr-1" role="presentation">
+							<button
+								class="inline-block px-2 pb-2 hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+								id="consistency-tab"
+								data-tabs-target="#consistency"
+								type="button"
+								role="tab"
+								aria-controls="consistency"
+								aria-selected="false">
+								Consistency
+							</button>
+						</li>
 					</ul>
 				</div>
 				<div id="myTabContent">
@@ -1118,10 +1130,10 @@
 						aria-labelledby="advanced-filters-tab">
 						<div class="">
 							<div class="gap-3">
-								<ol class="relative border-s border-gray-200 dark:border-gray-700">
+								<ol class="relative border-gray-200 dark:border-gray-700">
 									<li class="">
 										<div
-											class="items-center justify-between p-4 sm:flex dark:bg-gray-700 dark:border-gray-600">
+											class="items-center justify-between p-2 sm:flex dark:bg-gray-700 dark:border-gray-600">
 											<time class="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0"
 												>1 day ago</time>
 											<div class="text-sm font-normal text-gray-500 lex dark:text-gray-300">
@@ -1132,7 +1144,7 @@
 									</li>
 									<li class="">
 										<div
-											class="items-center justify-between p-4 sm:flex dark:bg-gray-700 dark:border-gray-600">
+											class="items-center justify-between p-2 sm:flex dark:bg-gray-700 dark:border-gray-600">
 											<time class="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0"
 												>1 day ago</time>
 											<div class="text-sm font-normal text-gray-500 lex dark:text-gray-300">
@@ -1147,7 +1159,7 @@
 									</li>
 									<li class="">
 										<div
-											class="items-center justify-between p-4 sm:flex dark:bg-gray-700 dark:border-gray-600">
+											class="items-center justify-between p-2 sm:flex dark:bg-gray-700 dark:border-gray-600">
 											<time class="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0"
 												>1 day ago</time>
 											<div class="text-sm font-normal text-gray-500 lex dark:text-gray-300">
@@ -1158,6 +1170,15 @@
 									</li>
 								</ol>
 							</div>
+						</div>
+					</div>
+					<div
+						id="consistency"
+						class="grid md:grid-cols-1 gap-5 md:gap-8 hidden"
+						role="tabpanel"
+						aria-labelledby="consistency-tab">
+						<div>
+							<img src="/SCR-20240810-tavs.png" alt="team" class="rounded-lg" />
 						</div>
 					</div>
 				</div>
