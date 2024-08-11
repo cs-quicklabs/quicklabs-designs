@@ -61,7 +61,9 @@
 		{ title: 'Viewing Others Profile', link: '/quick-learn/content/lesson/other' },
 		{ title: 'Editor View', link: '/quick-learn/content/lesson/editor' },
 		{ title: 'Edit Lesson', link: '/quick-learn/content/lesson/edit' },
-		{ title: 'Normal Lesson view', link: '/quick-learn/content/lesson/normal' }
+		{ title: 'Normal Lesson view', link: '/quick-learn/content/lesson/normal' },
+		{ title: 'Approval Pending', link: '/quick-learn/content/lesson/approval-pending' },
+		{ title: 'Approve', link: '/quick-learn/content/lesson/approve' }
 	];
 
 	let workflows2 = [
@@ -77,7 +79,15 @@
 		{ title: 'Community Course Lesson', link: '/quick-learn/content/lesson/normal' }
 	];
 
-	let workflows3 = [{ title: 'Community', screens: community }];
+	let approval = [
+		{ title: 'Approvals List', link: '/quick-learn/approvals' },
+		{ title: 'Approval Lesson', link: '/quick-learn/content/lesson/approve' }
+	];
+
+	let workflows3 = [
+		{ title: 'Community', screens: community },
+		{ title: 'Approval', screens: approval }
+	];
 </script>
 
 <!-- 3 column wrapper -->

@@ -380,7 +380,7 @@
 					<li
 						class="col-span-1 rounded-lg shadow-sm hover:shadow-lg border-gray-100 bg-gray-100 group"
 						id="space_8">
-						<a href="/quick-learn/content/lesson/mine">
+						<a href="/quick-learn/content/lesson/pending-approval">
 							<div class="flex-wrap py-4 px-6 text-gray-900 h-48">
 								<h1 id="message-heading" class="font-medium text-gray-900 group-hover:underline">
 									Inserting Pictures and Styling
