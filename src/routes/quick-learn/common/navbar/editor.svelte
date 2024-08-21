@@ -153,7 +153,7 @@
 								aria-labelledby="menu-button"
 								tabindex="-1">
 								<div class="px-4 py-3" role="none">
-									<p class="text-sm" role="none">aashishdhawan@gmail.com</p>
+									<p class="text-sm" role="none">aashishdhawan-yweir8832khsd@gmail.com</p>
 									<p class="text-xs text-gray-700" role="none">Crownstack Technologies</p>
 								</div>
 								<div class="py-1" role="none">
