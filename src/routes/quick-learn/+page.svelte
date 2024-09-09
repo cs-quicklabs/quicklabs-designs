@@ -12,7 +12,8 @@
 		{ title: 'Edit Member', link: '/quick-learn/team/edit' },
 		{ title: 'Member Details', link: '/quick-learn/team/1' },
 		{ title: 'Member Roadmap Details', link: '/quick-learn/team/1/roadmaps' },
-		{ title: 'Member Courses Details', link: '/quick-learn/team/1/courses' }
+		{ title: 'Member Courses Details', link: '/quick-learn/team/1/courses' },
+		{ title: 'Deactivated Member', link: '/quick-learn/team/deactivated' }
 	];
 
 	let profileSettings = [
