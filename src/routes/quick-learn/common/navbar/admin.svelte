@@ -172,6 +172,14 @@
 										id="menu-item-0"
 										>My Profile
 									</a>
+									<a
+										href="/quick-learn/archive/users"
+										class="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-50"
+										role="menuitem"
+										tabindex="-1"
+										id="menu-item-0"
+										>Archive
+									</a>
 								</div>
 								<div class="py-1" role="none">
 									<a href="/quick-learn/login">
