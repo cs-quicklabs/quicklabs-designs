@@ -63,7 +63,8 @@
 		{ title: 'Issuer Recipients List', link: '/quick-certify/public/recipients' },
 		{ title: 'Issuer Events List', link: '/quick-certify/public/event' },
 		{ title: 'Issuer Participant Detail', link: '/quick-certify/public/event/1/person' },
-		{ title: 'Person Detail', link: '/quick-certify/public/person' }
+		{ title: 'Person Detail', link: '/quick-certify/public/person' },
+		{ title: 'Certificate Uploading', link: '/quick-certify/certification-upload' }
 	];
 
 	let publicWorkflows = [{ title: 'Public', screens: publicPages }];
