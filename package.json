@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {    
-    "@sveltejs/kit": "2.49.2",
+    "@sveltejs/kit": "2.20.6",
     "svelte": "5.46.1",
     "vite": "7.3.0",
     "@sveltejs/adapter-vercel": "^4.0.0"
