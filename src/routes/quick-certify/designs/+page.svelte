@@ -94,17 +94,40 @@
 							<li>
 								<a
 									href="/quick-certify/designs/add-design"
-									class="inline-flex w-full items-center rounded-md p-2
+									class="inline-flex w-full gap-3 items-center rounded-md p-2
                hover:bg-gray-100 hover:text-gray-900">
+			   						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"  class="w-5 h-5">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M6.429 9.75 2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0 4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0-5.571 3-5.571-3" />
+</svg>
+
 									Certificate
+			
 								</a>
 							</li>
 							<li>
+			
 								<a
+								
 									href="/quick-certify/designs/add-design"
-									class="inline-flex w-full items-center rounded-md p-2
+									class="inline-flex w-full gap-3 items-center rounded-md p-2
                hover:bg-gray-100 hover:text-gray-900">
+			    <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke-width="1.5"
+    stroke="currentColor"
+    class="w-5 h-5"
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.746 3.746 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.746 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"
+    />
+  </svg>
 									Badge
+
+									
 								</a>
 							</li>
 						</ul>
@@ -113,7 +136,7 @@
 			</div>
 
 	<div class="flex flex-wrap pt-1 pb-4 border-t border-b border-gray-200 dark:border-gray-700 px-4 space-y-3 sm:flex sm:space-y-0 sm:space-x-4">
-          <div class="items-center hidden mt-3 mr-4 text-sm font-medium text-gray-900 md:flex dark:text-white">
+          <div class="flex-items-center hidden mt-3 mr-4 text-sm font-medium text-gray-900 md:flex dark:text-white">
             Show records only for:
           </div>
           <div class="flex flex-wrap">
@@ -131,7 +154,23 @@
               </a>
 			  <a class="underline mt-3 mr-4 font-medium text-blue-600 dark:text-blue-500 hover:underline text-sm" href="">Show All</a>
           </div>
+		  <div class="flex items-center mt-3 mr-4 ml-auto">   
+ <div class="relative w-48">
+  <input
+    type="text"
+    id="simple-search"
+    class="w-full px-2 py-1.5 bg-neutral-secondary-medium border border-default-medium rounded-md text-heading text-sm focus:ring-brand focus:border-brand placeholder:text-body"
+    placeholder="Search Design..."
+    required
+  />
+</div>
+
+
+</div>
         </div>
+
+		
+		
 
 			<!-- Table -->
 			<div class="overflow-x-auto">
