@@ -35,6 +35,7 @@
 		{ title: 'Issuer Portal', link: '/quick-certify/settings/account/issuer-portal' },
 		{ title: 'Billing Information', link: '/quick-certify/settings/account/billing-information' },
 		{ title:'Skills', link: '/quick-certify/settings/account/skill'}
+
 	];
 	let teamSettings = [
 		{ title: 'Team', link: '/quick-certify/settings/account/team' },
@@ -54,6 +55,10 @@
 		{ title: 'Edit Design', link: '/quick-certify/designs/edit-design' }
 	];
 
+	let Archived = [
+		{title:'Archived Member', link:'/quick-certify/settings/archived/archived-member'}
+	]
+
 
 	
 
@@ -61,7 +66,8 @@
 		{ title: 'Onboarding', screens: onboarding },
 		{ title: 'Personal Settings', screens: profileSettings },
 		{ title: 'Account Settings', screens: accountSettings },
-		{ title: 'Team', screens: teamSettings }
+		{ title: 'Team', screens: teamSettings },
+		{title:'Archived',screens:Archived}
 	];
 
 	let publicPages = [

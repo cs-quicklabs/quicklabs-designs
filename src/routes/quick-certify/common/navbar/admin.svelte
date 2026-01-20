@@ -178,6 +178,14 @@
 										id="menu-item-0"
 										>Team
 									</a>
+									<a
+										href="/quick-certify/settings/archived/archived-member"
+										class="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-50"
+										role="menuitem"
+										tabindex="-1"
+										id="menu-item-0"
+										>Archived
+									</a>
 								</div>
 								<div class="py-1" role="none">
 									<a href="/quick-certify/login">
