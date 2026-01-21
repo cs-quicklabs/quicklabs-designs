@@ -58,6 +58,9 @@
 	let Archived = [
 		{title:'Archived Member', link:'/quick-certify/settings/archived/archived-member'}
 	]
+	let credential= [
+		{ title:'Credential', link:'/quick-certify/credential'}
+	]
 
 
 	
@@ -84,7 +87,8 @@
 	let publicWorkflows = [
 		{ title: 'Public', screens: publicPages },
 		{ title: 'Event Settings', screens: eventSettings },
-				{ title: 'Designs', screens: Designs },
+		{ title: 'Designs', screens: Designs },
+		{title:'credential',screens:credential},
 
 	];
 </script>

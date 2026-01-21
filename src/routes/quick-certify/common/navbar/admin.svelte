@@ -24,7 +24,7 @@
 						<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 						<a href="/quick-certify/team" class="selected-nav">Dashboard</a>
 						<a href="/quick-certify/member/my-learning-paths" class="unselected-nav">Events</a>
-						<a href="/quick-certify/content" class="unselected-nav">Credentials</a>
+						<a href="/quick-certify/credential" class="unselected-nav">Credentials</a>
 						<a href="/quick-certify/designs" class="unselected-nav">Designs</a>
 						<a href="/quick-certify/approvals" class="unselected-nav">Emails</a>
 						<a href="/quick-certify/approvals" class="unselected-nav">Analytics</a>
