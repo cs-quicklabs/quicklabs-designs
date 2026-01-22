@@ -39,170 +39,108 @@
 
 <NavBar />
 
-<div class="relative overflow-x-auto bg-neutral-primary-soft border border-default rounded-base shadow-xs">
-	<!-- Header -->
-	<div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 p-4">
-		
-		<!-- Left section -->
-		<div>
-			<h2 class="text-heading font-medium">Credential</h2>
-            <p class=mt-1 text-sm>4 credential</p>
-<div class="relative inline-block mt-4">
-  <details class="group">
-    <summary
-      class="inline-flex cursor-pointer items-center gap-2 px-3 py-2 text-sm font-medium
-             bg-neutral-secondary-medium border border-default-medium rounded-base
-             hover:bg-neutral-tertiary-medium list-none"
-    >
-      <!-- Filter Icon -->
-      <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-          d="M3 4h18M6 10h12M10 16h4" />
-      </svg>
-      Filter by Events
-    </summary>
+<section class="bg-gray-50 py-2 min-h-screen">
+  <div class="px-4 mx-auto max-w-screen-2xl lg:px-8">
+    <div class="bg-white border border-gray-200 rounded-md shadow-sm overflow-hidden">
 
-    <!-- Dropdown -->
-    <div
-      class="absolute z-10 mt-2 w-48 rounded-base border border-default-medium
-             bg-neutral-primary-medium shadow-lg p-3"
-    >
-      <p class="text-xs text-body mb-2 font-medium">Select Events</p>
+      <!-- Header -->
+      <div class="flex items-center justify-between px-4 py-2 border-b border-gray-200">
+        <div>
+          <h1 class="text-lg font-semibold text-gray-900">Credential</h1>
+          <p class="text-sm text-gray-500">4 credentials</p>
+        </div>
 
-      <label class="flex items-center gap-2 py-1 text-sm cursor-pointer">
-        <input type="checkbox" class="rounded border-default-medium">
-        Course Completion
-      </label>
+        <button
+          class="btn-primary">
+          Issuer Credential
+        </button>
+      </div>
 
-      <label class="flex items-center gap-2 py-1 text-sm cursor-pointer">
-        <input type="checkbox" class="rounded border-default-medium">
-        Top Performer
-      </label>
+      <!-- Filters -->
+      <div class="flex flex-wrap items-center gap-4 px-4 py-2 border-b border-gray-200">
 
-      <label class="flex items-center gap-2 py-1 text-sm cursor-pointer">
-        <input type="checkbox" class="rounded border-default-medium">
-        Participation
-      </label>
+        <!-- Filter dropdown -->
+        <details class="relative">
+          <summary
+            class="cursor-pointer flex items-center gap-2 px-3 py-2 text-sm
+                   border border-gray-200 rounded-md bg-gray-50 hover:bg-gray-100 list-none">
+            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                d="M3 4h18M6 10h12M10 16h4" />
+            </svg>
+            Filter by Events
+          </summary>
 
-      <label class="flex items-center gap-2 py-1 text-sm cursor-pointer">
-        <input type="checkbox" class="rounded border-default-medium">
-        Achievement
-      </label>
+          <div
+            class="absolute z-10 mt-2 w-48 bg-white border border-gray-200 rounded-md shadow p-3">
+            <p class="text-xs font-medium text-gray-500 mb-2">Select Events</p>
+
+            {#each ['Events 1','Events-2','Events-3','Events-4'] as event}
+              <label class="flex items-center gap-2 py-1 text-sm text-gray-700">
+                <input type="checkbox" class="rounded border-gray-300" />
+                {event}
+              </label>
+            {/each}
+          </div>
+        </details>
+
+        <!-- Search -->
+        <div class="ml-auto">
+          <input
+            type="text"
+            placeholder="Search by name..."
+            class="w-48 px-3 py-2 text-sm border border-gray-200 rounded-md
+                   bg-gray-50 focus:ring-1 focus:ring-gray-300 focus:outline-none" />
+        </div>
+      </div>
+
+      <!-- Table -->
+      <table class="w-full text-sm text-left text-gray-700">
+        <thead class="bg-gray-50 border-b border-gray-200">
+          <tr>
+            <th class="px-6 py-3 font-medium">Name</th>
+            <th class="px-6 py-3 font-medium">Email</th>
+            <th class="px-6 py-3 font-medium">Events</th>
+            <th class="px-6 py-3 font-medium">Issue Date</th>
+            <th class="px-6 py-3 font-medium">Status</th>
+            <th class="px-6 py-3 font-medium">Action</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {#each recipients as user}
+            <tr class="border-b border-gray-200 hover:bg-gray-50">
+              <td class="px-6 py-2">{user.name}</td>
+              <td class="px-6 py-2">{user.email}</td>
+              <td class="px-6 py-2">{user.event}</td>
+              <td class="px-6 py-2">{user.issueDate}</td>
+              <td class="px-6 py-2 text-gray-500">{user.status}</td>
+              <td class="px-6 py-2">
+                <a href="#" class="text-blue-600 hover:underline">View</a>
+              </td>
+            </tr>
+          {/each}
+        </tbody>
+      </table>
+
+      <!-- Pagination -->
+      <div class="flex justify-end px-4 py-3 border-t border-gray-200">
+        <ul class="flex text-sm">
+          {#each ['Previous',1,2,3,4,5,'Next'] as page}
+            <li>
+              <a
+                href="#"
+                class="flex items-center justify-center px-3 h-9 border border-gray-200
+                       hover:bg-gray-100 text-gray-700">
+                {page}
+              </a>
+            </li>
+          {/each}
+        </ul>
+      </div>
+
     </div>
-  </details>
-</div>
-
-		</div>
-
-		<!-- Right section -->
-		<div class="flex flex-col items-start md:items-end gap-3">
-			<button
-				class="inline-flex items-center px-3 py-2 text-sm font-medium rounded-base
-				bg-neutral-secondary-medium border border-default-medium hover:bg-neutral-tertiary-medium"
-			>
-				Issuer Credential
-			</button>
-
-			<div class="w-full max-w-96">
-
-				<input
-					type="text"
-					class="w-full text-sm
-					bg-neutral-secondary-medium border border-default-medium
-					focus:ring-brand focus:border-brand"
-					placeholder="Search recipients by name,email"
-				/>
-			</div>
-		</div>
-	</div>
-
-	<!-- Table -->
-	<table class="w-full text-sm text-left text-body">
-		<thead class="bg-neutral-secondary-medium border-y border-default-medium">
-			<tr>
-				<th class="px-6 py-3 font-medium">Name</th>
-				<th class="px-6 py-3 font-medium">Email</th>
-				<th class="px-6 py-3 font-medium">Events</th>
-				<th class="px-6 py-3 font-medium">Issue Date</th>
-				<th class="px-6 py-3 font-medium">Status</th>
-				<th class="px-6 py-3 font-medium">Action</th>
-			</tr>
-		</thead>
-
-		<tbody>
-			{#each recipients as user}
-				<tr class="border-b border-default bg-neutral-primary-soft hover:bg-neutral-secondary-medium">
-					<td class="px-6 py-4">{user.name}</td>
-					<td class="px-6 py-4">{user.email}</td>
-					<td class="px-6 py-4">{user.event}</td>
-					<td class="px-6 py-4">{user.issueDate}</td>
-					<td class="px-6 py-4">
-						<div class="flex items-center">
-							{user.status}
-						</div>
-					</td>
-					<td class="px-6 py-4">
-						<a href="#" class="text-fg-brand font-medium hover:underline">View</a>
-					</td>
-				</tr>
-			{/each}
-		</tbody>
-	</table>
-    
-<nav aria-label="Page navigation example" class="flex justify-end p-4">
-  <ul class="flex -space-x-px text-sm">
-    <li>
-      <a href="#"
-        class="flex items-center justify-center px-3 h-9 text-sm font-medium
-               bg-neutral-secondary-medium border border-default-medium
-               rounded-s-base hover:bg-neutral-tertiary-medium">
-        Previous
-      </a>
-    </li>
-
-    <li>
-      <a href="#" class="flex items-center justify-center w-9 h-9 text-sm border border-default-medium">
-        1
-      </a>
-    </li>
-
-    <li>
-      <a href="#" class="flex items-center justify-center w-9 h-9 text-sm border border-default-medium">
-        2
-      </a>
-    </li>
-
-    <li>
-      <a href="#" aria-current="page"
-        class="flex items-center justify-center w-9 h-9 text-sm font-medium
-               text-fg-brand bg-neutral-tertiary-medium border border-default-medium">
-        3
-      </a>
-    </li>
-
-    <li>
-      <a href="#" class="flex items-center justify-center w-9 h-9 text-sm border border-default-medium">
-        4
-      </a>
-    </li>
-
-    <li>
-      <a href="#" class="flex items-center justify-center w-9 h-9 text-sm border border-default-medium">
-        5
-      </a>
-    </li>
-
-    <li>
-      <a href="#"
-        class="flex items-center justify-center px-3 h-9 text-sm font-medium
-               bg-neutral-secondary-medium border border-default-medium
-               rounded-e-base hover:bg-neutral-tertiary-medium">
-        Next
-      </a>
-    </li>
-  </ul>
-</nav>
+  </div>
+</section>
 
 
-
-</div>
