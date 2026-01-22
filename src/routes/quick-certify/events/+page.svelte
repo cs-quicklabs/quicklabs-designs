@@ -39,26 +39,25 @@
 <NavBar />
 
 <section class="bg-gray-50 dark:bg-gray-900 py-3 sm:py-5 min-h-screen">
-<div class="px-4 mx-auto max-w-screen-2xl lg:px-8">
-    <div class="bg-white  border-gray-200 rounded-md shadow-sm overflow-hidden">
-	<div class="relative overflow-hidden bg-white shadow-md dark:bg-gray-800 sm:rounded-sm">
-<div class=" divide-y dark:divide-gray-700">
+		<div class="px-4 mx-auto max-w-screen-2xl lg:px-8">
+    <div class="relative overflow-hidden bg-white shadow-md dark:bg-gray-800 sm:rounded-sm">
+ <div class=" divide-y dark:divide-gray-700">
 
       <!-- Header -->
-      <div class="flex items-center justify-between px-4 py-4 border-b border-gray-200">
+      <div class="flex items-center justify-between px-4 py-2 border-b border-gray-200">
         <div>
-          <h1 class="text-lg font-semibold text-gray-900">Groups of Events</h1>
-          <p class="text-sm text-gray-500">4 Groups</p>
+          <h1 class="text-lg font-semibold text-gray-900">Credential</h1>
+          <p class="text-sm text-gray-500">4 credentials</p>
         </div>
 
         <button
           class="btn-primary">
-          Add New Events
+         Add new Events
         </button>
       </div>
 
       <!-- Filters -->
-      <div class="flex flex-wrap items-center gap-4 px-4 py-3 border-b border-gray-200">
+      <div class="flex flex-wrap items-center gap-4 px-4 py-2 border-b border-gray-200">
 
         <!-- Filter dropdown -->
         <details class="relative">
@@ -76,7 +75,7 @@
             class="absolute z-10 mt-2 w-48 bg-white border border-gray-200 rounded-md shadow p-3">
             <p class="text-xs font-medium text-gray-500 mb-2">Select Events</p>
 
-            {#each ['Course Completion','Top Performer','Participation','Achievement'] as event}
+            {#each ['Events 1','Events-2','Events-3','Events-4'] as event}
               <label class="flex items-center gap-2 py-1 text-sm text-gray-700">
                 <input type="checkbox" class="rounded border-gray-300" />
                 {event}
@@ -89,23 +88,19 @@
         <div class="ml-auto">
           <input
             type="text"
-            placeholder="Search Event by name..."
-            class="w-48 px-3 py-2 text-sm border border-gray-200 rounded-md
+            placeholder="Search by name..."
+            class=".form-input-field  w-48 px-3 py-2 text-sm border border-gray-200 rounded-md
                    bg-gray-50 focus:ring-1 focus:ring-gray-300 focus:outline-none" />
         </div>
       </div>
-	  </div>
-	  </div>
-
 			<!-- Table -->
-			<div class="overflow-x-auto">
+			<div class="bg-gray-50 border-gray-200">
 				<table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-
 					<tbody>
 						{#each filteredEvents as Events}
 							<tr class="border-b border-gray-200 dark:border-gray-600">
 								<!-- Design column -->
-								<td class="p-2">
+								<td class="p-4">
 									<div class="flex items-center gap-3">
 										<img
 											src={Events.image}
