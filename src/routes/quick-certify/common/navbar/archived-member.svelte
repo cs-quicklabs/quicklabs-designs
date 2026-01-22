@@ -1,7 +1,7 @@
 <aside class="px-2 py-6 sm:px-6 lg:py-0 lg:px-0 lg:col-span-3">
 	<nav class="space-y-1">
 		<a
-			href="/quick-certify/settings/account/general-information"
+			href="/quick-certify/settings/archived/archived-member"
 			class="selected-sidebar-nav">
 			<!-- Heroicon name: outline/user-circle -->
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">

@@ -29,7 +29,7 @@
 				</div>
 			</div>
 			<div
-				class="flex flex-wrap pt-1 pb-4 border-t border-b dark:border-gray-700 px-4 space-y-3 sm:flex sm:space-y-0 sm:space-x-4">
+				class="flex flex-wrap pt-1 pb-4 border-t border-b  border-gray-200 dark:border-gray-200 px-4 space-y-3 sm:flex sm:space-y-0 sm:space-x-4">
 				<div
 					class="items-center hidden mt-3 mr-4 text-sm font-medium text-gray-900 md:flex dark:text-white">
 					Show records only for:
@@ -102,7 +102,7 @@
 						</tr>
 					</thead>
 					<tbody>
-						<tr class="border-b dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
+						<tr class="border-b border-gray-200 dark:border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
 							<th scope="row" class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
 									<a href="team/1" class="ml-2 hover:underline"> Aashish Dhawan </a>
@@ -136,7 +136,7 @@
 							<td class="px-4 py-2">Nov 11, 2022</td>
 							<td class="px-4 py-2">Dec 11, 2024</td>
 						</tr>
-						<tr class="border-b dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
+						<tr class="border-b border-gray-200 dark:border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
 							<th scope="row" class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
 									<a href="team/1" class="ml-2 hover:underline"> Peter Parker </a>
@@ -170,7 +170,7 @@
 							<td class="px-4 py-2">Nov 11, 2022</td>
 							<td class="px-4 py-2">Dec 11, 2024</td>
 						</tr>
-						<tr class="border-b dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
+						<tr class="border-b border-gray-200 dark:border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
 							<th scope="row" class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
 									<a href="team/1" class="ml-2 hover:underline"> Nick Furry </a>
@@ -204,7 +204,7 @@
 							<td class="px-4 py-2">Nov 11, 2022</td>
 							<td class="px-4 py-2">Dec 11, 2024</td>
 						</tr>
-						<tr class="border-b dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
+						<tr class="border-b border-gray-200 dark:border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
 							<th scope="row" class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
 									<a href="team/1" class="ml-2 hover:underline"> Mystique </a>

@@ -49,7 +49,7 @@
 										<div class="flex items-center">
 											<div class="flex-1 min-w-0 sm:flex sm:items-center sm:justify-between">
 												<div>
-													<a href="/quick-learn/team/1" class="truncate hover:text-gray-600 hover:underline">
+													<a href="" class="truncate hover:text-gray-600 hover:underline">
 														<div class="flex text-sm font-medium text-gray-600 truncate">
 															<p>Rohit Sharma</p>
 															<p class="ml-1 font-normal text-gray-500">Manager</p>
@@ -69,8 +69,19 @@
 									</td>
 									<td class="table-cell">
 										<div class="flex justify-end space-x-2">
-											<button class="btn-Secondary link" data-modal-target="popup-modal-activate" data-modal-toggle="popup-modal-activate" href="/1/employees/426">Activate</button>
-											<button class="btn-inline-red" data-modal-target="popup-modal" data-modal-toggle="popup-modal" href="/1/employees/426">Delete</button>
+											<a href="#"
+   class="btn-Secondary link"
+   data-modal-target="popup-modal-activate"
+   data-modal-toggle="popup-modal-activate">
+   Activate
+</a>
+
+<a href="#"
+   class="btn-inline-red"
+   data-modal-target="popup-modal"
+   data-modal-toggle="popup-modal">
+   Delete
+</a>
 										</div>
 									</td>
 								</tr>
