@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-vercel": "^4.0.0",
-    "@sveltejs/kit": "2.49.2",
+    "@sveltejs/kit": "2.50.0",
     "svelte": "5.46.1",
     "vite": "^6.4.1"
   },
