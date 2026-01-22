@@ -5,7 +5,7 @@
 
 <Header />
 <div class="bg-gray-50 h-screen p-8">
-	<div class="max-w-7xl mx-auto rounded-sm border border-stroke-dark bg-white">
+	<div class="max-w-7xl mx-auto rounded-sm border border-stroke-dark bg-white border-gray-200">
 		<div>
 			<img
 				class="h-32 w-full object-cover lg:h-48"

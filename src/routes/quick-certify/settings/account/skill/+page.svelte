@@ -46,7 +46,7 @@
 							</tr>
 						</thead>
 						<tbody>
-							<tr class="odd:bg-white even:bg-gray-50 border-b">
+							<tr class="odd:bg-white even:bg-gray-50 border-b border-gray-200">
 								<th scope="row" class="px-6 py-4 form-text-normal">
 									JavaScript
 								</th>
@@ -56,7 +56,7 @@
 								</td>
 							</tr>
 
-							<tr class="odd:bg-white even:bg-gray-50 border-b">
+							<tr class="odd:bg-white even:bg-gray-50 border-b border-gray-200">
 								<th scope="row" class="px-6 py-4 form-text-normal">
 									Automation Testing
 								</th>

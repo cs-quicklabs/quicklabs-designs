@@ -43,7 +43,7 @@
 						</thead>
 						<tbody>
 							<tr
-								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50  even:dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
 								<th scope="row" class="px-6 py-4 form-text-normal"> Achievent Award </th>
 								<td class="px-6 py-4 inline-flex">
 									<a href="#" class="btn-inline-blue">Edit</a>
@@ -51,7 +51,7 @@
 								</td>
 							</tr>
 							<tr
-								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 border-gray-200 even:dark:bg-gray-800 border-b  dark:border-gray-700">
 								<th scope="row" class="px-6 py-4 form-text-normal"> Certification </th>
 								<td class="px-6 py-4 inline-flex">
 									<a href="#" class="btn-inline-blue">Edit</a>
@@ -59,7 +59,7 @@
 								</td>
 							</tr>
 							<tr
-								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
 							</tr>
 							<tr>
 								<th class="p-2">
@@ -76,7 +76,7 @@
 								</td>
 							</tr>
 							<tr
-								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-t">
+								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 border-t">
 								<th scope="row" class="px-6 py-4 form-text-normal"> Course </th>
 								<td class="px-6 py-4 inline-flex">
 									<a href="#" class="btn-inline-blue">Edit</a>
@@ -84,7 +84,7 @@
 								</td>
 							</tr>
 							<tr
-								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-t">
+								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-gray-200 border-b dark:border-gray-700 border-t">
 								<th scope="row" class="px-6 py-4 form-text-normal"> Memebership </th>
 								<td class="px-6 py-4 inline-flex">
 									<a href="#" class="btn-inline-blue">Edit</a>
@@ -92,7 +92,7 @@
 								</td>
 							</tr>
 							<tr
-								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-t">
+								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-gray-200 border-b dark:border-gray-700 border-t">
 								<th scope="row" class="px-6 py-4 form-text-normal"> Licence </th>
 								<td class="px-6 py-4 inline-flex">
 									<a href="#" class="btn-inline-blue">Edit</a>
@@ -100,7 +100,7 @@
 								</td>
 							</tr>
 							<tr
-								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-t">
+								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-gray-200 border-b dark:border-gray-700 border-t">
 								<th scope="row" class="px-6 py-4 form-text-normal"> Training </th>
 								<td class="px-6 py-4 inline-flex">
 									<a href="#" class="btn-inline-blue">Edit</a>
@@ -108,7 +108,7 @@
 								</td>
 							</tr>
 							<tr
-								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-t">
+								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800  border-gray-200 border-b dark:border-gray-700 border-t">
 								<th scope="row" class="px-6 py-4 form-text-normal"> Webinar </th>
 								<td class="px-6 py-4 inline-flex">
 									<a href="#" class="btn-inline-blue">Edit</a>
@@ -116,7 +116,7 @@
 								</td>
 							</tr>
 							<tr
-								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-t">
+								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-gray-200 border-b dark:border-gray-700 border-t">
 								<th scope="row" class="px-6 py-4 form-text-normal"> Seminar </th>
 								<td class="px-6 py-4 inline-flex">
 									<a href="#" class="btn-inline-blue">Edit</a>
@@ -124,7 +124,7 @@
 								</td>
 							</tr>
 							<tr
-								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-t">
+								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800  border-gray-200 border-b dark:border-gray-700 border-t">
 								<th scope="row" class="px-6 py-4 form-text-normal"> Workshop </th>
 								<td class="px-6 py-4 inline-flex">
 									<a href="#" class="btn-inline-blue">Edit</a>
@@ -132,7 +132,7 @@
 								</td>
 							</tr>
 							<tr
-								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-t">
+								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-gray-200 border-b dark:border-gray-700 border-t">
 								<th scope="row" class="px-6 py-4 form-text-normal"> Other </th>
 								<td class="px-6 py-4 inline-flex">
 									<a href="#" class="btn-inline-blue">Edit</a>
