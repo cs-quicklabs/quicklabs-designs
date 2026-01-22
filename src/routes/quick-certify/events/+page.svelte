@@ -101,12 +101,12 @@
 						{#each filteredEvents as Events}
 							<tr class="border-b border-gray-200 dark:border-gray-600">
 								<!-- Design column -->
-								<td class="p-4">
+								<td class="p-2">
 									<div class="flex items-center gap-3">
 										<img
 											src={Events.image}
 											alt={Events.type}
-											class="w-24 md:w-24 max-w-full max-h-full shadow-md" />
+											class="w-24 md:w-24 max-w-full  shadow-md" />
 
 										<div>
 											<div class="font-medium text-gray-900 dark:text-white">
@@ -131,8 +131,8 @@
 								</td>
 
 								<!-- Actions -->
-								<td class="px-4 py-2 text-right">
-									<div class="flex justify-end gap-2">
+								<td class="px-4 py-1 text-right">
+									<div class="flex justify-end gap-1">
 										<button
 											title="Preview"
 											on:click={() =>
