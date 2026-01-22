@@ -43,7 +43,7 @@
 						</thead>
 						<tbody>
 							<tr
-								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
 								<th
 									scope="row"
 									class="px-6 py-4 form-text-normal">
@@ -59,7 +59,7 @@
 								</td>
 							</tr>
 							<tr
-								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
 								<th
 									scope="row"
 									class="px-6 py-4 form-text-normal">
@@ -75,7 +75,7 @@
 								</td>
 							</tr>
 							<tr
-								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700">
 							</tr>
 							<tr>
 								<th class="p-2">
