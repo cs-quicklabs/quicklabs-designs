@@ -39,7 +39,7 @@
 <NavBar />
 
 <section>
-<div class="px-4 mx-auto max-w-screen-2xl lg:px-8">
+<div class="px-4 mx-auto max-w-screen-2xl lg:px-4">
     <div class="bg-white border border-gray-200 rounded-md shadow-sm overflow-hidden">
 
       <!-- Header -->
@@ -106,7 +106,7 @@
 										<img
 											src={Events.image}
 											alt={Events.type}
-											class="w-24 md:w-24 max-w-full  shadow-md" />
+											class="w-20 md:w-20 max-w-full  shadow-md" />
 
 										<div>
 											<div class="font-medium text-gray-900 dark:text-white">
@@ -159,13 +159,10 @@
 			
 											class="flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-xs
 		bg-gray-100 text-gray-700 hover:bg-gray-200 cursor-pointer">
-											<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-												<path
-													stroke-linecap="round"
-													stroke-linejoin="round"
-													stroke-width="1.5"
-													d="M16.5 3.5l4 4L7 21H3v-4L16.5 3.5z" />
-											</svg>
+										<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+</svg>
+
 											<span>Issue Credential</span>
 										</button>
 
