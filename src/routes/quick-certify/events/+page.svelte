@@ -38,9 +38,11 @@
 
 <NavBar />
 
-<section>
-<div class="px-4 mx-auto max-w-screen-2xl lg:px-4">
-    <div class="bg-white border border-gray-200 rounded-md shadow-sm overflow-hidden">
+<section class="bg-gray-50 dark:bg-gray-900 py-3 sm:py-5 min-h-screen">
+<div class="px-4 mx-auto max-w-screen-2xl lg:px-8">
+    <div class="bg-white  border-gray-200 rounded-md shadow-sm overflow-hidden">
+	<div class="relative overflow-hidden bg-white shadow-md dark:bg-gray-800 sm:rounded-sm">
+<div class=" divide-y dark:divide-gray-700">
 
       <!-- Header -->
       <div class="flex items-center justify-between px-4 py-4 border-b border-gray-200">
@@ -92,6 +94,8 @@
                    bg-gray-50 focus:ring-1 focus:ring-gray-300 focus:outline-none" />
         </div>
       </div>
+	  </div>
+	  </div>
 
 			<!-- Table -->
 			<div class="overflow-x-auto">
