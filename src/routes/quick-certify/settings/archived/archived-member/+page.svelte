@@ -94,7 +94,8 @@
 </main>
 
 <!-- Delete Modal -->
-<div id="popup-modal" tabindex="-1" class="hidden fixed inset-0 z-50 flex justify-center items-center overflow-auto p-4">
+<div id="popup-modal" tabindex="-1" class="hidden fixed inset-0 z-50 flex items-center justify-center
+         bg-black/50 backdrop-blur-sm">
 	<div class="relative w-full max-w-md max-h-full">
 		<div class="relative bg-white rounded-lg shadow dark:bg-gray-700 text-center p-5">
 			<button type="button" class="absolute top-3 right-2.5 text-gray-400 hover:bg-gray-200 hover:text-gray-900 rounded-lg w-8 h-8 flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="popup-modal">
@@ -117,7 +118,8 @@
 </div>
 
 <!-- Activate Modal -->
-<div id="popup-modal-activate" tabindex="-1" class="hidden fixed inset-0 z-50 flex justify-center items-center overflow-auto p-4">
+<div id="popup-modal-activate" tabindex="-1" class="hidden fixed inset-0 z-50 flex items-center justify-center
+         bg-black/50 backdrop-blur-sm">
 	<div class="relative w-full max-w-md max-h-full">
 		<div class="relative bg-white rounded-lg shadow dark:bg-gray-700 text-center p-5">
 			<button type="button" class="absolute top-3 right-2.5 text-gray-400 hover:bg-gray-200 hover:text-gray-900 rounded-lg w-8 h-8 flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="popup-modal-activate">
