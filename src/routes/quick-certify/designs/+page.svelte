@@ -154,19 +154,13 @@
               </a>
 			  <a class="underline mt-3 mr-4 font-medium text-blue-600 dark:text-blue-500 hover:underline text-sm" href="">Show All</a>
           </div>
-		  <div class="flex items-center mt-3 mr-4 ml-auto">   
- <div class="relative w-48">
-  <input
-    type="text"
-    id="simple-search"
-    class="w-full px-2 py-1.5 bg-neutral-secondary-medium border border-default-medium rounded-md text-heading text-sm focus:ring-brand focus:border-brand placeholder:text-body"
-    placeholder="Search Design..."
-    required
-  />
-</div>
-
-
-</div>
+		<div class="ml-auto mt-2">
+          <input
+            type="text"
+            placeholder="Search by name..."
+            class=".form-input-field  w-48 px-3 py-2 text-sm border border-gray-200 rounded-md
+                   bg-gray-50 focus:ring-1 focus:ring-gray-300 focus:outline-none" />
+        </div>
         </div>
 
 		

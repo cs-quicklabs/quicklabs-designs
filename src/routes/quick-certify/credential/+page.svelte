@@ -90,7 +90,7 @@
           <input
             type="text"
             placeholder="Search by name..."
-            class="w-48 px-3 py-2 text-sm border border-gray-200 rounded-md
+            class=".form-input-field  w-48 px-3 py-2 text-sm border border-gray-200 rounded-md
                    bg-gray-50 focus:ring-1 focus:ring-gray-300 focus:outline-none" />
         </div>
       </div>
