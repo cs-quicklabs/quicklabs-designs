@@ -111,7 +111,7 @@
         <tbody>
           {#each recipients as user}
             <tr class="border-b border-gray-200 hover:bg-gray-50">
-              <td class="px-6 py-2">{user.name}</td>
+              <td class="px-6 py-2 text-base font-semibold">{user.name}</td>
               <td class="px-6 py-2">{user.email}</td>
               <td class="px-6 py-2">{user.event}</td>
               <td class="px-6 py-2">{user.issueDate}</td>

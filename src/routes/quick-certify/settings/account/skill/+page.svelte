@@ -23,8 +23,8 @@
 				</p>
 
 				<!-- Add Skill -->
-				<form class="w-full mt-6">
-					<div class="mb-4 mt-6">
+				<form class="w-full mt-4">
+					<div class="mb-4 mt-4">
 						<label for="skill" class="form-input-label">Add New Skill</label>
 						<input
 							type="text"
@@ -37,7 +37,7 @@
 				</form>
 
 				<!-- Skills Table -->
-				<div class="relative overflow-x-auto mt-8">
+				<div class="relative overflow-x-auto mt-4">
 					<table class="w-full text-sm text-left text-gray-500">
 						<thead class="text-xs text-gray-700 uppercase bg-gray-50">
 							<tr>
