@@ -137,7 +137,7 @@
 											title="Preview"
 											on:click={() =>
 												(window.location.href = '/quick-certify/credential')}
-														class="flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-xs
+														class="flex items-center gap-2 px-2 py-1.5 text-xs font-medium rounded-xs
 		bg-blue-50 text-blue-700 hover:bg-blue-100 cursor-pointer">
 											<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 												<path
@@ -157,9 +157,9 @@
 										<button
 											title="Edit"
 			
-											class="flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-xs
+											class="flex items-center gap-2 px-2 py-1.5 text-xs font-medium rounded-xs
 		bg-gray-100 text-gray-700 hover:bg-gray-200 cursor-pointer">
-										<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+										<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4" f>
   <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
 </svg>
 
