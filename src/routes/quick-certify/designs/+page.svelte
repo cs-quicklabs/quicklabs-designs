@@ -1,5 +1,6 @@
 <script>
 	import NavBar from '$quick-certify/common/navbar/admin.svelte';
+	import Pagination from '$quick-certify/common/navbar/pagination.svelte';
 
 	let selectedType = 'all';
 
@@ -287,4 +288,5 @@
 			</div>
 		</div>
 	</div>
+	<Pagination/>
 </section>

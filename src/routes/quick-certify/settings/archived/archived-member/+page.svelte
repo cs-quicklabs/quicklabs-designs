@@ -98,7 +98,7 @@
          bg-black/50 backdrop-blur-sm">
 	<div class="relative w-full max-w-md max-h-full">
 		<div class="relative bg-white rounded-lg shadow dark:bg-gray-700 text-center p-5">
-			<button type="button" class="btn-secondary absolute  top-3 right-2.5">
+			<button data-modal-hide="popup-modal"  class="btn-secondary absolute  top-3 right-2.5">
 				<svg class="w-3 h-3" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 					<path d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
 				</svg>
@@ -122,7 +122,7 @@
          bg-black/50 backdrop-blur-sm">
 	<div class="relative w-full max-w-md max-h-full">
 		<div class="relative bg-white rounded-lg shadow dark:bg-gray-700 text-center p-5">
-			<button type="button" class="btn-secondary absolute top-3 right-2.5 ">
+			<button data-modal-hide="popup-modal-activate" class="btn-secondary absolute top-3 right-2.5 ">
 				<svg class="w-3 h-3" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 					<path d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
 				</svg>
