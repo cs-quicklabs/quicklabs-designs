@@ -182,12 +182,6 @@
 			<!-- Table -->
 			<div class="overflow-x-auto">
 				<table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-					<thead class="text-xs uppercase bg-gray-50 dark:bg-gray-700">
-						<tr>
-							<th class="px-4 py-3">Design</th>
-							<th class="px-4 py-3 text-right">Actions</th>
-						</tr>
-					</thead>
 
 					<tbody>
 						{#each filteredDesigns as design}

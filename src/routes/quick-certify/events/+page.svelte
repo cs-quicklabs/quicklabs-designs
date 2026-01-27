@@ -95,7 +95,7 @@
         </div>
       </div>
 			<!-- Table -->
-			<div class="bg-gray-50 border-gray-200">
+			<div class="border-gray-200">
 				<table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
 					<tbody>
 						{#each filteredEvents as Events}
