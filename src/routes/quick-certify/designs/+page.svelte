@@ -1,5 +1,6 @@
 <script>
 	import NavBar from '$quick-certify/common/navbar/admin.svelte';
+	import Pagination from '$quick-certify/common/navbar/pagination.svelte';
 
 	let selectedType = 'all';
 
@@ -45,7 +46,7 @@
 		<div class="relative overflow-hidden bg-white shadow-md dark:bg-gray-800 sm:rounded-sm">
 			<div class=" divide-y dark:divide-gray-700">
 				<div
-					class="flex-row items-center justify-between p-4 space-y-3 sm:flex sm:space-y-0 sm:space-x-4">
+					class="flex-row items-center justify-between p-4 py-2 space-y-3 sm:flex sm:space-y-0 sm:space-x-4">
 					<div>
 						<h1 class="mr-3 text-lg font-semibold dark:text-white">Designs Library</h1>
 						<p class="text-gray-500 dark:text-gray-400 text-sm">Manage certificate and badge designs</p>
@@ -135,33 +136,45 @@
 				</div>
 			</div>
 
-	<div class="flex flex-wrap pt-1 pb-4 border-t border-b border-gray-200 dark:border-gray-700 px-4 space-y-3 sm:flex sm:space-y-0 sm:space-x-4">
-          <div class="flex-items-center hidden mt-3 mr-4 text-sm font-medium text-gray-900 md:flex dark:text-white">
-            Show records only for:
-          </div>
-          <div class="flex flex-wrap">
-              <a href="">
-                <div class="flex items-center mt-3 mr-4">
-                    <input id="all-products" type="radio" value="" name="show-only" class="radio">
-                  <label for="all-products" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Badges</label>
-                </div>
-              </a>
-              <a href="">
-                <div class="flex items-center mt-3 mr-4">
-                    <input id="all-products" type="radio" value="" name="show-only" class="radio">
-                  <label for="all-products" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Certificates</label>
-                </div>
-              </a>
-			  <a class="underline mt-3 mr-4 font-medium text-blue-600 dark:text-blue-500 hover:underline text-sm" href="">Show All</a>
-          </div>
-		<div class="ml-auto mt-2">
-          <input
-            type="text"
-            placeholder="Search by name..."
-            class=".form-input-field  w-48 px-3 py-2 text-sm border border-gray-200 rounded-md
-                   bg-gray-50 focus:ring-1 focus:ring-gray-300 focus:outline-none" />
-        </div>
-        </div>
+	<div class="flex flex-wrap items-center gap-y-3 border-t border-b border-gray-200 dark:border-gray-700 px-4 py-2">
+
+  <!-- Left Section -->
+  <div class="flex flex-wrap items-center gap-x-4">
+
+    <span class="hidden md:block text-sm font-medium text-gray-900 dark:text-white">
+      Show records only for:
+    </span>
+
+    <!-- Badges -->
+    <label class="flex items-center gap-2 text-sm font-medium text-gray-900 dark:text-gray-300 cursor-pointer">
+      <input type="radio" name="show-only" class="radio">
+      Badges
+    </label>
+
+    <!-- Certificates -->
+    <div class="flex items-center">
+    <input id="default-radio-1" type="radio" value="" name="default-radio" class="w-4 h-4 text-neutral-primary border-default-medium bg-neutral-secondary-medium rounded-full checked:border-brand focus:ring-2 focus:outline-none focus:ring-brand-subtle border border-default appearance-none">
+    <label for="default-radio-1" class="select-none ms-2 text-sm font-medium text-heading">Certificate</label>
+</div>
+
+    <!-- Show All -->
+    <a href="" class="text-sm font-medium text-blue-600 dark:text-blue-500 hover:underline">
+      Show All
+    </a>
+
+  </div>
+
+  <!-- Search (Right aligned) -->
+  <div class="ml-auto">
+    <input
+      type="text"
+      placeholder="Search by name..."
+      class="w-48 px-3 py-2 text-sm border border-gray-200 rounded-md
+             bg-gray-50 focus:ring-1 focus:ring-gray-300 focus:outline-none"
+    />
+  </div>
+
+</div>
 
 		
 		
@@ -169,12 +182,6 @@
 			<!-- Table -->
 			<div class="overflow-x-auto">
 				<table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-					<thead class="text-xs uppercase bg-gray-50 dark:bg-gray-700">
-						<tr>
-							<th class="px-4 py-3">Design</th>
-							<th class="px-4 py-3 text-right">Actions</th>
-						</tr>
-					</thead>
 
 					<tbody>
 						{#each filteredDesigns as design}
@@ -275,4 +282,5 @@
 			</div>
 		</div>
 	</div>
+	<Pagination/>
 </section>

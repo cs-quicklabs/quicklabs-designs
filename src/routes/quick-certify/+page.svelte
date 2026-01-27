@@ -62,8 +62,8 @@
 		{ title:'Credential', link:'/quick-certify/credential'}
 	];
 
-   let events= [
-		{ title:'events', link:'/quick-certify/events'}
+   let Events= [
+		{ title:'Events', link:'/quick-certify/events'}
 	]
 	
 
@@ -91,7 +91,7 @@
 		{ title: 'Event Settings', screens: eventSettings },
 		{ title: 'Designs', screens: Designs },
 		{title:'Credential',screens:credential},
-		{title:'Events',screens:events}
+		{title:'Events',screens:Events}
 
 	];
 </script>

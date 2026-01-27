@@ -1,5 +1,6 @@
 <script>
 	import NavBar from '$quick-certify/common/navbar/admin.svelte';
+	import Pagination from '$quick-certify/common/navbar/pagination.svelte';
   let selectedType = 'all';
 	const Events = [
 	{
@@ -46,8 +47,8 @@
       <!-- Header -->
       <div class="flex items-center justify-between px-4 py-2 border-b border-gray-200">
         <div>
-          <h1 class="text-lg font-semibold text-gray-900">Credential</h1>
-          <p class="text-sm text-gray-500">4 credentials</p>
+          <h1 class="text-lg font-semibold text-gray-900">Events Groups</h1>
+          <p class="text-sm text-gray-500">4 Events</p>
         </div>
 
         <button
@@ -94,7 +95,7 @@
         </div>
       </div>
 			<!-- Table -->
-			<div class="bg-gray-50 border-gray-200">
+			<div class="border-gray-200">
 				<table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
 					<tbody>
 						{#each filteredEvents as Events}
@@ -136,7 +137,7 @@
 											title="Preview"
 											on:click={() =>
 												(window.location.href = '/quick-certify/credential')}
-											class="flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-xs
+														class="flex items-center gap-2 px-2 py-1.5 text-xs font-medium rounded-xs
 		bg-blue-50 text-blue-700 hover:bg-blue-100 cursor-pointer">
 											<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 												<path
@@ -156,9 +157,9 @@
 										<button
 											title="Edit"
 			
-											class="flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-xs
+											class="flex items-center gap-2 px-2 py-1.5 text-xs font-medium rounded-xs
 		bg-gray-100 text-gray-700 hover:bg-gray-200 cursor-pointer">
-										<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+										<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4" f>
   <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
 </svg>
 
@@ -181,59 +182,7 @@
 			</div>
 		</div>
 	
-    
-<nav aria-label="Page navigation example" class="flex justify-end p-4">
-  <ul class="flex -space-x-px text-sm">
-    <li>
-      <a href="#"
-        class="flex items-center justify-center px-3 h-9 text-sm font-medium
-               bg-neutral-secondary-medium border border-default-medium
-               rounded-s-base hover:bg-neutral-tertiary-medium">
-        Previous
-      </a>
-    </li>
+   <Pagination/> 
 
-    <li>
-      <a href="#" class="flex items-center justify-center w-9 h-9 text-sm border border-default-medium">
-        1
-      </a>
-    </li>
-
-    <li>
-      <a href="#" class="flex items-center justify-center w-9 h-9 text-sm border border-default-medium">
-        2
-      </a>
-    </li>
-
-    <li>
-      <a href="#" aria-current="page"
-        class="flex items-center justify-center w-9 h-9 text-sm font-medium
-               text-fg-brand bg-neutral-tertiary-medium border border-default-medium">
-        3
-      </a>
-    </li>
-
-    <li>
-      <a href="#" class="flex items-center justify-center w-9 h-9 text-sm border border-default-medium">
-        4
-      </a>
-    </li>
-
-    <li>
-      <a href="#" class="flex items-center justify-center w-9 h-9 text-sm border border-default-medium">
-        5
-      </a>
-    </li>
-
-    <li>
-      <a href="#"
-        class="flex items-center justify-center px-3 h-9 text-sm font-medium
-               bg-neutral-secondary-medium border border-default-medium
-               rounded-e-base hover:bg-neutral-tertiary-medium">
-        Next
-      </a>
-    </li>
-  </ul>
-</nav>
 </section>
 

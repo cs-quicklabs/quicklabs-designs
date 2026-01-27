@@ -1,5 +1,6 @@
 <script>
 	import NavBar from '$quick-certify/common/navbar/admin.svelte';
+  import Pagination from '$quick-certify/common/navbar/pagination.svelte';
 
 	const recipients = [
 		{
@@ -7,7 +8,7 @@
 			name: 'Divanshu',
 			email: 'neil.sims@flowbite.com',
 			event: 'Award Name',
-			issueDate: 'June 12 2025',
+			issueDate: '12 June 2025',
 			status: '--'
 		},
 		{
@@ -15,7 +16,7 @@
 			name: 'Divanshu',
 			email: 'neil.sims@flowbite.com',
 			event: 'Award Name',
-			issueDate: 'June 12 2025',
+			issueDate: '12 June 2025',
 			status: '--'
 		},
         	{
@@ -23,7 +24,7 @@
 			name: 'Raj',
 			email: 'raj@flowbite.com',
 			event: 'Award Name',
-			issueDate: 'June 12 2025',
+			issueDate: '12 June 2025',
 			status: '--'
 		},
         	{
@@ -31,7 +32,7 @@
 			name: 'Aashish',
 			email: 'Aashish@flowbite.com',
 			event: 'Award Name',
-			issueDate: 'June 12 2025',
+			issueDate: '12 June 2025',
 			status: '--'
 		}
 	];
@@ -53,7 +54,7 @@
 
         <button
           class="btn-primary">
-          Issuer Credential
+          Issue Credential
         </button>
       </div>
 
@@ -111,10 +112,10 @@
         <tbody>
           {#each recipients as user}
             <tr class="border-b border-gray-200 hover:bg-gray-50">
-              <td class="px-6 py-2">{user.name}</td>
+              <td class="px-6 py-2 text-gray-900 ">{user.name}</td>
               <td class="px-6 py-2">{user.email}</td>
-              <td class="px-6 py-2">{user.event}</td>
-              <td class="px-6 py-2">{user.issueDate}</td>
+              <td class="px-6 py-2 text-gray-900 ">{user.event}</td>
+              <td class="px-6 py-2 text-gray-900 ">{user.issueDate}</td>
               <td class="px-6 py-2 text-gray-500">{user.status}</td>
               <td class="px-6 py-2">
                 <a href="#" class="text-blue-600 hover:underline">View</a>
@@ -125,23 +126,10 @@
       </table>
 
       <!-- Pagination -->
-      <div class="flex justify-end px-4 py-3 border-t border-gray-200">
-        <ul class="flex text-sm">
-          {#each ['Previous',1,2,3,4,5,'Next'] as page}
-            <li>
-              <a
-                href="#"
-                class="flex items-center justify-center px-3 h-9 border border-gray-200
-                       hover:bg-gray-100 text-gray-700">
-                {page}
-              </a>
-            </li>
-          {/each}
-        </ul>
-      </div>
-
+    
     </div>
   </div>
+ <Pagination/>
 </section>
 
 
