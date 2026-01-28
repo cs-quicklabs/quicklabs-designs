@@ -219,9 +219,11 @@
 								<!-- Actions -->
 								<td class="px-4 py-2 text-right">
 									<div class="flex justify-end gap-2">
-										<button
+									<button
 											title="Preview"
-											class="flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-xs
+											on:click={() =>
+												(window.location.href = '/quick-certify/credential')}
+														class="flex items-center gap-2 px-2 py-1.5 text-xs font-medium rounded-xs
 		bg-blue-50 text-blue-700 hover:bg-blue-100 cursor-pointer">
 											<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 												<path
@@ -242,8 +244,8 @@
 											title="Edit"
 											on:click={() =>
 												(window.location.href = '/quick-certify/designs/edit-design')}
-											class="flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-xs
-		bg-gray-100 text-gray-700 hover:bg-gray-200 cursor-pointer">
+											class="flex items-center gap-2 px-2 py-1.5 text-xs font-medium rounded-xs
+		bg-gray-50 text-gray-700 hover:bg-gray-100 cursor-pointer">
 											<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 												<path
 													stroke-linecap="round"
@@ -256,7 +258,7 @@
 
 										<button
 											title="Delete"
-											class="flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-xs
+											class="flex items-center gap-2 px-2 py-1.5 text-xs font-medium rounded-xs
 		bg-red-50 text-red-700 hover:bg-red-100 cursor-pointer">
 											<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 												<path
