@@ -192,7 +192,7 @@
 										<img
 											src={design.image}
 											alt={design.type}
-											class="w-24 md:w-24 max-w-full max-h-full shadow-md" />
+											class="w-20 md:w-20 max-w-full max-h-full shadow-md" />
 
 										<div>
 											<div class="font-medium text-gray-900 dark:text-white">
