@@ -147,13 +147,25 @@
 
     <!-- Badges -->
     <label class="flex items-center gap-2 text-sm font-medium text-gray-900 dark:text-gray-300 cursor-pointer">
-      <input type="radio" name="show-only" class="radio">
+      <input
+								id="Badge"
+								type="radio"
+								value=""
+								name="show-only"
+								class="w-4 h-4 bg-gray-100 border-gray-300 text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800  dark:bg-gray-700 dark:border-gray-600 cursor-pointer"
+								checked />
       Badges
     </label>
 
     <!-- Certificates -->
     <div class="flex items-center">
-    <input id="default-radio-1" type="radio" value="" name="default-radio" class="w-4 h-4 text-neutral-primary border-default-medium bg-neutral-secondary-medium rounded-full checked:border-brand focus:ring-2 focus:outline-none focus:ring-brand-subtle border border-default appearance-none">
+    <input
+								id="certificate"
+								type="radio"
+								value=""
+								name="show-only"
+								class="w-4 h-4 bg-gray-100 border-gray-300 text-primary-600 focus:ring-primary-500 dark:focus:ring-primary-600 dark:ring-offset-gray-800  dark:bg-gray-700 dark:border-gray-600 cursor-pointer"
+								checked />
     <label for="default-radio-1" class="select-none ms-2 text-sm font-medium text-heading">Certificate</label>
 </div>
 

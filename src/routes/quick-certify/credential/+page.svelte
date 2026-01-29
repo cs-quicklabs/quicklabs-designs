@@ -113,9 +113,9 @@
           {#each recipients as user}
             <tr class="border-b border-gray-200 hover:bg-gray-50">
               <td class="px-6 py-2 text-gray-900 ">{user.name}</td>
-              <td class="px-6 py-2">{user.email}</td>
+              <td class="px-6 py-2 text-gray-500">{user.email}</td>
               <td class="px-6 py-2 text-gray-900 ">{user.event}</td>
-              <td class="px-6 py-2 text-gray-900 ">{user.issueDate}</td>
+              <td class="px-6 py-2 text-gray-500 ">{user.issueDate}</td>
               <td class="px-6 py-2 text-gray-500">{user.status}</td>
               <td class="px-6 py-2">
                 <a href="#" class="text-blue-600 hover:underline">View</a>
