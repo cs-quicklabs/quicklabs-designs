@@ -63,7 +63,9 @@
 	];
 
    let Events= [
-		{ title:'Events', link:'/quick-certify/events'}
+		{ title:'Events', link:'/quick-certify/events'},
+		{title:'Add Event', link:'/quick-certify/events/add-events'},
+		{title:'Enhanced Details', link:'/quick-certify/events/enhanced-details'}
 	]
 	
 
