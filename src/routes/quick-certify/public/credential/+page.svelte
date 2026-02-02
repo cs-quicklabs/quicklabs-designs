@@ -182,11 +182,38 @@
            bg-white rounded-2xl shadow-xl overflow-hidden"
   >
     <!-- Modal Header (optional) -->
-    <div class="px-6 py-4 border-b border-gray-200">
-      <h3 class="text-lg font-semibold text-gray-900">
-        Contact Us
-      </h3>
-    </div>
+   <!-- Modal Header -->
+<div class="flex items-center justify-between px-6 py-4 border-b border-gray-200">
+  <h3 class="text-lg font-semibold text-gray-900">
+    Contact Us
+  </h3>
+
+  <!-- Close Button -->
+  <button
+    type="button"
+    aria-label="Close modal"
+    class="inline-flex items-center justify-center
+           rounded-full p-2 text-gray-400
+           bg-gray-300 hover:text-gray-700
+           focus:outline-none focus:ring-2 focus:ring-brand cursor-pointer"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="2"
+      stroke="currentColor"
+      class="h-5 w-5"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M6 18L18 6M6 6l12 12"
+      />
+    </svg>
+  </button>
+</div>
+
 
     <!-- Modal Body -->
     <div class="p-6 space-y-4">
