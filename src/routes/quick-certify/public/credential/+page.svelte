@@ -150,14 +150,17 @@
 							<p class="text-gray-500 dark:text-gray-400">
 								<a
 									href="#"
-									class="inline-flex items-center text-sm text-blue-600 dark:text-blue-500 hover:underline">
+									class="inline-flex items-center text-sm text-blue-600 dark:text-blue-500 hover:underline"
+									data-modal-target="popup-modal-contact"
+                                    data-modal-toggle="popup-modal-contact">
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										fill="none"
 										viewBox="0 0 24 24"
 										stroke-width="2"
 										stroke="currentColor"
-										class="size-4 me-1">
+										class="size-4 me-1"
+										 >
 										<path
 											stroke-linecap="round"
 											stroke-linejoin="round"
@@ -171,107 +174,99 @@
 					</div>
 				</div>
 			</div>
-			<!-- Modal Overlay -->
+<!-- Contact Issuer Modal -->
 <div
-  class="fixed inset-0 z-50 flex items-center justify-center
-         bg-black/40 backdrop-blur-sm"
+  id="popup-modal-contact"
+  tabindex="-1"
+  class="hidden fixed inset-0 z-50 flex items-center justify-center
+         bg-black/50 backdrop-blur-sm"
 >
-  <!-- Modal Container -->
-  <div
-    class="relative w-full max-w-md mx-4
-           bg-white rounded-2xl shadow-xl overflow-hidden"
-  >
-    <!-- Modal Header (optional) -->
-   <!-- Modal Header -->
-<div class="flex items-center justify-between px-6 py-4 border-b border-gray-200">
-  <h3 class="text-lg font-semibold text-gray-900">
-    Contact Us
-  </h3>
+  <div class="relative w-full max-w-md max-h-full">
+    <div class="relative bg-white rounded-lg shadow text-center p-5">
 
-  <!-- Close Button -->
-  <button
-    type="button"
-    aria-label="Close modal"
-    class="inline-flex items-center justify-center
-           rounded-full p-2 text-gray-400
-           bg-gray-300 hover:text-gray-700
-           focus:outline-none focus:ring-2 focus:ring-brand cursor-pointer"
-  >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke-width="2"
-      stroke="currentColor"
-      class="h-5 w-5"
-    >
-      <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        d="M6 18L18 6M6 6l12 12"
-      />
-    </svg>
-  </button>
-</div>
+      <!-- Close ❌ -->
+      <button
+        data-modal-hide="popup-modal-contact"
+        class="btn-secondary absolute top-3 right-2.5"
+      >
+        <svg
+          class="w-3 h-3"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 14 14"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+        </svg>
+        <span class="sr-only">Close modal</span>
+      </button>
 
+      <!-- Icon -->
+     
 
-    <!-- Modal Body -->
-    <div class="p-6 space-y-4">
-      <form class="space-y-4">
+      <!-- Title -->
+      <h3 class="text-lg font-bold text-gray-700 mb-4 text-left">
+        Contact Issuer
+      </h3>
+
+      <!-- Form -->
+      <form class="space-y-4 text-left">
         <div>
-          <label class="block mb-2.5 text-sm font-medium text-heading">
+          <label class="block mb-1 text-sm font-medium text-gray-700">
             Your Email <span class="text-red-500">*</span>
           </label>
           <input
             type="email"
-            class="w-full bg-neutral-secondary-medium
-                   border border-default-medium
-                   rounded-lg px-3 py-2.5 text-sm
-                   focus:ring-brand focus:border-brand"
-            placeholder="name@company.com"
             required
+            class="w-full rounded-lg border border-gray-300 px-3 py-2.5 text-sm focus:ring-blue-500 focus:border-blue-500"
+            placeholder="name@company.com"
           />
         </div>
 
         <div>
-          <label class="block mb-2.5 text-sm font-medium text-heading">
+          <label class="block mb-1 text-sm font-medium text-gray-700">
             Subject <span class="text-red-500">*</span>
           </label>
           <input
             type="text"
-            class="w-full bg-neutral-secondary-medium
-                   border border-default-medium
-                   rounded-lg px-3 py-2.5 text-sm"
-                 
-            placeholder="Let us know how we can help"
             required
+            class="w-full rounded-lg border border-gray-300 px-3 py-2.5 text-sm"
+            placeholder="Regarding this certificate"
           />
         </div>
 
         <div>
-          <label class="block mb-2.5 text-sm font-medium text-heading">
-            Your message
+          <label class="block mb-1 text-sm font-medium text-gray-700">
+            Message
           </label>
           <textarea
             rows="4"
-            class="w-full bg-neutral-secondary-medium
-                   border border-default-medium
-                   rounded-lg p-3.5 text-sm
-                   focus:ring-brand focus:border-brand"
-            placeholder="Write your thoughts here..."
+            class="w-full rounded-lg border border-gray-300 p-3 text-sm"
+            placeholder="Write your message..."
           ></textarea>
         </div>
 
-        <button
-          type="submit"
-          class="w-full rounded-lg bg-brand text-white
-                 px-4 py-2.5 text-sm font-medium
-                 hover:bg-brand-strong
-                 focus:ring-4 focus:ring-brand-medium"
-        >
-          Send message
-        </button>
+        <!-- Actions -->
+        <div class="flex justify-center pt-2">
+          <button
+            type="submit"
+            class="btn-primary px-6 py-2"
+          >
+            Send Message
+          </button>
+          <button
+            type="button"
+            data-modal-hide="popup-modal-contact"
+            class="btn-secondary ml-3"
+          >
+            Cancel
+          </button>
+        </div>
       </form>
+
     </div>
   </div>
 </div>
