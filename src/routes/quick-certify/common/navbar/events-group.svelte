@@ -2,7 +2,7 @@
 	<nav aria-label="Progress">
   <ol role="list" class="overflow-hidden">
     <li class="relative pb-10">
-      <div aria-hidden="true" class="absolute top-4 left-4 mt-0.5 -ml-px h-full w-0.5 bg-gray-300"></div>
+      <div aria-hidden="true" class="absolute top-4 left-4 mt-0.5 -ml-px h-full w-0.5 bg-gray-600"></div>
       <!-- Complete Step -->
       <a href="/quick-certify/events/add-events" class="group relative flex items-start">
         <span class="flex h-9 items-center">
@@ -12,8 +12,9 @@
             </svg>
           </span>
         </span>
-        <span class="ml-4 flex min-w-0 flex-col">
-          <span class="text-sm font-medium text-gray-900">Info & Appearence</span>
+        
+        <span class="ml-4 flex min-w-0 flex-col text-center">
+          <span class="text-sm font-medium  py-2">Info & Appearence</span>
         </span>
       </a>
     </li>
@@ -27,7 +28,7 @@
           </span>
         </span>
         <span class="ml-4 flex min-w-0 flex-col">
-          <span class="text-sm font-medium text-gray-300">Enhanced Details</span>
+          <span class="text-sm font-medium text-gray-300 py-2">Enhanced Details</span>
         </span>
       </a>
     </li>
