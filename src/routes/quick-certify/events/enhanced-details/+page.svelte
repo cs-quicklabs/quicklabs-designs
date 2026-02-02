@@ -54,7 +54,7 @@
         Type
       </label>
       <select
-        class="block w-full px-3 py-2.5 bg-neutral-secondary-medium border border-default-medium
+        class="block w-full px-2 py-2.5 bg-neutral-secondary-medium border border-default-medium
                text-heading text-sm rounded-lg
                focus:ring-brand focus:border-brand shadow-xs cursor-pointer"
       >
@@ -71,7 +71,7 @@
         Events Level
       </label>
       <select
-        class="block w-full px-3 py-2.5 bg-neutral-secondary-medium border border-default-medium
+        class="block w-full px-2 py-2.5 bg-neutral-secondary-medium border border-default-medium
                text-heading text-sm rounded-lg
                focus:ring-brand focus:border-brand shadow-xs cursor-pointer"
       >
@@ -86,7 +86,7 @@
         Events Format
       </label>
       <select
-        class="block w-full px-3 py-2.5 bg-neutral-secondary-medium border border-default-medium
+        class="block w-full px-2 py-2.5 bg-neutral-secondary-medium border border-default-medium
                text-heading text-sm rounded-lg
                focus:ring-brand focus:border-brand shadow-xs cursor-pointer"
       >
