@@ -171,6 +171,84 @@
 					</div>
 				</div>
 			</div>
+			<!-- Modal Overlay -->
+<div
+  class="fixed inset-0 z-50 flex items-center justify-center
+         bg-black/40 backdrop-blur-sm"
+>
+  <!-- Modal Container -->
+  <div
+    class="relative w-full max-w-md mx-4
+           bg-white rounded-2xl shadow-xl overflow-hidden"
+  >
+    <!-- Modal Header (optional) -->
+    <div class="px-6 py-4 border-b border-gray-200">
+      <h3 class="text-lg font-semibold text-gray-900">
+        Contact Us
+      </h3>
+    </div>
+
+    <!-- Modal Body -->
+    <div class="p-6 space-y-4">
+      <form class="space-y-4">
+        <div>
+          <label class="block mb-2.5 text-sm font-medium text-heading">
+            Your Email <span class="text-red-500">*</span>
+          </label>
+          <input
+            type="email"
+            class="w-full bg-neutral-secondary-medium
+                   border border-default-medium
+                   rounded-lg px-3 py-2.5 text-sm
+                   focus:ring-brand focus:border-brand"
+            placeholder="name@company.com"
+            required
+          />
+        </div>
+
+        <div>
+          <label class="block mb-2.5 text-sm font-medium text-heading">
+            Subject <span class="text-red-500">*</span>
+          </label>
+          <input
+            type="text"
+            class="w-full bg-neutral-secondary-medium
+                   border border-default-medium
+                   rounded-lg px-3 py-2.5 text-sm"
+                 
+            placeholder="Let us know how we can help"
+            required
+          />
+        </div>
+
+        <div>
+          <label class="block mb-2.5 text-sm font-medium text-heading">
+            Your message
+          </label>
+          <textarea
+            rows="4"
+            class="w-full bg-neutral-secondary-medium
+                   border border-default-medium
+                   rounded-lg p-3.5 text-sm
+                   focus:ring-brand focus:border-brand"
+            placeholder="Write your thoughts here..."
+          ></textarea>
+        </div>
+
+        <button
+          type="submit"
+          class="w-full rounded-lg bg-brand text-white
+                 px-4 py-2.5 text-sm font-medium
+                 hover:bg-brand-strong
+                 focus:ring-4 focus:ring-brand-medium"
+        >
+          Send message
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
 
 			<div class="py-6 lg:pl-8 xl:flex-1 xl:pl-6">
 				<!-- Main area -->
