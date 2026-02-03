@@ -10,7 +10,11 @@
 		<SideBar />
 
 		<main class="max-w-xl pb-12 px-4 lg:col-span-6">
-			<div class="">
+			<h1 class="form-title">Add New Event</h1>
+				<p class="form-subtitle">
+				Create a new event to issue credentials on specific occasions.
+				</p>
+			<div class="py-4">
 						<label for="email" class="form-input-label">Name </label>
 						<input id="name" class="form-input-field" placeholder="Name of Events" required />
 						<p class="form-input-description -mt-2 mb-2">Specify the name of the occasion on which you would like to issue credentials</p>
