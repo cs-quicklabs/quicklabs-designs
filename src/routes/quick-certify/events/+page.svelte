@@ -51,10 +51,10 @@
           <p class="text-sm text-gray-500">4 Events</p>
         </div>
 
-        <button
-          class="btn-primary">
-         Add new Events
-        </button>
+ <a href="/quick-certify/events/add-events" class="btn-primary">
+  Add new Events
+</a>
+
       </div>
 
       <!-- Filters -->

@@ -150,14 +150,17 @@
 							<p class="text-gray-500 dark:text-gray-400">
 								<a
 									href="#"
-									class="inline-flex items-center text-sm text-blue-600 dark:text-blue-500 hover:underline">
+									class="inline-flex items-center text-sm text-blue-600 dark:text-blue-500 hover:underline"
+									data-modal-target="popup-modal-contact"
+                                    data-modal-toggle="popup-modal-contact">
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										fill="none"
 										viewBox="0 0 24 24"
 										stroke-width="2"
 										stroke="currentColor"
-										class="size-4 me-1">
+										class="size-4 me-1"
+										 >
 										<path
 											stroke-linecap="round"
 											stroke-linejoin="round"
@@ -171,6 +174,103 @@
 					</div>
 				</div>
 			</div>
+<!-- Contact Issuer Modal -->
+<div
+  id="popup-modal-contact"
+  tabindex="-1"
+  class="hidden fixed inset-0 z-50 flex items-center justify-center
+         bg-black/50 backdrop-blur-sm"
+>
+  <div class="relative w-full max-w-md max-h-full">
+    <div class="relative bg-white rounded-lg shadow text-center p-5">
+
+      <!-- Close ❌ -->
+      <button
+        data-modal-hide="popup-modal-contact"
+        class="btn-secondary absolute top-3 right-2.5"
+      >
+        <svg
+          class="w-3 h-3"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 14 14"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+        </svg>
+        <span class="sr-only">Close modal</span>
+      </button>
+
+      <!-- Icon -->
+     
+
+      <!-- Title -->
+      <h3 class="text-lg font-bold text-gray-700 mb-4 text-left">
+        Contact Issuer
+      </h3>
+
+      <!-- Form -->
+      <form class="space-y-4 text-left">
+        <div>
+          <label class="block mb-1 text-sm font-medium text-gray-700">
+            Your Email <span class="text-red-500">*</span>
+          </label>
+          <input
+            type="email"
+            required
+            class="w-full rounded-lg border border-gray-300 px-3 py-2.5 text-sm focus:ring-blue-500 focus:border-blue-500"
+            placeholder="name@company.com"
+          />
+        </div>
+
+        <div>
+          <label class="block mb-1 text-sm font-medium text-gray-700">
+            Subject <span class="text-red-500">*</span>
+          </label>
+          <input
+            type="text"
+            required
+            class="w-full rounded-lg border border-gray-300 px-3 py-2.5 text-sm"
+            placeholder="Regarding this certificate"
+          />
+        </div>
+
+        <div>
+          <label class="block mb-1 text-sm font-medium text-gray-700">
+            Message
+          </label>
+          <textarea
+            rows="4"
+            class="w-full rounded-lg border border-gray-300 p-3 text-sm"
+            placeholder="Write your message..."
+          ></textarea>
+        </div>
+
+        <!-- Actions -->
+        <div class="flex justify-center pt-2">
+          <button
+            type="submit"
+            class="btn-primary px-6 py-2"
+          >
+            Send Message
+          </button>
+          <button
+            type="button"
+            data-modal-hide="popup-modal-contact"
+            class="btn-secondary ml-3"
+          >
+            Cancel
+          </button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+</div>
+
 
 			<div class="py-6 lg:pl-8 xl:flex-1 xl:pl-6">
 				<!-- Main area -->
