@@ -111,9 +111,9 @@
 
         <tbody>
           {#each recipients as user}
-            <tr class="border-b border-gray-200 hover:bg-gray-50">
-              <td class="px-6 py-2 text-gray-900 ">{user.name}</td>
-              <td class="px-6 py-2">{user.email}</td>
+            <tr class="border-b border-gray-200 dark:border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
+              <td class="px-6 py-2 form-text-normal">{user.name}</td>
+              <td class="px-6 py-2 text-gray-500">{user.email}</td>
               <td class="px-6 py-2 text-gray-900 ">{user.event}</td>
               <td class="px-6 py-2 text-gray-900 ">{user.issueDate}</td>
               <td class="px-6 py-2 text-gray-500">{user.status}</td>

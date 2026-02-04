@@ -20,11 +20,10 @@
 						<p class="form-input-description -mt-2 mb-2">Specify the name of the occasion on which you would like to issue credentials</p>
 					</div>
 
-			<div class="mt-4">
 				<div class="mb-2">
 					<label for="dropzone-file" class="form-input-label">Appearence</label>
 					<p class="form-input-description -mt-2 mb-2">
-						Attach a design to this group. If it contains multiple pages, all of them will be included.
+						Attach a design to this group.
 					</p>
 				</div>
 				<div class="flex justify-center items-center w-full">
@@ -54,11 +53,10 @@
 						<input id="dropzone-file" type="file" class="hidden" />
 					</label>
 				</div>
-			</div>
 			<div class="flex justify-between items-center mt-4">
 				<button type="submit" class="btn-primary"> Save Design </button>
 
-				<button type="submit" class="btn-secondary">cancel</button>
+				<button type="submit" class="btn-secondary">Cancel</button>
 			</div>
 			
 		</main>

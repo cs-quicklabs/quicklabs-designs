@@ -47,7 +47,7 @@
 		<div class="flex-1 xl:flex">
 			<div class="py-6 lg:pl-8 lg:w-96 xl:shrink-0 xl:pl-4">
 				<!-- Left column area -->
-				<div class="overflow-hidden rounded-sm bg-white border border-gray-200 ">
+				<div class="overflow-hidden rounded-sm bg-white  border-gray-200 ">
 					<div
 						class="flex flex-col overflow-hidden rounded-sm border border-stroke-dark border-gray-200 bg-white p-4 md:p-4 gap-3">
 						<div class="flex justify-between">

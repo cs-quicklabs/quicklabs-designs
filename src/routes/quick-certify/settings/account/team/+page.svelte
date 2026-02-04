@@ -105,7 +105,7 @@
 						<tr class="border-b border-gray-200 dark:border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
 							<th scope="row" class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
-									<a href="team/1" class="ml-2 hover:underline"> Aashish Dhawan </a>
+									<a href="team/1" class="hover:underline"> Aashish Dhawan </a>
 								</div>
 							</th>
 							<td class="px-4 py-2">
@@ -139,7 +139,7 @@
 						<tr class="border-b border-gray-200 dark:border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
 							<th scope="row" class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
-									<a href="team/1" class="ml-2 hover:underline"> Peter Parker </a>
+									<a href="team/1" class="hover:underline"> Peter Parker </a>
 								</div>
 							</th>
 							<td class="px-4 py-2">
@@ -173,7 +173,7 @@
 						<tr class="border-b border-gray-200 dark:border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
 							<th scope="row" class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
-									<a href="team/1" class="ml-2 hover:underline"> Nick Furry </a>
+									<a href="team/1" class="hover:underline"> Nick Furry </a>
 								</div>
 							</th>
 							<td class="px-4 py-2">
@@ -207,7 +207,7 @@
 						<tr class="border-b border-gray-200 dark:border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
 							<th scope="row" class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
-									<a href="team/1" class="ml-2 hover:underline"> Mystique </a>
+									<a href="team/1" class="hover:underline"> Mystique </a>
 								</div>
 							</th>
 							<td class="px-4 py-2">

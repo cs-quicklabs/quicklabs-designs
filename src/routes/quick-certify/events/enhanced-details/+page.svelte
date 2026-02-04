@@ -54,8 +54,8 @@
         Type
       </label>
       <select
-        class="block w-full px-2 py-2.5 bg-neutral-secondary-medium border border-default-medium
-               text-heading text-sm rounded-lg
+        class="block w-full px-2 py-2 bg-neutral-secondary-medium border border-default-medium
+               text-heading text-sm rounded-xs
                focus:ring-brand focus:border-brand shadow-xs cursor-pointer"
       >
         <option selected>Event Type</option>
@@ -71,8 +71,8 @@
         Events Level
       </label>
       <select
-        class="block w-full px-2 py-2.5 bg-neutral-secondary-medium border border-default-medium
-               text-heading text-sm rounded-lg
+        class="block w-full px-2 py-2 bg-neutral-secondary-medium border border-default-medium
+               text-heading text-sm rounded-xs
                focus:ring-brand focus:border-brand shadow-xs cursor-pointer"
       >
         <option selected>Event level</option>
@@ -86,8 +86,8 @@
         Events Format
       </label>
       <select
-        class="block w-full px-2 py-2.5 bg-neutral-secondary-medium border border-default-medium
-               text-heading text-sm rounded-lg
+        class="block w-full px-1 py-2 bg-neutral-secondary-medium border border-default-medium
+               text-heading text-sm rounded-xs
                focus:ring-brand focus:border-brand shadow-xs cursor-pointer"
       >
         <option selected>Format</option>
@@ -104,34 +104,35 @@
   <!-- Fake input field -->
   <div class="form-input-field flex flex-wrap items-center gap-2 min-h-[52px]">
 
-    <!-- YOUR badge (unchanged) -->
-    <span class="text-center inline-flex items-center bg-brand-softer border border-brand-subtle text-fg-brand-strong text-xs font-medium ps-1.5 pe-0.5 py-0.5 rounded gap-1">
+   
       
-      certificates
-      <button type="button" class="inline-flex items-center p-0.5 text-sm bg-transparent rounded-xs hover:bg-brand-soft">
-        
+      <span id="badge-avatar-dismiss-gray" class="inline-flex items-center bg-neutral-secondary-medium border border-default-medium text-heading text-xs font-medium ps-1.5 pe-0.5 py-0.5 rounded gap-1">
+      JS
+      <button type="button" class="inline-flex items-center p-0.5 text-sm bg-transparent rounded-xs hover:bg-neutral-quaternary" data-dismiss-target="#badge-avatar-dismiss-gray" aria-label="Remove">
+        <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/></svg>
+        <span class="sr-only">Remove badge</span>
       </button>
-    </span>
-
-    <!-- Another badge -->
-    <span class="inline-flex bg-neutral-secondary-medium border border-default-medium text-heading text-xs font-medium ps-1.5 pe-0.5 py-0.5 rounded gap-1">
-      Events
-      <button type="button" class="inline-flex items-center p-0.5 text-sm bg-transparent rounded-xs hover:bg-neutral-quaternary">
-       
+      </span>
+      
+      <span id="badge-avatar-dismiss-danger" class="inline-flex items-center bg-danger-soft border border-danger-subtle text-fg-danger-strong text-xs font-medium ps-1.5 pe-0.5 py-0.5 rounded gap-1">
+      Python
+      <button type="button" class="inline-flex items-center p-0.5 text-sm bg-transparent rounded-xs hover:bg-danger-medium" data-dismiss-target="#badge-avatar-dismiss-danger" aria-label="Remove">
+        <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/></svg>
+        <span class="sr-only">Remove badge</span>
       </button>
-    </span>
+      </span>
+      
+      
+      
+  
 
     <!-- Actual input -->
     <input
       type="text"
-      placeholder="Name of Events"
+      placeholder="Name of Skills"
       class="flex-1 min-w-[120px] h-full bg-transparent border-0 outline-none focus:ring-0 text-sm"
     />
   </div>
-
-  <p class="form-input-description mt-2">
-    Specify the name of the occasion on which you would like to issue credentials
-  </p>
 </div>
 
 						
@@ -142,7 +143,7 @@
 			<div class="flex justify-between items-center mt-4">
 				<button type="submit" class="btn-primary"> Save Events </button>
 
-				<button type="submit" class="btn-secondary px-3">cancel</button>
+				<button type="submit" class="btn-secondary px-3">Cancel</button>
 			</div>
 			
 		</main>
