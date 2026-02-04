@@ -47,7 +47,7 @@
 		<div class="flex-1 xl:flex">
 			<div class="py-6 lg:pl-8 lg:w-96 xl:shrink-0 xl:pl-4">
 				<!-- Left column area -->
-				<div class="overflow-hidden rounded-sm bg-white border border-gray-200 ">
+				<div class="overflow-hidden rounded-sm bg-white  border-gray-200 ">
 					<div
 						class="flex flex-col overflow-hidden rounded-sm border border-stroke-dark border-gray-200 bg-white p-4 md:p-4 gap-3">
 						<div class="flex justify-between">
@@ -215,55 +215,55 @@
       <!-- Form -->
       <form class="space-y-4 text-left">
         <div>
-          <label class="block mb-1 text-sm font-medium text-gray-700">
+          <label class="block mb-1 text-sm font-medium text-gray-700 form-input-label">
             Your Email <span class="text-red-500">*</span>
           </label>
           <input
             type="email"
             required
-            class="w-full rounded-lg border border-gray-300 px-3 py-2.5 text-sm focus:ring-blue-500 focus:border-blue-500"
+            class="w-full rounded-sm border border-gray-300 px-3 py-2.5 text-sm focus:ring-blue-500 focus:border-blue-500"
             placeholder="name@company.com"
           />
         </div>
 
         <div>
-          <label class="block mb-1 text-sm font-medium text-gray-700">
+          <label class="block mb-1 text-sm font-medium text-gray-700 form-input-label">
             Subject <span class="text-red-500">*</span>
           </label>
           <input
             type="text"
             required
-            class="w-full rounded-lg border border-gray-300 px-3 py-2.5 text-sm"
+            class="w-full rounded-sm border border-gray-300 px-3 py-2.5 text-sm"
             placeholder="Regarding this certificate"
           />
         </div>
 
         <div>
-          <label class="block mb-1 text-sm font-medium text-gray-700">
+          <label class="block mb-1 text-sm font-medium text-gray-700 form-input-label">
             Message
           </label>
           <textarea
             rows="4"
-            class="w-full rounded-lg border border-gray-300 p-3 text-sm"
+            class="w-full rounded-sm border border-gray-300 p-3 text-sm"
             placeholder="Write your message..."
           ></textarea>
         </div>
 
         <!-- Actions -->
-        <div class="flex justify-center pt-2">
+        <div class="flex justify-between pt-2">
           <button
             type="submit"
             class="btn-primary px-6 py-2"
           >
             Send Message
           </button>
-          <button
-            type="button"
-            data-modal-hide="popup-modal-contact"
-            class="btn-secondary ml-3"
-          >
-            Cancel
-          </button>
+		  <button
+		  type="button"
+		  data-modal-hide="popup-modal-contact"
+		  class="btn-secondary"
+		>
+		  Cancel
+		</button>
         </div>
       </form>
 
