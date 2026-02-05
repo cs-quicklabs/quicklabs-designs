@@ -6,36 +6,32 @@
 <Header />
 <div class="bg-gray-50 min-h-screen p-8">
 	<div class="max-w-7xl mx-auto rounded-sm border border-gray-200 border-stroke-dark bg-white border-gray-200">
-		<div>
+		<div class="relative">
 			<img
 				class="h-32 w-full object-cover lg:h-48"
 				src="https://images.unsplash.com/photo-1444628838545-ac4016a5418a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
 				alt="" />
+
+			<!-- Profile image (LinkedIn-style overlap) -->
+			<img
+				class="absolute left-6 -bottom-10 h-20 w-20 rounded-full border-4 border-white object-cover bg-white"
+				src="https://flowbite.s3.amazonaws.com/logo.svg"
+				alt="Crownstack Logo"
+			/>
 		</div>
-		<div class="mt-2 md:flex md:items-center md:justify-between p-4">
-			<div class="min-w-0 flex-1">
-				<h2 class="text-2xl/7 font-bold text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">
-					Crownstack Technologies
-				</h2>
-			</div>
+
+		<!-- Title block (padded to clear the overlapped avatar) -->
+		<div class="pt-12 px-6 pb-4">
+			<h2 class="text-2xl/7 font-bold text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">
+				Crownstack Technologies
+			</h2>
+			<p class="text-gray-500 text-sm mt-1">IT Services and Consulting</p>
 		</div>
 	</div>
-		<div class="p-8 flex flex-col lg:flex-row gap-8 max-w-7xl mx-auto">
+
+		<div class="p-1 flex flex-col lg:flex-row gap-8 max-w-7xl mx-auto mt-4">
 			<!-- Left: Company Details -->
 			<div class="flex-1 flex flex-col gap-4">
-				<!-- Company Logo/Profile -->
-				<div class="flex items-center space-x-4">
-					<img
-						class="h-20 w-20 rounded-full border border-gray-200 object-cover"
-				src="https://images.unsplash.com/photo-1444628838545-ac4016a5418a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-						
-						alt="Crownstack Logo"
-					/>
-					<div>
-						<h3 class="text-xl font-semibold text-gray-800">Crownstack Technologies</h3>
-						<p class="text-gray-500 text-sm">IT Services and Consulting</p>
-					</div>
-				</div>
 				<!-- Company Info -->
 				<div class="bg-gray-50 rounded border border-gray-200  p-4">
 					<h4 class="font-medium text-gray-700 mb-2">About</h4>
