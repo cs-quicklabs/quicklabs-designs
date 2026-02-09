@@ -29,6 +29,7 @@
 						<a href="/quick-certify/approvals" class="unselected-nav">Emails</a>
 						<a href="/quick-certify/approvals" class="unselected-nav">Analytics</a>
 						<a href="/quick-certify/approvals" class="unselected-nav">Integrations</a>
+						<a href="/quick-certify/approvals" class="unselected-nav">Pathways</a>
 					</div>
 				</div>
 			</div>
@@ -36,11 +37,22 @@
 				<div class="w-full max-w-lg lg:max-w-xs">
 					<label for="search" class="sr-only">Search</label>
 					<div class="relative">
-						<div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"></div>
+						<div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+							<svg
+								class="h-5 w-5 text-gray-400"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true">
+								<path
+									fill-rule="evenodd"
+									d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+									clip-rule="evenodd" />
+							</svg>
+						</div>
 						<input
 							id="search"
 							name="search"
-							class="block w-full form-input-field"
+							class="block w-full rounded-md border border-transparent bg-gray-700 py-1.5 pl-10 pr-3 leading-5 text-gray-300 placeholder-gray-400 focus:border-white focus:bg-white focus:text-gray-900 focus:outline-none focus:ring-white sm:text-sm"
 							placeholder="Search Events or Participants"
 							type="search" />
 					</div>
