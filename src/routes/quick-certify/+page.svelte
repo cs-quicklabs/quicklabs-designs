@@ -79,7 +79,8 @@
 	let pathways = [
 		{ title: 'Pathways', link: '/quick-certify/pathways' },
 		{ title: 'Add Pathway', link: '/quick-certify/pathways/add' },
-		{ title: 'Edit Pathway', link: '/quick-certify/pathways/edit' }
+		{ title: 'Edit Pathway', link: '/quick-certify/pathways/edit' },
+		{ title: 'Pathway Detail', link: '/quick-certify/pathways/details' }
 	];
 
 	// First Column: Settings, Second Column: Public Pages, Third Column: Pathways (for now)
