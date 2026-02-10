@@ -29,7 +29,7 @@
 						<a href="/quick-certify/approvals" class="unselected-nav">Emails</a>
 						<a href="/quick-certify/approvals" class="unselected-nav">Analytics</a>
 						<a href="/quick-certify/approvals" class="unselected-nav">Integrations</a>
-						<a href="/quick-certify/approvals" class="unselected-nav">Pathways</a>
+						<a href="/quick-certify/pathways" class="unselected-nav">Pathways</a>
 					</div>
 				</div>
 			</div>
