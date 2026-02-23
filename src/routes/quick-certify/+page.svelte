@@ -73,7 +73,10 @@
 		{ title: 'Issuer Recipients List', link: '/quick-certify/public/recipients' },
 		{ title: 'Issuer Events List', link: '/quick-certify/public/event' },
 		{ title: 'Issuer Participant Detail', link: '/quick-certify/public/event/1/person' },
-		{ title: 'Person Detail', link: '/quick-certify/public/person' }
+		{ title: 'Person Detail', link: '/quick-certify/public/person' },
+		{ title: 'Pathway Listing', link: '/quick-certify/public/pathway' },
+		{ title: 'Pathway Detail', link: '/quick-certify/public/pathway/1' },
+		{ title: 'Pathway Participant Detail', link: '/quick-certify/public/pathway/1/participant' }
 	];
 
 	let pathways = [
