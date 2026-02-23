@@ -28,6 +28,12 @@
 					</li>
 					<li>
 						<a
+							href="/quick-certify/public/pathway"
+							class="py-3 px-4 hover:underline dark:hover:text-primary-500"
+							aria-current="page">Pathways</a>
+					</li>
+					<li>
+						<a
 							href="/quick-certify/public/recipients"
 							class="py-3 px-4 hover:underline dark:hover:text-primary-500"
 							aria-current="page">Recipients</a>
